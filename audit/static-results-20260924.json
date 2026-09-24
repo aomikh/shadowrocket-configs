@@ -1,0 +1,592 @@
+{
+  "config_sha256": "0fc24453eb6d2fb11537067c554f90aa55c0c9fb8b95511e6728006ad9ce106d",
+  "base": "a49da1fbcf22710f253b7f609a1a06a71783144d",
+  "rules": 175,
+  "apple_rules": 75,
+  "added_rules": [
+    "DOMAIN-SUFFIX,shazam.com,DIRECT",
+    "DOMAIN-SUFFIX,beatsbydre.com,DIRECT",
+    "IP-CIDR,57.102.0.0/15,DIRECT,no-resolve",
+    "IP-CIDR,57.112.0.0/12,DIRECT,no-resolve",
+    "IP-CIDR,57.178.0.0/15,DIRECT,no-resolve",
+    "IP-CIDR,92.118.32.0/22,DIRECT,no-resolve",
+    "IP-CIDR,192.12.74.0/24,DIRECT,no-resolve",
+    "IP-CIDR,192.42.249.0/24,DIRECT,no-resolve",
+    "IP-CIDR,194.126.240.0/24,DIRECT,no-resolve",
+    "IP-CIDR,198.183.16.0/20,DIRECT,no-resolve",
+    "IP-CIDR,204.79.190.0/24,DIRECT,no-resolve",
+    "IP-CIDR,2001:506:200::/40,DIRECT,no-resolve",
+    "IP-CIDR,2001:2030:9::/48,DIRECT,no-resolve",
+    "IP-CIDR,2620:0:1b00::/45,DIRECT,no-resolve",
+    "IP-CIDR,2a01:b740::/29,DIRECT,no-resolve",
+    "DOMAIN,api.service-kp.com,PROXY"
+  ],
+  "official_rows": 148,
+  "boundary_checks": 92,
+  "bgp_prefix_counts": {
+    "bgp714.txt": 2020,
+    "bgp6185.txt": 99
+  },
+  "blackmatrix_counts": {
+    "E: broad keyword/user-agent not identity evidence; not copied": 30,
+    "F: registered space covered": 12,
+    "F: 205.180.175.0/24 not Apple-confirmed; not added": 1,
+    "E: current ownership/use unverified; not added": 1507,
+    "A: covered": 42,
+    "D: shared provider; no broad exception": 3,
+    "B: official current service; added": 2,
+    "C: possible dedicated CDN; current necessity unverified; not added": 3,
+    "D: exact shared-provider tenant; current necessity unverified; not added": 3
+  },
+  "warnings": [
+    "Runet DOMAIN-SET line 269745: malformed 'dokumentam24.ru,'; native handling unknown"
+  ],
+  "traces": [
+    {
+      "host": "apple.com",
+      "line": 37,
+      "first_rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "www.apple.com",
+      "line": 37,
+      "first_rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "icloud.com",
+      "line": 39,
+      "first_rule": "DOMAIN-SUFFIX,icloud.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "setup.icloud.com",
+      "line": 39,
+      "first_rule": "DOMAIN-SUFFIX,icloud.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "guzzoni.apple.com",
+      "line": 37,
+      "first_rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "gateway.push.apple.com",
+      "line": 37,
+      "first_rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "api.push.apple.com",
+      "line": 37,
+      "first_rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "appleid.apple.com",
+      "line": 37,
+      "first_rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "music.apple.com",
+      "line": 37,
+      "first_rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "apps.apple.com",
+      "line": 37,
+      "first_rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "mzstatic.com",
+      "line": 43,
+      "first_rule": "DOMAIN-SUFFIX,mzstatic.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "cdn-apple.com",
+      "line": 42,
+      "first_rule": "DOMAIN-SUFFIX,cdn-apple.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "apple-cloudkit.com",
+      "line": 47,
+      "first_rule": "DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "apple-mapkit.com",
+      "line": 49,
+      "first_rule": "DOMAIN-SUFFIX,apple-mapkit.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "apple-relay.cloudflare.com",
+      "line": 81,
+      "first_rule": "DOMAIN,apple-relay.cloudflare.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "apple-relay.fastly-edge.com",
+      "line": 82,
+      "first_rule": "DOMAIN,apple-relay.fastly-edge.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "cp4.cloudflare.com",
+      "line": 93,
+      "first_rule": "DOMAIN,cp4.cloudflare.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "appldnld.apple.com.edgesuite.net",
+      "line": 83,
+      "first_rule": "DOMAIN,appldnld.apple.com.edgesuite.net,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "ocsp.digicert.com",
+      "line": 96,
+      "first_rule": "DOMAIN,ocsp.digicert.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "17.57.146.140",
+      "line": 101,
+      "first_rule": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
+      "policy": "DIRECT",
+      "basis": "Literal IP match"
+    },
+    {
+      "host": "17.57.146.141",
+      "line": 101,
+      "first_rule": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
+      "policy": "DIRECT",
+      "basis": "Literal IP match"
+    },
+    {
+      "host": "17.57.146.135",
+      "line": 101,
+      "first_rule": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
+      "policy": "DIRECT",
+      "basis": "Literal IP match"
+    },
+    {
+      "host": "shazam.com",
+      "line": 77,
+      "first_rule": "DOMAIN-SUFFIX,shazam.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "beatsbydre.com",
+      "line": 78,
+      "first_rule": "DOMAIN-SUFFIX,beatsbydre.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "kino.pub",
+      "line": 220,
+      "first_rule": "DOMAIN-SET,https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt,PROXY",
+      "policy": "PROXY",
+      "basis": "entry 538679: kino.pub"
+    },
+    {
+      "host": "dark.kino.pub",
+      "line": 220,
+      "first_rule": "DOMAIN-SET,https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt,PROXY",
+      "policy": "PROXY",
+      "basis": "entry 244412: dark.kino.pub"
+    },
+    {
+      "host": "o.kino.pub",
+      "line": 220,
+      "first_rule": "DOMAIN-SET,https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt,PROXY",
+      "policy": "PROXY",
+      "basis": "entry 807845: o.kino.pub"
+    },
+    {
+      "host": "www.kino.pub",
+      "line": 220,
+      "first_rule": "DOMAIN-SET,https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt,PROXY",
+      "policy": "PROXY",
+      "basis": "entry 1304082: www.kino.pub"
+    },
+    {
+      "host": "api.service-kp.com",
+      "line": 258,
+      "first_rule": "DOMAIN,api.service-kp.com,PROXY",
+      "policy": "PROXY",
+      "basis": "Domain match"
+    },
+    {
+      "host": "kinopub.fastcdn.pics",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "cdn2cdn.com",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "cdn2site.com",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "digital-cdn.net",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "cdntogo.net",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "microiptv.org",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "microiptv.com",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "api.alador.space",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "m.alador.space",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "yandex.ru",
+      "line": 149,
+      "first_rule": "DOMAIN-SUFFIX,yandex.ru,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "api.market.yandex.ru",
+      "line": 149,
+      "first_rule": "DOMAIN-SUFFIX,yandex.ru,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "mail.ru",
+      "line": 142,
+      "first_rule": "DOMAIN-SUFFIX,mail.ru,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "vk.com",
+      "line": 144,
+      "first_rule": "DOMAIN-SUFFIX,vk.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "2gis.ru",
+      "line": 164,
+      "first_rule": "DOMAIN-SUFFIX,2gis.ru,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "aviasales.ru",
+      "line": 169,
+      "first_rule": "DOMAIN-SUFFIX,aviasales.ru,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "t.me",
+      "line": 185,
+      "first_rule": "DOMAIN-SUFFIX,t.me,PROXY",
+      "policy": "PROXY",
+      "basis": "Domain match"
+    },
+    {
+      "host": "whatsapp.com",
+      "line": 202,
+      "first_rule": "DOMAIN-SUFFIX,whatsapp.com,PROXY",
+      "policy": "PROXY",
+      "basis": "Domain match"
+    },
+    {
+      "host": "chatgpt.com",
+      "line": 226,
+      "first_rule": "DOMAIN-SUFFIX,chatgpt.com,PROXY",
+      "policy": "PROXY",
+      "basis": "Domain match"
+    },
+    {
+      "host": "youtube.com",
+      "line": 221,
+      "first_rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list,PROXY",
+      "policy": "PROXY",
+      "basis": "entry 57: DOMAIN-SUFFIX,youtube.com"
+    },
+    {
+      "host": "discord.com",
+      "line": 222,
+      "first_rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Discord/Discord.list,PROXY",
+      "policy": "PROXY",
+      "basis": "entry 14: DOMAIN-SUFFIX,discord.com"
+    },
+    {
+      "host": "redotpay.com",
+      "line": 176,
+      "first_rule": "DOMAIN-SUFFIX,redotpay.com,PROXY",
+      "policy": "PROXY",
+      "basis": "Domain match"
+    },
+    {
+      "host": "cloudflare.com",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "example.akamaized.net",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "example.fastly.net",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "ocsp5.digicert.com",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "cdn20.com",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "apple.com.example.net",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "notapple.com",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "205.180.175.1",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "57.102.0.1",
+      "line": 111,
+      "first_rule": "IP-CIDR,57.102.0.0/15,DIRECT,no-resolve",
+      "policy": "DIRECT",
+      "basis": "Literal IP match"
+    },
+    {
+      "host": "198.183.31.1",
+      "line": 118,
+      "first_rule": "IP-CIDR,198.183.16.0/20,DIRECT,no-resolve",
+      "policy": "DIRECT",
+      "basis": "Literal IP match"
+    },
+    {
+      "host": "2001:2030:9::1",
+      "line": 129,
+      "first_rule": "IP-CIDR,2001:2030:9::/48,DIRECT,no-resolve",
+      "policy": "DIRECT",
+      "basis": "Literal IP match"
+    },
+    {
+      "host": "2a01:b747::1",
+      "line": 131,
+      "first_rule": "IP-CIDR,2a01:b740::/29,DIRECT,no-resolve",
+      "policy": "DIRECT",
+      "basis": "Literal IP match"
+    },
+    {
+      "host": "192.168.1.20",
+      "line": 26,
+      "first_rule": "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve",
+      "policy": "DIRECT",
+      "basis": "Literal IP match"
+    },
+    {
+      "host": "printer.local",
+      "line": 30,
+      "first_rule": "DOMAIN-SUFFIX,local,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "crl3.digicert.com",
+      "line": 94,
+      "first_rule": "DOMAIN,crl3.digicert.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "crl4.digicert.com",
+      "line": 95,
+      "first_rule": "DOMAIN,crl4.digicert.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "ocsp.digicert.cn",
+      "line": 97,
+      "first_rule": "DOMAIN,ocsp.digicert.cn,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "vertexsmb.com",
+      "line": 98,
+      "first_rule": "DOMAIN-SUFFIX,vertexsmb.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "ocsp.apple.com.cdn20.com",
+      "line": 90,
+      "first_rule": "DOMAIN-SUFFIX,apple.com.cdn20.com,DIRECT",
+      "policy": "DIRECT",
+      "basis": "Domain match"
+    },
+    {
+      "host": "51.15.20.62",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "46.17.96.110",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "163.172.72.58",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "104.21.57.60",
+      "line": 223,
+      "first_rule": "RULE-SET,https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/surge/ru-blocked.txt,PROXY",
+      "policy": "PROXY",
+      "basis": "entry 38780: IP-CIDR,104.21.57.32/27,no-resolve"
+    },
+    {
+      "host": "172.67.159.228",
+      "line": 223,
+      "first_rule": "RULE-SET,https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/surge/ru-blocked.txt,PROXY",
+      "policy": "PROXY",
+      "basis": "entry 69201: IP-CIDR,172.67.159.224/28,no-resolve"
+    },
+    {
+      "host": "146.59.16.58",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "213.183.48.21",
+      "line": 267,
+      "first_rule": "GEOIP,RU,DIRECT if RU; otherwise continue",
+      "policy": "DIRECT if RU; otherwise FINAL,PROXY",
+      "basis": "No matching visible domain/literal-IP rule; device GeoIP required"
+    },
+    {
+      "host": "unknown-audit.example",
+      "line": 275,
+      "first_rule": "FINAL,PROXY",
+      "policy": "PROXY",
+      "basis": "All previous modeled rules missed; GeoIP non-RU assumed"
+    }
+  ],
+  "limits": [
+    "Snapshot subset model, not native Shadowrocket",
+    "No URL-REGEX/USER-AGENT matching without URL/headers",
+    "No DNS cache, CNAME, fake-IP, GeoIP database or live tvOS execution",
+    "DOMAIN-SET naked entries modeled exact, leading dot suffix; native import untested",
+    "No guarantee that local/upstream bypass enters the rule engine"
+  ]
+}

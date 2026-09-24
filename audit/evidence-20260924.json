@@ -1,0 +1,4042 @@
+{
+  "checked": "2026-09-24",
+  "base": "a49da1fbcf22710f253b7f609a1a06a71783144d",
+  "config": "ru_direct_runetfreedom_improved_final_autoupdate.conf",
+  "apple_document": {
+    "url": "https://support.apple.com/en-us/101555",
+    "published": "2026-08-07",
+    "sha256": "6c05d4862167302d9486a5fa6288535b94890a2942b31a730bf49d18867be4b1",
+    "rows": [
+      {
+        "host": "albert.apple.com",
+        "category": "Device setup"
+      },
+      {
+        "host": "captive.apple.com",
+        "category": "Device setup"
+      },
+      {
+        "host": "gs.apple.com",
+        "category": "Device setup"
+      },
+      {
+        "host": "humb.apple.com",
+        "category": "Device setup"
+      },
+      {
+        "host": "static.ips.apple.com",
+        "category": "Device setup"
+      },
+      {
+        "host": "sq-device.apple.com",
+        "category": "Device setup"
+      },
+      {
+        "host": "tbsc.apple.com",
+        "category": "Device setup"
+      },
+      {
+        "host": "time-ios.apple.com",
+        "category": "Device setup"
+      },
+      {
+        "host": "time.apple.com",
+        "category": "Device setup"
+      },
+      {
+        "host": "time-macos.apple.com",
+        "category": "Device setup"
+      },
+      {
+        "host": "*.push.apple.com",
+        "category": "Device management"
+      },
+      {
+        "host": "deviceenrollment.apple.com",
+        "category": "Device management"
+      },
+      {
+        "host": "deviceservices-external.apple.com",
+        "category": "Device management"
+      },
+      {
+        "host": "gdmf.apple.com",
+        "category": "Device management"
+      },
+      {
+        "host": "identity.apple.com",
+        "category": "Device management"
+      },
+      {
+        "host": "iprofiles.apple.com",
+        "category": "Device management"
+      },
+      {
+        "host": "mdmenrollment.apple.com",
+        "category": "Device management"
+      },
+      {
+        "host": "setup.icloud.com",
+        "category": "Device management"
+      },
+      {
+        "host": "vpp.itunes.apple.com",
+        "category": "Device management"
+      },
+      {
+        "host": "*.appattest.apple.com",
+        "category": "Device management"
+      },
+      {
+        "host": "axm-servicediscovery.apple.com",
+        "category": "Device management"
+      },
+      {
+        "host": "*.business.apple.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "*.school.apple.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "appleid.cdn-apple.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "idmsa.apple.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "*.itunes.apple.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "*.mzstatic.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "api.ent.apple.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "api.edu.apple.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "statici.icloud.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "*.vertexsmb.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "www.apple.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "upload.appleschoolcontent.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "api-business.apple.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "api-school.apple.com",
+        "category": "Administrators and managers"
+      },
+      {
+        "host": "ws-ee-maidsvc.icloud.com",
+        "category": "Employees and students"
+      },
+      {
+        "host": "axm-adm-enroll.apple.com",
+        "category": "Apple Business device management"
+      },
+      {
+        "host": "axm-adm-mdm.apple.com",
+        "category": "Apple Business device management"
+      },
+      {
+        "host": "axm-adm-scep.apple.com",
+        "category": "Apple Business device management"
+      },
+      {
+        "host": "axm-app.apple.com",
+        "category": "Apple Business device management"
+      },
+      {
+        "host": "*.apple-mapkit.com",
+        "category": "Apple Business device management"
+      },
+      {
+        "host": "icons.axm-usercontent-apple.com",
+        "category": "Apple Business device management"
+      },
+      {
+        "host": "s.mzstatic.com",
+        "category": "Classroom and Schoolwork"
+      },
+      {
+        "host": "play.itunes.apple.com",
+        "category": "Classroom and Schoolwork"
+      },
+      {
+        "host": "ws-ee-maidsvc.icloud.com",
+        "category": "Classroom and Schoolwork"
+      },
+      {
+        "host": "ws.school.apple.com",
+        "category": "Classroom and Schoolwork"
+      },
+      {
+        "host": "pg-bootstrap.itunes.apple.com",
+        "category": "Classroom and Schoolwork"
+      },
+      {
+        "host": "cls-iosclient.itunes.apple.com",
+        "category": "Classroom and Schoolwork"
+      },
+      {
+        "host": "cls-ingest.itunes.apple.com",
+        "category": "Classroom and Schoolwork"
+      },
+      {
+        "host": "appldnld.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "configuration.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "gdmf.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "gg.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "gs.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "ig.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "mesu.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "oscdn.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "osrecovery.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "skl.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "swcdn.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "swdist.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "swdownload.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "swscan.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "updates-http.cdn-apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "updates.cdn-apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "xp.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "gdmf-ados.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "gsra.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "wkms-public.apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "fcs-keys-pub-prod.cdn-apple.com",
+        "category": "Software updates"
+      },
+      {
+        "host": "*.itunes.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "*.apps.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "*.mzstatic.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "itunes.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "ppq.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "api.apple-cloudkit.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "*.appattest.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "*.apps-marketplace.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "token.safebrowsing.apple",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "audiocontentdownload.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "devimages-cdn.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "download.developer.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "playground-assets-cdn.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "playground-cdn.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "sylvan.apple.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "gateway.icloud.com",
+        "category": "Apps and additional content"
+      },
+      {
+        "host": "appldnld.apple.com",
+        "category": "Carrier updates"
+      },
+      {
+        "host": "appldnld.apple.com.edgesuite.net",
+        "category": "Carrier updates"
+      },
+      {
+        "host": "itunes.com",
+        "category": "Carrier updates"
+      },
+      {
+        "host": "itunes.apple.com",
+        "category": "Carrier updates"
+      },
+      {
+        "host": "updates-http.cdn-apple.com",
+        "category": "Carrier updates"
+      },
+      {
+        "host": "updates.cdn-apple.com",
+        "category": "Carrier updates"
+      },
+      {
+        "host": "lcdn-registration.apple.com",
+        "category": "Content caching"
+      },
+      {
+        "host": "suconfig.apple.com",
+        "category": "Content caching"
+      },
+      {
+        "host": "xp-cdn.apple.com",
+        "category": "Content caching"
+      },
+      {
+        "host": "lcdn-locator.apple.com",
+        "category": "Content caching"
+      },
+      {
+        "host": "serverstatus.apple.com",
+        "category": "Content caching"
+      },
+      {
+        "host": "bpapi.apple.com",
+        "category": "Beta updates"
+      },
+      {
+        "host": "cssubmissions.apple.com",
+        "category": "Beta updates"
+      },
+      {
+        "host": "fba.apple.com",
+        "category": "Beta updates"
+      },
+      {
+        "host": "diagassets.apple.com",
+        "category": "Apple diagnostics"
+      },
+      {
+        "host": "doh.dns.apple.com",
+        "category": "Domain Name System resolution"
+      },
+      {
+        "host": "certs.apple.com",
+        "category": "Certificate validation"
+      },
+      {
+        "host": "crl.apple.com",
+        "category": "Certificate validation"
+      },
+      {
+        "host": "crl3.digicert.com",
+        "category": "Certificate validation"
+      },
+      {
+        "host": "crl4.digicert.com",
+        "category": "Certificate validation"
+      },
+      {
+        "host": "ocsp.apple.com",
+        "category": "Certificate validation"
+      },
+      {
+        "host": "ocsp.digicert.cn",
+        "category": "Certificate validation"
+      },
+      {
+        "host": "ocsp.digicert.com",
+        "category": "Certificate validation"
+      },
+      {
+        "host": "ocsp2.apple.com",
+        "category": "Certificate validation"
+      },
+      {
+        "host": "valid.apple.com",
+        "category": "Certificate validation"
+      },
+      {
+        "host": "account.apple.com",
+        "category": "Apple Account"
+      },
+      {
+        "host": "appleid.cdn-apple.com",
+        "category": "Apple Account"
+      },
+      {
+        "host": "idmsa.apple.com",
+        "category": "Apple Account"
+      },
+      {
+        "host": "gsa.apple.com",
+        "category": "Apple Account"
+      },
+      {
+        "host": "*.apple-cloudkit.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "*.apple-livephotoskit.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "*.apzones.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "*.cdn-apple.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "*.gc.apple.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "*.icloud.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "*.icloud.com.cn",
+        "category": "iCloud"
+      },
+      {
+        "host": "*.icloud.apple.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "*.icloud-content.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "*.iwork.apple.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "mask.icloud.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "mask-h2.icloud.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "mask-api.icloud.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "probe.icloud.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "pong.icloud.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "metrics.icloud.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "apple-native-relay.apple.com",
+        "category": "iCloud"
+      },
+      {
+        "host": "*.apple-dns.net",
+        "category": "iCloud"
+      },
+      {
+        "host": "guzzoni.apple.com",
+        "category": "Apple Intelligence, Siri, and Search"
+      },
+      {
+        "host": "*.smoot.apple.com",
+        "category": "Apple Intelligence, Siri, and Search"
+      },
+      {
+        "host": "apple-relay.cloudflare.com",
+        "category": "Apple Intelligence, Siri, and Search"
+      },
+      {
+        "host": "apple-relay.fastly-edge.com",
+        "category": "Apple Intelligence, Siri, and Search"
+      },
+      {
+        "host": "cp4.cloudflare.com",
+        "category": "Apple Intelligence, Siri, and Search"
+      },
+      {
+        "host": "apple-relay.apple.com",
+        "category": "Apple Intelligence, Siri, and Search"
+      },
+      {
+        "host": "app-site-association.cdn-apple.com",
+        "category": "Associated Domains"
+      },
+      {
+        "host": "app-site-association.networking.apple",
+        "category": "Associated Domains"
+      },
+      {
+        "host": "pos-device.apple.com",
+        "category": "Tap to Pay on iPhone"
+      },
+      {
+        "host": "humb.apple.com",
+        "category": "Tap to Pay on iPhone"
+      },
+      {
+        "host": "iphonesubmissions.apple.com",
+        "category": "Tap to Pay on iPhone"
+      },
+      {
+        "host": "smp-device-content.apple.com",
+        "category": "ID Verifier on iPhone"
+      },
+      {
+        "host": "idv.cdn-apple.com",
+        "category": "ID Verifier on iPhone"
+      },
+      {
+        "host": "idv-prod1.apple.com",
+        "category": "ID Verifier on iPhone"
+      },
+      {
+        "host": "humb.apple.com",
+        "category": "ID Verifier on iPhone"
+      }
+    ]
+  },
+  "blackmatrix_revision": "51d2e1dd8429a91be575157d6f8ed051c93559f8",
+  "external_lists": [
+    {
+      "key": "external-114",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Advertising/Advertising.list",
+      "status": 200,
+      "size": 26853,
+      "sha256": "48e8e6bb0a0185228f49e57b5127b5d85d190ce40eb61045d9dcde56cdf1fecf",
+      "final_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Advertising/Advertising.list",
+      "git_tree": "17582922869fc3ebb35b9081631b11e02303f3f5",
+      "git_blob": "324de9f0d0b63d836c4aaeb8dc12389af5d6a2d7",
+      "immutable_blob_url": "https://api.github.com/repos/blackmatrix7/ios_rule_script/git/blobs/324de9f0d0b63d836c4aaeb8dc12389af5d6a2d7"
+    },
+    {
+      "key": "external-198",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt",
+      "status": 200,
+      "size": 28783115,
+      "sha256": "b07b76ae70e8aff7bb12c23584342e40a722941b501cf7fca6f245cf79bfd160",
+      "final_url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt",
+      "git_tree": "b7812c049c7973d392a7ceca7abb59517c7356b4",
+      "git_blob": "5bdbbe3e8a368351e4fe4fe9031b174d8afaf36e",
+      "immutable_blob_url": "https://api.github.com/repos/runetfreedom/russia-blocked-geosite/git/blobs/5bdbbe3e8a368351e4fe4fe9031b174d8afaf36e"
+    },
+    {
+      "key": "external-199",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+      "status": 200,
+      "size": 5436,
+      "sha256": "f764cd91a779982225b3553ece8033c86a6545f4990f5fefd356805de962aee9",
+      "final_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+      "git_tree": "17582922869fc3ebb35b9081631b11e02303f3f5",
+      "git_blob": "6eba0595290b3f991d156a580e08508d0c544495",
+      "immutable_blob_url": "https://api.github.com/repos/blackmatrix7/ios_rule_script/git/blobs/6eba0595290b3f991d156a580e08508d0c544495"
+    },
+    {
+      "key": "external-200",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Discord/Discord.list",
+      "status": 200,
+      "size": 1076,
+      "sha256": "3d18c8fe716de06891ba3d6c34dba254cb65138a10f79e1a1a0628b5237ecb2c",
+      "final_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Discord/Discord.list",
+      "git_tree": "17582922869fc3ebb35b9081631b11e02303f3f5",
+      "git_blob": "2dadab08cacb13029da275269ac13a2c423ca09a",
+      "immutable_blob_url": "https://api.github.com/repos/blackmatrix7/ios_rule_script/git/blobs/2dadab08cacb13029da275269ac13a2c423ca09a"
+    },
+    {
+      "key": "external-201",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/surge/ru-blocked.txt",
+      "status": 200,
+      "size": 3187394,
+      "sha256": "68ce407bce24989fe52127b017c9ca125d5bb27b22191bc70e084f2cdf51369a",
+      "final_url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/surge/ru-blocked.txt",
+      "git_tree": "50030067353c9f6269e2b5335ea4413f003ec3c7",
+      "git_blob": "7c6589363f4d26f5d8fa2af2d41cfc83016aabdb",
+      "immutable_blob_url": "https://api.github.com/repos/runetfreedom/russia-blocked-geoip/git/blobs/7c6589363f4d26f5d8fa2af2d41cfc83016aabdb"
+    }
+  ],
+  "rdap": [
+    {
+      "snapshot": "rdap-139.178.128.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/139.178.128.0",
+      "handle": "139.178.128.0 - 139.178.255.255",
+      "name": "LEGACO-139-178-128-0",
+      "start": "139.178.128.0",
+      "end": "139.178.255.255",
+      "cidrs": [
+        {
+          "v4prefix": "139.178.128.0",
+          "length": 17
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLE-MNT",
+          "names": [
+            "APPLE-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-AI216-RIPE",
+          "names": [
+            "Apple Inc."
+          ]
+        },
+        {
+          "handle": "RIPE-NCC-LEGACY-MNT",
+          "names": [
+            "RIPE-NCC-LEGACY-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2018-09-28T12:00:55Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-07-31T14:55:11Z"
+        }
+      ],
+      "sha256": "602487cd17c0218d794a36d10df99b4e0aa640abf6e0d0e09b94b35ec81425bc"
+    },
+    {
+      "snapshot": "rdap-144.178.0.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/144.178.0.0",
+      "handle": "144.178.0.0 - 144.178.63.255",
+      "name": "Apple-144-178-0-0-18",
+      "start": "144.178.0.0",
+      "end": "144.178.63.255",
+      "cidrs": [
+        {
+          "v4prefix": "144.178.0.0",
+          "length": 18
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLE-MNT",
+          "names": [
+            "APPLE-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-AI216-RIPE",
+          "names": [
+            "Apple Inc."
+          ]
+        },
+        {
+          "handle": "RIPE-NCC-LEGACY-MNT",
+          "names": [
+            "RIPE-NCC-LEGACY-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2017-04-19T07:38:55Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-07-31T14:55:11Z"
+        }
+      ],
+      "sha256": "5059ef314039e6dac37b2401d8ec421e4c3fbba756684f538821b2836e9d9db7"
+    },
+    {
+      "snapshot": "rdap-144.178.63.255.txt",
+      "url": "https://rdap.db.ripe.net/ip/144.178.63.255",
+      "handle": "144.178.0.0 - 144.178.63.255",
+      "name": "Apple-144-178-0-0-18",
+      "start": "144.178.0.0",
+      "end": "144.178.63.255",
+      "cidrs": [
+        {
+          "v4prefix": "144.178.0.0",
+          "length": 18
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLE-MNT",
+          "names": [
+            "APPLE-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-AI216-RIPE",
+          "names": [
+            "Apple Inc."
+          ]
+        },
+        {
+          "handle": "RIPE-NCC-LEGACY-MNT",
+          "names": [
+            "RIPE-NCC-LEGACY-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2017-04-19T07:38:55Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-07-31T14:55:11Z"
+        }
+      ],
+      "sha256": "0bba99ca22af1df51d1ff8baf08d0412ea68e6297a4222dca8fb7edbf0838eb7"
+    },
+    {
+      "snapshot": "rdap-17.0.0.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/17.0.0.0",
+      "handle": "NET-17-0-0-0-1",
+      "name": "APPLE-WWNET",
+      "start": "17.0.0.0",
+      "end": "17.255.255.255",
+      "cidrs": [
+        {
+          "v4prefix": "17.0.0.0",
+          "length": 8
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLEC-1-Z",
+          "names": [
+            "Apple Inc."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2025-04-02T12:59:34-04:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "1990-04-16T00:00:00-04:00"
+        }
+      ],
+      "sha256": "8a30d99f66a5c7b69e7d9e4d960424e7a645570b1a6b18d165a73493d426bfee"
+    },
+    {
+      "snapshot": "rdap-192.12.74.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/192.12.74.0",
+      "handle": "NET-192-12-74-0-1",
+      "name": "APPLE-ETHER",
+      "start": "192.12.74.0",
+      "end": "192.12.74.255",
+      "cidrs": [
+        {
+          "v4prefix": "192.12.74.0",
+          "length": 24
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLEC-1-Z",
+          "names": [
+            "Apple Inc."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2021-12-14T20:28:21-05:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "1985-06-07T00:00:00-04:00"
+        }
+      ],
+      "sha256": "4f6dd4805eb108fd2bf069a052fba986a61fc2c7327795bff1a396d4f956e934"
+    },
+    {
+      "snapshot": "rdap-192.35.50.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/192.35.50.0",
+      "handle": "NET-192-35-50-0-1",
+      "name": "CLARIS-NET",
+      "start": "192.35.50.0",
+      "end": "192.35.50.255",
+      "cidrs": [
+        {
+          "v4prefix": "192.35.50.0",
+          "length": 24
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLEC-1",
+          "names": [
+            "Apple Inc."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2025-04-01T07:11:57-04:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "1988-02-26T00:00:00-05:00"
+        }
+      ],
+      "sha256": "c32c141016c5d6cf78fc937f978bf77a4c865e7aedbcd822ee9b5627f5fda006"
+    },
+    {
+      "snapshot": "rdap-192.42.249.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/192.42.249.0",
+      "handle": "NET-192-42-249-0-1",
+      "name": "APPLE",
+      "start": "192.42.249.0",
+      "end": "192.42.249.255",
+      "cidrs": [
+        {
+          "v4prefix": "192.42.249.0",
+          "length": 24
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLEC-1-Z",
+          "names": [
+            "Apple Inc."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2021-12-14T20:28:36-05:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "1988-11-04T00:00:00-05:00"
+        }
+      ],
+      "sha256": "4dd7713888029750918dddd63d6b75c13a827975335b10d27e108f34fca8bc99"
+    },
+    {
+      "snapshot": "rdap-194.126.240.0.txt",
+      "url": "https://rdap.db.ripe.net/ip/194.126.240.0",
+      "handle": "194.126.240.0 - 194.126.240.255",
+      "name": "IE-APPLE",
+      "start": "194.126.240.0",
+      "end": "194.126.240.255",
+      "cidrs": [
+        {
+          "v4prefix": "194.126.240.0",
+          "length": 24
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "CC72744-MNT",
+          "names": [
+            "CC72744-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-ADIL1-RIPE",
+          "names": [
+            "Apple Distribution International Ltd."
+          ]
+        },
+        {
+          "handle": "RIPE-NCC-END-MNT",
+          "names": [
+            "RIPE-NCC-END-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2021-01-11T14:07:44Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2023-11-13T10:14:17Z"
+        }
+      ],
+      "sha256": "40891d91b65bbc9659cf0101c3bd840e586e1072f1accb658e541e142bc3e8b5"
+    },
+    {
+      "snapshot": "rdap-198.183.16.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/198.183.16.0",
+      "handle": "NET-198-183-16-0-2",
+      "name": "CLARIS-CORP-C1",
+      "start": "198.183.16.0",
+      "end": "198.183.16.255",
+      "cidrs": [
+        {
+          "v4prefix": "198.183.16.0",
+          "length": 24
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "C00012602",
+          "names": [
+            "Claris Corporation"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "1995-09-06T11:32:05-04:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "1993-06-16T00:00:00-04:00"
+        }
+      ],
+      "sha256": "204fb08f27893ff8358e49d07758712de020f6fb63f1c3122c0d389a4465c1e1"
+    },
+    {
+      "snapshot": "rdap-198.183.17.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/198.183.17.0",
+      "handle": "NET-198-183-17-0-1",
+      "name": "CLARIS-CORP-C2",
+      "start": "198.183.17.0",
+      "end": "198.183.17.255",
+      "cidrs": [
+        {
+          "v4prefix": "198.183.17.0",
+          "length": 24
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "C00012609",
+          "names": [
+            "Claris Corporation"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "1995-09-06T11:37:47-04:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "1993-06-16T00:00:00-04:00"
+        }
+      ],
+      "sha256": "c4b2998f4687974cfbb5aa457062af52e6286ca4d39f4d20172ecb57b4a57023"
+    },
+    {
+      "snapshot": "rdap-2001_2030_9__.txt",
+      "url": "https://rdap.db.ripe.net/ip/2001:2030:9::",
+      "handle": "2001:2030:9::/48",
+      "name": "US-APPLE",
+      "start": "2001:2030:9::",
+      "end": "2001:2030:9:ffff:ffff:ffff:ffff:ffff",
+      "cidrs": [
+        {
+          "v6prefix": "2001:2030:9::",
+          "length": 48
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "ORG-AI216-RIPE",
+          "names": [
+            "Apple Inc."
+          ]
+        },
+        {
+          "handle": "se-twelve99-1-MNT",
+          "names": [
+            "se-twelve99-1-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2020-01-16T13:54:30Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2023-01-24T07:54:27Z"
+        }
+      ],
+      "sha256": "e699e80112d7ed1a9bd632fc4369f38fbed38ac410eb05be5c6b7cb325993a0c"
+    },
+    {
+      "snapshot": "rdap-2001_506_200__.txt",
+      "url": "https://rdap.arin.net/registry/ip/2001:506:200::",
+      "handle": "NET6-2001-506-200-1",
+      "name": "APPLE-INTERNAL",
+      "start": "2001:506:200::",
+      "end": "2001:506:2ff:ffff:ffff:ffff:ffff:ffff",
+      "cidrs": [
+        {
+          "v6prefix": "2001:506:200::",
+          "length": 40
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLEC-1",
+          "names": [
+            "Apple Inc."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2023-11-15T12:51:52-05:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2017-12-27T18:39:10-05:00"
+        }
+      ],
+      "sha256": "891e273c778d742a75a664ce99d0e91997b6368ffc154798899fc367197060f8"
+    },
+    {
+      "snapshot": "rdap-204.79.190.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/204.79.190.0",
+      "handle": "NET-204-79-190-0-1",
+      "name": "APPLE-COMPUTER1",
+      "start": "204.79.190.0",
+      "end": "204.79.190.255",
+      "cidrs": [
+        {
+          "v4prefix": "204.79.190.0",
+          "length": 24
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLEC-1-Z",
+          "names": [
+            "Apple Inc."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2025-04-02T12:58:42-04:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "1994-12-14T00:00:00-05:00"
+        }
+      ],
+      "sha256": "a4f193e025d2f5a6ece7e4fa3cf979dd972f8ed21f206775464f0bcd54ba01a0"
+    },
+    {
+      "snapshot": "rdap-205.txt",
+      "url": "https://rdap.arin.net/registry/ip/205.180.0.0",
+      "handle": "NET-205-180-0-0-1",
+      "name": "LVLT-ORG-205-180",
+      "start": "205.180.0.0",
+      "end": "205.183.255.255",
+      "cidrs": [
+        {
+          "v4prefix": "205.180.0.0",
+          "length": 14
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "LPL-141",
+          "names": [
+            "Level 3 Parent, LLC"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2018-02-20T12:30:57-05:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "1995-03-21T00:00:00-05:00"
+        }
+      ],
+      "sha256": "f3db7aed5966333f921639ea3e182a3b90e7ea0dbb5dfddc84db67b0702e99a0"
+    },
+    {
+      "snapshot": "rdap-2403_300__.txt",
+      "url": "https://rdap.arin.net/registry/ip/2403:300::",
+      "handle": "2403:300::/32",
+      "name": "APPLE-SG",
+      "start": "2403:300::",
+      "end": "2403:300:ffff:ffff:ffff:ffff:ffff:ffff",
+      "cidrs": [
+        {
+          "v6prefix": "2403:300::",
+          "length": 32
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "ORG-ASAP4-AP",
+          "names": [
+            "Apple South Asia Pte Ltd"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2012-01-31T04:53:05Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2021-01-14T05:00:57Z"
+        }
+      ],
+      "sha256": "09babd01d5b1512110be686ce34a6117662127ca0677a74a8735f164facd81c9"
+    },
+    {
+      "snapshot": "rdap-2620_0_1b00__.txt",
+      "url": "https://rdap.arin.net/registry/ip/2620:0:1b00::",
+      "handle": "NET6-2620-1B00-1",
+      "name": "APPLE-WWNET",
+      "start": "2620:0:1b00::",
+      "end": "2620:0:1b07:ffff:ffff:ffff:ffff:ffff",
+      "cidrs": [
+        {
+          "v6prefix": "2620:0:1B00::",
+          "length": 45
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLEC-1",
+          "names": [
+            "Apple Inc."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2023-11-15T12:57:20-05:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2009-03-18T10:44:41-04:00"
+        }
+      ],
+      "sha256": "180e70fe66572f8496769f141c9a2828a8b380ca77ea3e507a95520d868527f9"
+    },
+    {
+      "snapshot": "rdap-2620_149__.txt",
+      "url": "https://rdap.arin.net/registry/ip/2620:149::",
+      "handle": "NET6-2620-149-1",
+      "name": "APPLE-WWNET",
+      "start": "2620:149::",
+      "end": "2620:149:ffff:ffff:ffff:ffff:ffff:ffff",
+      "cidrs": [
+        {
+          "v6prefix": "2620:149::",
+          "length": 32
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLEC-1",
+          "names": [
+            "Apple Inc."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2023-11-15T12:50:38-05:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2011-04-26T16:25:02-04:00"
+        }
+      ],
+      "sha256": "752a0cc4d7baa4e0a91634b08c0e27aeba52bec55549d1340e79a2207206b476"
+    },
+    {
+      "snapshot": "rdap-2a01_b740__.txt",
+      "url": "https://rdap.arin.net/registry/ip/2a01:b740::",
+      "handle": "2a01:b740::/32",
+      "name": "APPLE-INTERNET",
+      "start": "2a01:b740::",
+      "end": "2a01:b740:ffff:ffff:ffff:ffff:ffff:ffff",
+      "cidrs": [
+        {
+          "v6prefix": "2a01:b740::",
+          "length": 32
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "CC72744-MNT",
+          "names": [
+            "CC72744-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-ADIL1-RIPE",
+          "names": [
+            "Apple Distribution International Ltd."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2025-08-01T20:34:48Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2025-09-04T16:53:30Z"
+        }
+      ],
+      "sha256": "41162e9278debe39d91dc241be2bdd36fd06cc82110486e0cddf097387db1129"
+    },
+    {
+      "snapshot": "rdap-2a01_b741__.txt",
+      "url": "https://rdap.db.ripe.net/ip/2a01:b741::",
+      "handle": "2a01:b740::/29",
+      "name": "IE-APPLE-20120905",
+      "start": "2a01:b740::",
+      "end": "2a01:b747:ffff:ffff:ffff:ffff:ffff:ffff",
+      "cidrs": [
+        {
+          "v6prefix": "2a01:b740::",
+          "length": 29
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "CC72744-MNT",
+          "names": [
+            "CC72744-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-ADIL1-RIPE",
+          "names": [
+            "Apple Distribution International Ltd."
+          ]
+        },
+        {
+          "handle": "RIPE-NCC-HM-MNT",
+          "names": [
+            "RIPE-NCC-HM-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2019-03-01T14:44:48Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2024-11-05T14:41:48Z"
+        }
+      ],
+      "sha256": "30cfb86b730814c1fa332338e1cc046362933cdb2c4da66c2b5d5abf5d04cc31"
+    },
+    {
+      "snapshot": "rdap-2a01_b747__.txt",
+      "url": "https://rdap.db.ripe.net/ip/2a01:b747::",
+      "handle": "2a01:b747::/32",
+      "name": "APPLE-EXT",
+      "start": "2a01:b747::",
+      "end": "2a01:b747:ffff:ffff:ffff:ffff:ffff:ffff",
+      "cidrs": [
+        {
+          "v6prefix": "2a01:b747::",
+          "length": 32
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "CC72744-MNT",
+          "names": [
+            "CC72744-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-ADIL1-RIPE",
+          "names": [
+            "Apple Distribution International Ltd."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2025-08-01T20:37:12Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2025-09-04T16:52:28Z"
+        }
+      ],
+      "sha256": "14cb0127d274ef55ac33c89dfd278a7a1ea6d9d391fd8f87dbae4869994c423b"
+    },
+    {
+      "snapshot": "rdap-57.102.0.0.txt",
+      "url": "https://rdap.db.ripe.net/ip/57.102.0.0",
+      "handle": "57.102.0.0 - 57.103.255.255",
+      "name": "NET_57_102",
+      "start": "57.102.0.0",
+      "end": "57.103.255.255",
+      "cidrs": [
+        {
+          "v4prefix": "57.102.0.0",
+          "length": 15
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLE-MNT",
+          "names": [
+            "APPLE-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-AI216-RIPE",
+          "names": [
+            "Apple Inc."
+          ]
+        },
+        {
+          "handle": "RIPE-NCC-LEGACY-MNT",
+          "names": [
+            "RIPE-NCC-LEGACY-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2020-11-10T14:46:40Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-07-31T14:55:11Z"
+        }
+      ],
+      "sha256": "8d0d744e649577e5c85bffed2b3a550304f807ba46fd77379bf027478c17037a"
+    },
+    {
+      "snapshot": "rdap-57.103.0.0.txt",
+      "url": "https://rdap.db.ripe.net/ip/57.103.0.0",
+      "handle": "57.102.0.0 - 57.103.255.255",
+      "name": "NET_57_102",
+      "start": "57.102.0.0",
+      "end": "57.103.255.255",
+      "cidrs": [
+        {
+          "v4prefix": "57.102.0.0",
+          "length": 15
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLE-MNT",
+          "names": [
+            "APPLE-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-AI216-RIPE",
+          "names": [
+            "Apple Inc."
+          ]
+        },
+        {
+          "handle": "RIPE-NCC-LEGACY-MNT",
+          "names": [
+            "RIPE-NCC-LEGACY-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2020-11-10T14:46:40Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-07-31T14:55:11Z"
+        }
+      ],
+      "sha256": "b229703e8814c030d3ed5ce61eeef186682cb0b17cc8ac3615cadab0b1bfac25"
+    },
+    {
+      "snapshot": "rdap-57.112.0.0.txt",
+      "url": "https://rdap.db.ripe.net/ip/57.112.0.0",
+      "handle": "57.112.0.0 - 57.127.255.255",
+      "name": "NET_57_112",
+      "start": "57.112.0.0",
+      "end": "57.127.255.255",
+      "cidrs": [
+        {
+          "v4prefix": "57.112.0.0",
+          "length": 12
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLE-MNT",
+          "names": [
+            "APPLE-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-AI216-RIPE",
+          "names": [
+            "Apple Inc."
+          ]
+        },
+        {
+          "handle": "RIPE-NCC-LEGACY-MNT",
+          "names": [
+            "RIPE-NCC-LEGACY-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2021-08-05T15:27:11Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-07-31T14:55:11Z"
+        }
+      ],
+      "sha256": "32da4b8693ba63d6deb471fe5025b780c2b478c5239ec02b329d84c1d4e6949e"
+    },
+    {
+      "snapshot": "rdap-57.178.0.0.txt",
+      "url": "https://rdap.db.ripe.net/ip/57.178.0.0",
+      "handle": "57.178.0.0 - 57.179.255.255",
+      "name": "NET_57_178",
+      "start": "57.178.0.0",
+      "end": "57.179.255.255",
+      "cidrs": [
+        {
+          "v4prefix": "57.178.0.0",
+          "length": 15
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLE-MNT",
+          "names": [
+            "APPLE-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-AI216-RIPE",
+          "names": [
+            "Apple Inc."
+          ]
+        },
+        {
+          "handle": "RIPE-NCC-LEGACY-MNT",
+          "names": [
+            "RIPE-NCC-LEGACY-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2022-03-31T20:57:25Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-07-31T14:55:11Z"
+        }
+      ],
+      "sha256": "1d57214f9e006267b5b4aca8ff60559ab7653c1c48e790888c81bd970d52306d"
+    },
+    {
+      "snapshot": "rdap-63.92.224.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/63.92.224.0",
+      "handle": "NET-63-92-224-0-1",
+      "name": "UU-63-92-224-D5",
+      "start": "63.92.224.0",
+      "end": "63.92.255.255",
+      "cidrs": [
+        {
+          "v4prefix": "63.92.224.0",
+          "length": 19
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "C02767763",
+          "names": [
+            "APPLE INC"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2011-08-30T13:35:28-04:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2011-08-30T13:35:28-04:00"
+        }
+      ],
+      "sha256": "e591b0123da747a21e6597c1baab7dc38a18ed19093cfb720611f7297c8e9b84"
+    },
+    {
+      "snapshot": "rdap-65.199.22.0.txt",
+      "url": "https://rdap.arin.net/registry/ip/65.199.22.0",
+      "handle": "NET-65-199-22-0-1",
+      "name": "UU-65-199-22",
+      "start": "65.199.22.0",
+      "end": "65.199.23.255",
+      "cidrs": [
+        {
+          "v4prefix": "65.199.22.0",
+          "length": 23
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "C06064021",
+          "names": [
+            "APPLE INC"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2016-03-10T13:58:15-05:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2016-03-10T13:58:14-05:00"
+        }
+      ],
+      "sha256": "3af61d541a07e921aa9da31aeae1260fcb442a94ecae8940aa4b0e17eda736d0"
+    },
+    {
+      "snapshot": "rdap-92.118.32.0.txt",
+      "url": "https://rdap.db.ripe.net/ip/92.118.32.0",
+      "handle": "92.118.32.0 - 92.118.35.255",
+      "name": "IE-APPLE-20190301",
+      "start": "92.118.32.0",
+      "end": "92.118.35.255",
+      "cidrs": [
+        {
+          "v4prefix": "92.118.32.0",
+          "length": 22
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "CC72744-MNT",
+          "names": [
+            "CC72744-MNT"
+          ]
+        },
+        {
+          "handle": "ORG-ADIL1-RIPE",
+          "names": [
+            "Apple Distribution International Ltd."
+          ]
+        },
+        {
+          "handle": "RIPE-NCC-HM-MNT",
+          "names": [
+            "RIPE-NCC-HM-MNT"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2019-03-01T15:06:10Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2025-07-29T13:33:51Z"
+        }
+      ],
+      "sha256": "36ad1c611c85efb746df5a2da7ded5f5fe980c92219a4c0df7e90f40abe8c2c8"
+    },
+    {
+      "snapshot": "rdap-claris-parent.txt",
+      "url": "https://rdap.arin.net/registry/ip/198.183.16.0",
+      "handle": "NET-198-183-16-0-1",
+      "name": "NETBLK-CLARIS-CORP-C",
+      "start": "198.183.16.0",
+      "end": "198.183.31.255",
+      "cidrs": [
+        {
+          "v4prefix": "198.183.16.0",
+          "length": 20
+        }
+      ],
+      "registrants": [
+        {
+          "handle": "APPLEC-1",
+          "names": [
+            "Apple Inc."
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "last changed",
+          "eventDate": "2025-04-01T07:11:57-04:00"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "1993-06-16T00:00:00-04:00"
+        }
+      ],
+      "sha256": "7fa58504e33f43e1e49ba01dda0c70618b4f3d7473976d979c9b48fd7bd7018d"
+    }
+  ],
+  "bgp": {
+    "bgp714.txt": {
+      "data": {
+        "query_starttime": "2026-09-10T00:00:00",
+        "query_endtime": "2026-09-24T00:00:00",
+        "resource": "714",
+        "latest_time": "2026-09-24T00:00:00",
+        "earliest_time": "2000-08-01T00:00:00"
+      },
+      "version": "1.2",
+      "time": "2026-09-24T08:00:09.384644",
+      "prefixes": [
+        "17.184.200.0/21",
+        "2620:149:ff::/48",
+        "17.248.244.0/24",
+        "2620:149:5d1::/48",
+        "17.240.96.0/21",
+        "17.1.128.0/18",
+        "17.242.64.0/20",
+        "17.47.49.0/24",
+        "17.33.90.0/24",
+        "17.78.128.0/19",
+        "17.134.180.0/22",
+        "17.157.192.0/22",
+        "17.253.250.0/24",
+        "17.131.96.0/22",
+        "17.156.126.0/23",
+        "17.140.80.0/20",
+        "17.182.160.0/19",
+        "17.232.152.0/21",
+        "17.33.89.0/24",
+        "17.76.144.0/22",
+        "17.35.46.0/24",
+        "17.39.88.0/22",
+        "2620:149:1020::/44",
+        "2620:149:6f03::/48",
+        "2620:149:955::/48",
+        "17.7.72.0/24",
+        "17.47.7.0/24",
+        "17.45.83.0/24",
+        "17.8.130.0/24",
+        "17.45.44.0/22",
+        "17.91.96.0/21",
+        "57.103.68.0/22",
+        "17.134.112.0/20",
+        "17.188.208.0/21",
+        "2620:149:6049::/48",
+        "17.37.120.0/21",
+        "17.58.64.0/21",
+        "2620:149:120f::/48",
+        "17.44.86.0/24",
+        "2620:149:af6::/48",
+        "17.91.132.0/22",
+        "17.111.2.0/23",
+        "17.188.110.0/23",
+        "17.161.104.0/24",
+        "17.138.0.0/15",
+        "2620:149:983::/48",
+        "17.78.200.0/23",
+        "17.62.240.0/20",
+        "144.178.55.0/24",
+        "2620:149:24a2::/48",
+        "17.33.220.0/22",
+        "2a01:b740:986::/48",
+        "2a01:b747:613::/48",
+        "17.45.157.0/24",
+        "2620:149:1304::/48",
+        "17.58.229.0/24",
+        "17.134.96.0/20",
+        "2620:149:1408::/48",
+        "17.79.212.0/22",
+        "2620:149:11::/48",
+        "2a01:b740:a41::/48",
+        "17.242.16.0/20",
+        "17.131.64.0/19",
+        "2620:149:9c2::/48",
+        "2a01:b740:1204::/48",
+        "17.76.2.0/23",
+        "17.157.20.0/22",
+        "2a01:b747:9200::/48",
+        "2a01:b747:61e::/48",
+        "17.50.48.0/21",
+        "17.140.44.0/24",
+        "139.178.182.0/24",
+        "17.128.0.0/19",
+        "17.225.17.0/24",
+        "57.103.88.0/22",
+        "17.132.112.0/20",
+        "17.248.166.0/23",
+        "17.44.228.0/23",
+        "17.45.216.0/23",
+        "2a01:b740:6028::/48",
+        "17.69.32.0/24",
+        "17.200.199.0/24",
+        "17.35.41.0/24",
+        "17.253.240.0/24",
+        "2403:300:1df1::/48",
+        "17.84.196.0/23",
+        "17.58.72.0/22",
+        "17.91.32.0/21",
+        "17.160.171.0/24",
+        "17.55.224.0/21",
+        "17.160.0.0/12",
+        "2a01:b747:531::/48",
+        "17.45.202.0/23",
+        "17.30.28.0/23",
+        "17.248.240.0/21",
+        "17.174.24.0/22",
+        "2403:300:1d32::/48",
+        "17.250.64.0/23",
+        "17.45.206.0/23",
+        "17.45.190.0/23",
+        "17.145.64.0/20",
+        "17.190.0.0/15",
+        "65.199.22.0/23",
+        "17.112.102.0/23",
+        "17.218.21.0/24",
+        "17.127.22.0/24",
+        "139.178.128.0/22",
+        "17.44.192.0/20",
+        "2403:300:220a::/48",
+        "17.242.0.0/20",
+        "2620:149:1010::/44",
+        "17.45.188.0/23",
+        "17.178.34.0/24",
+        "17.251.132.0/22",
+        "17.145.48.0/22",
+        "17.8.129.0/24",
+        "17.8.88.0/22",
+        "17.178.48.0/20",
+        "17.58.61.0/24",
+        "17.76.16.0/20",
+        "17.248.183.0/24",
+        "17.188.121.0/24",
+        "17.136.172.0/22",
+        "17.140.40.0/21",
+        "17.134.4.0/22",
+        "17.99.0.0/17",
+        "17.188.67.0/24",
+        "17.242.218.0/23",
+        "2620:149:1364::/48",
+        "17.43.12.0/22",
+        "17.77.128.0/17",
+        "17.178.35.0/24",
+        "17.216.32.0/21",
+        "17.57.154.0/24",
+        "17.178.128.0/17",
+        "17.76.8.0/22",
+        "17.30.43.0/24",
+        "17.188.236.0/22",
+        "2a01:b740:9c1::/48",
+        "17.112.36.0/22",
+        "17.189.126.0/23",
+        "2a01:b740:980::/44",
+        "2403:300:220b::/48",
+        "17.116.112.0/22",
+        "17.33.101.0/24",
+        "2403:300:1004::/46",
+        "17.112.64.0/22",
+        "17.45.166.0/23",
+        "17.131.8.0/21",
+        "2a01:b740:13e5::/48",
+        "17.116.224.0/23",
+        "17.32.214.0/23",
+        "17.242.128.0/21",
+        "2620:149:6013::/48",
+        "17.248.155.0/24",
+        "17.92.40.0/21",
+        "17.231.64.0/18",
+        "2a01:b740:1368::/48",
+        "17.44.160.0/22",
+        "17.30.52.0/24",
+        "17.4.46.0/24",
+        "2a01:b747:4f1::/48",
+        "17.91.176.0/21",
+        "17.23.34.0/24",
+        "17.188.128.0/20",
+        "17.58.202.0/23",
+        "17.161.0.0/17",
+        "17.78.64.0/18",
+        "2620:149:7002::/48",
+        "17.43.192.0/18",
+        "2620:149:602e::/48",
+        "17.57.162.0/23",
+        "17.8.76.0/23",
+        "17.248.184.0/21",
+        "17.30.136.0/22",
+        "2a01:b740:961::/48",
+        "17.51.232.0/21",
+        "2620:149:7024::/48",
+        "2620:149:6007::/48",
+        "17.139.48.0/20",
+        "17.248.174.0/24",
+        "17.33.102.0/23",
+        "17.112.112.0/22",
+        "2403:300:540::/48",
+        "17.132.176.0/20",
+        "17.136.184.0/21",
+        "17.76.12.0/22",
+        "17.243.170.0/24",
+        "17.129.48.0/20",
+        "17.30.144.0/24",
+        "2620:149:1391::/48",
+        "17.225.16.0/24",
+        "17.250.112.0/20",
+        "2403:300:1320::/48",
+        "2a01:b740:960::/48",
+        "2620:149:6f01::/48",
+        "17.30.147.0/24",
+        "17.253.224.0/23",
+        "17.146.128.0/18",
+        "17.154.0.0/18",
+        "17.178.96.0/20",
+        "2620:149:1368::/48",
+        "2620:149:9da::/48",
+        "2403:300:1d36::/48",
+        "17.129.80.0/20",
+        "17.216.24.0/22",
+        "17.156.98.0/23",
+        "17.158.24.0/21",
+        "17.8.192.0/20",
+        "17.157.10.0/23",
+        "17.43.64.0/19",
+        "17.43.138.0/23",
+        "17.157.12.0/24",
+        "17.249.252.0/23",
+        "2a01:b740:9c5::/48",
+        "2a01:b740:6018::/48",
+        "17.33.86.0/23",
+        "2403:300:406::/48",
+        "2a01:b740:531::/48",
+        "17.127.15.0/24",
+        "17.58.59.0/24",
+        "2a01:b740:6012::/48",
+        "17.33.108.0/23",
+        "17.132.13.0/24",
+        "17.184.244.0/23",
+        "17.45.216.0/24",
+        "17.139.80.0/21",
+        "17.243.171.0/24",
+        "2403:300:982::/48",
+        "2a01:b740:6008::/48",
+        "17.8.84.0/24",
+        "17.233.160.0/21",
+        "17.240.48.0/20",
+        "2a01:b747:9600::/44",
+        "17.91.112.0/21",
+        "17.188.124.0/22",
+        "17.200.223.0/24",
+        "17.91.252.0/22",
+        "17.158.16.0/21",
+        "17.43.160.0/20",
+        "17.188.229.0/24",
+        "17.248.169.0/24",
+        "17.123.192.0/21",
+        "17.156.106.0/23",
+        "17.139.96.0/23",
+        "17.252.96.0/20",
+        "2620:149:1087::/48",
+        "17.123.200.0/24",
+        "17.138.128.0/20",
+        "17.237.0.0/19",
+        "139.178.129.0/24",
+        "17.232.160.0/19",
+        "17.112.108.0/22",
+        "17.160.0.0/16",
+        "139.178.170.0/23",
+        "144.178.16.0/22",
+        "2403:300:9d3::/48",
+        "17.23.160.0/19",
+        "2620:149:1403::/48",
+        "17.44.146.0/23",
+        "17.45.20.0/23",
+        "17.62.54.0/23",
+        "17.250.96.0/20",
+        "2403:300:405::/48",
+        "17.58.192.0/23",
+        "17.126.15.0/24",
+        "2403:300:9c3::/48",
+        "17.232.192.0/19",
+        "17.153.1.0/24",
+        "17.181.48.0/21",
+        "17.253.0.0/16",
+        "17.58.228.0/24",
+        "17.29.176.0/20",
+        "2403:300:9d2::/48",
+        "17.116.190.0/23",
+        "17.233.241.0/24",
+        "17.128.64.0/19",
+        "2620:149:600c::/48",
+        "17.62.6.0/24",
+        "17.166.240.0/20",
+        "17.112.128.0/18",
+        "17.91.104.0/21",
+        "17.243.96.0/20",
+        "2403:300:25c0::/48",
+        "17.33.192.0/21",
+        "17.132.72.0/24",
+        "17.132.82.0/24",
+        "17.77.220.0/22",
+        "17.77.80.0/23",
+        "17.243.88.0/21",
+        "17.23.64.0/23",
+        "2620:149:76::/48",
+        "17.45.176.0/22",
+        "17.220.177.0/24",
+        "17.178.12.0/24",
+        "17.157.196.0/22",
+        "17.92.208.0/21",
+        "2a01:b747:429::/48",
+        "17.0.117.0/24",
+        "17.81.249.0/24",
+        "17.184.160.0/20",
+        "17.116.187.0/24",
+        "17.32.0.0/19",
+        "2620:149:140b::/48",
+        "17.47.6.0/24",
+        "17.243.72.0/21",
+        "17.66.140.0/24",
+        "17.45.88.0/22",
+        "2620:149:601c::/48",
+        "17.76.32.0/19",
+        "17.43.96.0/21",
+        "17.78.160.0/19",
+        "2a01:b740:a38::/45",
+        "17.184.192.0/23",
+        "17.30.30.0/24",
+        "2403:300:1366::/48",
+        "17.242.208.0/23",
+        "17.134.32.0/19",
+        "17.56.138.0/23",
+        "17.66.176.0/22",
+        "17.181.56.0/21",
+        "2620:149:7043::/48",
+        "17.67.48.0/20",
+        "17.15.152.0/22",
+        "17.134.240.0/20",
+        "17.29.16.0/20",
+        "17.248.76.0/23",
+        "17.23.40.0/24",
+        "17.33.93.0/24",
+        "2403:300::/48",
+        "17.62.160.0/20",
+        "17.55.192.0/22",
+        "17.57.156.0/24",
+        "2403:300:1010::/46",
+        "17.131.32.0/19",
+        "17.253.254.0/24",
+        "17.179.96.0/19",
+        "17.40.128.0/20",
+        "17.62.176.0/20",
+        "17.106.0.0/15",
+        "17.30.26.0/24",
+        "17.84.198.0/24",
+        "17.253.142.0/24",
+        "2403:300:1392::/48",
+        "17.184.194.0/24",
+        "17.240.160.0/20",
+        "17.72.0.0/16",
+        "17.126.232.0/23",
+        "2620:149:a19::/48",
+        "17.92.216.0/21",
+        "17.188.196.0/22",
+        "17.61.0.0/17",
+        "17.72.96.0/19",
+        "2a01:b740:98a::/48",
+        "17.44.24.0/22",
+        "2a01:b740:980::/48",
+        "17.178.40.0/21",
+        "17.33.169.0/24",
+        "17.76.148.0/22",
+        "17.253.192.0/24",
+        "17.76.128.0/21",
+        "17.184.246.0/23",
+        "17.158.40.0/22",
+        "2620:149:1160::/44",
+        "17.123.208.0/20",
+        "2403:300:970::/48",
+        "17.188.177.0/24",
+        "17.168.0.0/13",
+        "139.178.130.0/23",
+        "2620:149:921::/48",
+        "17.248.143.0/24",
+        "17.188.70.0/23",
+        "17.67.64.0/22",
+        "17.152.156.0/24",
+        "17.79.64.0/18",
+        "2403:300:1cf1::/48",
+        "57.103.76.0/22",
+        "2a01:b740:13c5::/48",
+        "17.139.18.0/24",
+        "17.60.128.0/17",
+        "17.23.14.0/23",
+        "17.1.193.0/24",
+        "2620:149:9cb::/48",
+        "2620:149:5e0::/48",
+        "17.186.0.0/16",
+        "17.44.136.0/21",
+        "17.62.12.0/22",
+        "17.235.8.0/23",
+        "2620:149:1203::/48",
+        "17.157.56.0/22",
+        "17.100.0.0/16",
+        "17.58.192.0/18",
+        "2403:300:1362::/48",
+        "17.77.88.0/21",
+        "17.58.249.0/24",
+        "17.139.32.0/20",
+        "17.139.24.0/21",
+        "2620:149:1204::/48",
+        "2620:149:987::/48",
+        "17.182.192.0/19",
+        "17.80.64.0/24",
+        "2620:149:700c::/48",
+        "17.233.112.0/21",
+        "17.152.0.0/20",
+        "17.8.134.0/24",
+        "17.173.0.0/16",
+        "17.15.176.0/20",
+        "17.180.0.0/14",
+        "17.182.32.0/19",
+        "17.45.192.0/21",
+        "17.33.91.0/24",
+        "17.171.193.0/24",
+        "2a01:b747::/32",
+        "17.200.221.0/24",
+        "17.188.230.0/24",
+        "2a01:b747:617::/48",
+        "17.84.107.0/24",
+        "17.58.57.0/24",
+        "17.76.88.0/21",
+        "17.23.70.0/23",
+        "17.91.248.0/22",
+        "17.55.248.0/21",
+        "17.178.126.0/23",
+        "17.23.39.0/24",
+        "17.44.127.0/24",
+        "17.33.170.0/24",
+        "17.126.13.0/24",
+        "17.80.151.0/24",
+        "17.179.40.0/21",
+        "17.242.192.0/20",
+        "17.44.232.0/23",
+        "17.252.160.0/19",
+        "17.188.195.0/24",
+        "17.248.144.0/21",
+        "17.91.200.0/21",
+        "17.43.76.0/24",
+        "17.78.232.0/23",
+        "17.83.130.0/24",
+        "17.196.0.0/16",
+        "17.76.232.0/21",
+        "17.43.120.0/21",
+        "17.29.228.0/24",
+        "17.23.200.0/22",
+        "17.40.148.0/24",
+        "17.146.0.0/22",
+        "2403:300:1367::/48",
+        "17.57.0.0/22",
+        "17.153.19.0/24",
+        "17.248.179.0/24",
+        "17.132.83.0/24",
+        "17.237.208.0/20",
+        "17.129.96.0/24",
+        "17.44.93.0/24",
+        "17.183.8.0/21",
+        "2403:300:2200::/48",
+        "17.110.0.0/15",
+        "17.44.226.0/24",
+        "17.243.200.0/22",
+        "17.57.0.0/17",
+        "2620:149:bb::/48",
+        "17.233.80.0/20",
+        "17.40.0.0/16",
+        "17.33.84.0/23",
+        "17.131.16.0/21",
+        "2620:149:1a10::/44",
+        "17.136.176.0/21",
+        "2620:149:7b::/48",
+        "17.99.136.0/22",
+        "17.248.128.0/19",
+        "17.159.3.0/24",
+        "17.200.120.0/21",
+        "17.155.144.0/20",
+        "17.45.150.0/23",
+        "17.44.64.0/22",
+        "17.242.0.0/23",
+        "17.112.20.0/22",
+        "17.91.160.0/21",
+        "17.184.128.0/19",
+        "17.44.154.0/23",
+        "17.44.240.0/22",
+        "17.155.8.0/21",
+        "17.69.208.0/21",
+        "2403:300:1d33::/48",
+        "17.132.4.0/22",
+        "17.80.143.0/24",
+        "17.76.224.0/21",
+        "17.23.8.0/22",
+        "17.44.104.0/21",
+        "17.253.110.0/24",
+        "17.237.224.0/19",
+        "17.178.64.0/19",
+        "17.8.135.0/24",
+        "2a01:b740:950::/48",
+        "17.162.0.0/15",
+        "17.121.80.0/20",
+        "2620:149:1405::/48",
+        "17.8.139.0/24",
+        "17.156.0.0/16",
+        "17.188.193.0/24",
+        "17.58.32.0/20",
+        "2620:149:9c6::/48",
+        "17.30.140.0/23",
+        "2403:300:100c::/46",
+        "17.69.64.0/21",
+        "17.23.16.0/22",
+        "2a01:b747:3001::/48",
+        "17.91.120.0/21",
+        "57.103.100.0/22",
+        "17.139.16.0/24",
+        "2a01:b747:615::/48",
+        "2620:149:534::/48",
+        "17.45.200.0/24",
+        "17.134.16.0/20",
+        "17.76.192.0/20",
+        "17.248.74.0/23",
+        "17.235.10.0/23",
+        "2620:149:1089::/48",
+        "2620:149:a40::/46",
+        "17.76.176.0/22",
+        "17.15.112.0/20",
+        "17.171.194.0/24",
+        "17.44.136.0/23",
+        "17.36.196.0/22",
+        "17.253.128.0/21",
+        "17.232.32.0/19",
+        "17.232.0.0/16",
+        "2620:149:600f::/48",
+        "17.15.16.0/22",
+        "17.15.224.0/20",
+        "17.22.64.0/19",
+        "17.188.64.0/23",
+        "17.44.224.0/24",
+        "17.253.201.0/24",
+        "17.248.236.0/24",
+        "17.248.128.0/20",
+        "17.157.9.0/24",
+        "17.33.200.0/22",
+        "2a01:b740::/32",
+        "17.123.224.0/20",
+        "17.44.244.0/22",
+        "17.188.122.0/23",
+        "17.124.0.0/16",
+        "2403:300:6008::/48",
+        "17.216.48.0/22",
+        "17.78.208.0/21",
+        "17.8.86.0/23",
+        "17.1.64.0/18",
+        "17.132.102.0/23",
+        "17.29.56.0/24",
+        "17.248.248.0/24",
+        "17.76.208.0/20",
+        "17.97.176.0/20",
+        "17.159.4.0/24",
+        "17.123.160.0/19",
+        "17.178.112.0/21",
+        "2620:149:5c0::/48",
+        "17.248.8.0/22",
+        "17.127.4.0/24",
+        "17.122.136.0/22",
+        "17.248.224.0/24",
+        "17.233.210.0/23",
+        "17.33.48.0/23",
+        "2a01:b747:618::/48",
+        "17.62.3.0/24",
+        "17.79.0.0/20",
+        "17.90.200.0/22",
+        "2620:149:700a::/48",
+        "17.132.15.0/24",
+        "17.184.96.0/20",
+        "17.22.122.0/23",
+        "17.47.0.0/20",
+        "17.188.231.0/24",
+        "17.248.239.0/24",
+        "57.103.0.0/16",
+        "2620:149:6057::/48",
+        "17.57.172.0/23",
+        "17.29.59.0/24",
+        "17.174.0.0/24",
+        "2a01:b740:9a4::/48",
+        "17.116.0.0/24",
+        "17.44.112.0/24",
+        "17.129.104.0/22",
+        "17.157.16.0/22",
+        "17.15.192.0/22",
+        "17.37.16.0/20",
+        "2620:149:5d3::/48",
+        "17.30.142.0/24",
+        "17.253.241.0/24",
+        "17.8.240.0/20",
+        "2620:149:10a0::/44",
+        "17.132.56.0/22",
+        "17.139.98.0/23",
+        "2620:149:1060::/44",
+        "2a01:b740:1322::/48",
+        "17.235.128.0/20",
+        "17.33.151.0/24",
+        "17.188.160.0/20",
+        "17.253.251.0/24",
+        "17.23.41.0/24",
+        "17.58.253.0/24",
+        "2a01:b747:610::/48",
+        "17.252.240.0/20",
+        "2a01:b747:5f1::/48",
+        "17.200.222.0/24",
+        "17.69.0.0/16",
+        "2a01:b747:6f0::/48",
+        "17.114.0.0/15",
+        "2a01:b740:13c6::/48",
+        "17.156.200.0/21",
+        "17.192.0.0/15",
+        "17.69.140.0/22",
+        "17.69.33.0/24",
+        "2a01:b740:15::/48",
+        "17.79.47.0/24",
+        "17.76.140.0/22",
+        "2a01:b740:982::/48",
+        "2a01:b740:a42::/48",
+        "17.39.116.0/22",
+        "2620:149:7c::/48",
+        "139.178.128.0/18",
+        "17.72.124.0/22",
+        "17.158.32.0/21",
+        "17.233.96.0/20",
+        "17.15.208.0/20",
+        "17.92.0.0/21",
+        "17.249.252.0/24",
+        "17.152.16.0/21",
+        "17.248.231.0/24",
+        "17.56.10.0/23",
+        "17.0.176.0/20",
+        "17.98.0.0/16",
+        "17.249.160.0/20",
+        "2620:149:74::/48",
+        "17.132.36.0/24",
+        "17.198.224.0/19",
+        "17.91.152.0/21",
+        "17.174.28.0/24",
+        "17.112.101.0/24",
+        "17.116.156.0/24",
+        "17.253.206.0/24",
+        "2a01:b740:1000::/48",
+        "17.44.218.0/24",
+        "17.76.80.0/21",
+        "2a01:b740:1200::/48",
+        "17.62.8.0/24",
+        "17.45.80.0/24",
+        "17.127.64.0/20",
+        "17.243.196.0/22",
+        "17.92.8.0/23",
+        "17.58.58.0/24",
+        "17.156.124.0/23",
+        "17.157.60.0/22",
+        "17.30.7.0/24",
+        "2620:149:149::/48",
+        "17.53.96.0/20",
+        "17.250.66.0/23",
+        "17.23.66.0/23",
+        "17.45.52.0/22",
+        "17.156.104.0/23",
+        "17.240.112.0/20",
+        "17.155.32.0/20",
+        "17.184.64.0/19",
+        "17.253.252.0/24",
+        "2403:300:1d34::/48",
+        "17.155.160.0/19",
+        "17.53.88.0/21",
+        "2620:149:6011::/48",
+        "17.33.32.0/19",
+        "17.188.12.0/23",
+        "17.30.148.0/24",
+        "17.97.208.0/20",
+        "17.77.252.0/24",
+        "144.178.33.0/24",
+        "17.39.128.0/19",
+        "17.250.86.0/24",
+        "17.140.42.0/24",
+        "17.59.0.0/16",
+        "17.44.44.0/22",
+        "17.44.36.0/23",
+        "17.132.20.0/23",
+        "17.8.128.0/24",
+        "17.79.32.0/20",
+        "2a01:b747:532::/48",
+        "2620:149:228::/46",
+        "17.127.232.0/23",
+        "17.51.132.0/23",
+        "2620:149:98a::/48",
+        "17.171.11.0/24",
+        "17.76.184.0/21",
+        "17.211.32.0/19",
+        "17.57.160.0/24",
+        "17.45.220.0/22",
+        "17.44.87.0/24",
+        "17.44.148.0/22",
+        "17.248.16.0/20",
+        "17.62.192.0/21",
+        "17.249.12.0/24",
+        "2a01:b740:1::/48",
+        "17.43.142.0/23",
+        "2620:149:62::/48",
+        "17.44.148.0/24",
+        "17.58.76.0/22",
+        "17.45.112.0/20",
+        "17.77.104.0/23",
+        "17.159.0.0/24",
+        "17.58.206.0/24",
+        "17.134.144.0/20",
+        "17.248.225.0/24",
+        "17.251.128.0/22",
+        "17.44.36.0/22",
+        "57.103.108.0/22",
+        "2620:149:7a::/48",
+        "17.62.49.0/24",
+        "17.136.170.0/23",
+        "17.127.5.0/24",
+        "17.121.0.0/18",
+        "17.135.0.0/17",
+        "2403:300:1d31::/48",
+        "2620:149:1363::/48",
+        "17.152.140.0/22",
+        "17.174.248.0/21",
+        "17.23.38.0/24",
+        "17.232.128.0/21",
+        "17.243.210.0/23",
+        "2620:149:7006::/48",
+        "17.248.209.0/24",
+        "17.248.232.0/24",
+        "17.232.136.0/21",
+        "2a01:b740:9c0::/48",
+        "17.248.201.0/24",
+        "17.199.166.0/24",
+        "2403:300:402::/48",
+        "17.7.80.0/24",
+        "2403:300:980::/44",
+        "2403:300:960::/48",
+        "2620:149:a0b::/48",
+        "17.47.8.0/24",
+        "2620:0:1b00::/48",
+        "2a01:b747:61a::/48",
+        "17.167.0.0/16",
+        "17.4.49.0/24",
+        "2403:300:2500::/48",
+        "17.44.152.0/23",
+        "2620:149:24a0::/48",
+        "2620:149:6043::/48",
+        "2620:149:1402::/48",
+        "2620:149:1390::/48",
+        "2620:149:1367::/48",
+        "2620:149:1086::/48",
+        "2a01:b740:13e6::/48",
+        "2a01:b740:1369::/48",
+        "17.92.32.0/21",
+        "17.65.0.0/16",
+        "17.62.4.0/23",
+        "17.240.0.0/16",
+        "17.234.0.0/17",
+        "17.37.32.0/20",
+        "17.79.0.0/16",
+        "2620:149:1300::/48",
+        "17.37.208.0/21",
+        "17.122.244.0/22",
+        "17.132.160.0/20",
+        "17.122.242.0/24",
+        "17.130.160.0/20",
+        "17.248.154.0/24",
+        "17.240.16.0/20",
+        "17.76.114.0/24",
+        "17.253.144.0/24",
+        "17.44.114.0/23",
+        "17.33.112.0/20",
+        "17.29.60.0/24",
+        "17.238.0.0/15",
+        "2a01:b747:169::/48",
+        "17.62.16.0/20",
+        "2620:149:537::/48",
+        "17.248.199.0/24",
+        "17.8.64.0/23",
+        "17.44.85.0/24",
+        "17.132.93.0/24",
+        "2620:149:6029::/48",
+        "17.252.0.0/20",
+        "17.0.0.0/9",
+        "17.145.32.0/20",
+        "17.121.128.0/22",
+        "17.145.115.0/24",
+        "17.178.16.0/20",
+        "17.253.207.0/24",
+        "17.32.96.0/19",
+        "17.64.0.0/16",
+        "2403:300:2205::/48",
+        "17.248.152.0/21",
+        "17.57.144.0/22",
+        "17.66.64.0/18",
+        "2620:149:5e1::/48",
+        "17.23.0.0/22",
+        "2620:149:ae0::/48",
+        "17.157.80.0/20",
+        "2620:149:9c3::/48",
+        "17.179.80.0/20",
+        "17.181.128.0/17",
+        "17.181.32.0/20",
+        "17.188.72.0/23",
+        "17.209.75.0/24",
+        "17.178.32.0/24",
+        "17.132.68.0/23",
+        "17.228.23.0/24",
+        "2a01:b747:623::/48",
+        "17.243.48.0/20",
+        "17.250.80.0/20",
+        "17.122.0.0/20",
+        "17.248.153.0/24",
+        "2620:149:602d::/48",
+        "2620:149:1200::/48",
+        "2a01:b740:1300::/48",
+        "2403:300:1d30::/48",
+        "17.157.210.0/23",
+        "17.33.216.0/22",
+        "17.32.64.0/20",
+        "17.4.8.0/23",
+        "17.60.64.0/19",
+        "17.58.192.0/20",
+        "17.62.128.0/20",
+        "17.66.136.0/21",
+        "17.0.64.0/18",
+        "17.91.48.0/21",
+        "17.110.64.0/18",
+        "17.248.160.0/20",
+        "2620:149:1305::/48",
+        "17.178.33.0/24",
+        "17.29.237.0/24",
+        "17.178.8.0/21",
+        "2a01:b740:602d::/48",
+        "17.50.72.0/21",
+        "17.69.104.0/23",
+        "17.40.32.0/20",
+        "17.43.59.0/24",
+        "2620:149:602c::/48",
+        "17.23.24.0/22",
+        "2403:300:988::/48",
+        "17.132.92.0/24",
+        "17.240.108.0/22",
+        "2a01:b740:16::/48",
+        "17.99.128.0/21",
+        "17.156.208.0/21",
+        "17.22.120.0/23",
+        "144.178.48.0/21",
+        "17.77.98.0/24",
+        "17.58.254.0/24",
+        "17.132.78.0/24",
+        "17.126.5.0/24",
+        "17.60.32.0/19",
+        "17.45.144.0/22",
+        "17.72.64.0/18",
+        "17.44.124.0/24",
+        "17.58.16.0/20",
+        "2620:149:6f0a::/48",
+        "17.237.128.0/18",
+        "17.35.33.0/24",
+        "17.171.63.0/24",
+        "17.66.128.0/18",
+        "17.37.60.0/22",
+        "17.0.71.0/24",
+        "17.44.228.0/22",
+        "17.44.83.0/24",
+        "17.8.152.0/21",
+        "17.69.34.0/24",
+        "17.129.0.0/16",
+        "17.172.0.0/15",
+        "17.44.224.0/22",
+        "17.123.206.0/24",
+        "17.29.246.0/24",
+        "2620:149:64::/48",
+        "17.58.128.0/18",
+        "2620:149:1306::/48",
+        "17.128.32.0/19",
+        "17.184.228.0/22",
+        "2403:300:1d35::/48",
+        "17.37.128.0/19",
+        "17.243.232.0/22",
+        "17.188.224.0/22",
+        "17.248.128.0/17",
+        "17.23.42.0/24",
+        "17.187.128.0/19",
+        "2620:149:1302::/48",
+        "17.181.8.0/22",
+        "17.229.103.0/24",
+        "17.248.182.0/24",
+        "17.184.196.0/22",
+        "17.229.102.0/24",
+        "2620:149:5c5::/48",
+        "2620:149:970::/48",
+        "17.139.128.0/17",
+        "17.218.20.0/24",
+        "17.84.192.0/22",
+        "2620:149:9c0::/48",
+        "2403:300:1008::/46",
+        "17.123.60.0/22",
+        "2620:149:f9::/48",
+        "17.198.181.0/24",
+        "17.188.228.0/24",
+        "17.178.26.0/23",
+        "17.157.132.0/22",
+        "17.253.243.0/24",
+        "2a01:b747:3006::/48",
+        "17.138.200.0/22",
+        "17.253.242.0/24",
+        "17.45.162.0/23",
+        "17.171.78.0/23",
+        "17.0.128.0/18",
+        "17.69.35.0/24",
+        "2403:300:a0f::/48",
+        "17.37.80.0/20",
+        "17.250.64.0/20",
+        "17.184.176.0/20",
+        "17.141.0.0/16",
+        "2620:149:f01::/48",
+        "17.157.26.0/23",
+        "17.40.24.0/22",
+        "17.8.131.0/24",
+        "17.139.19.0/24",
+        "17.44.38.0/23",
+        "17.44.144.0/22",
+        "2403:300:989::/48",
+        "17.58.0.0/20",
+        "17.76.112.0/24",
+        "17.136.128.0/22",
+        "17.160.74.0/23",
+        "17.132.90.0/24",
+        "17.29.114.0/24",
+        "17.207.48.0/24",
+        "17.248.162.0/24",
+        "57.103.92.0/22",
+        "17.248.246.0/24",
+        "2620:149:a07::/48",
+        "2a01:b747:620::/48",
+        "17.37.240.0/21",
+        "17.123.203.0/24",
+        "17.134.8.0/21",
+        "2620:149:7000::/48",
+        "17.139.18.0/23",
+        "17.91.208.0/21",
+        "17.188.8.0/22",
+        "17.1.0.0/19",
+        "17.168.0.0/14",
+        "17.110.128.0/17",
+        "17.15.128.0/20",
+        "2a01:b740:534::/48",
+        "17.248.175.0/24",
+        "17.33.146.0/24",
+        "2403:300:a42::/48",
+        "17.45.201.0/24",
+        "2620:149:90b::/48",
+        "17.184.224.0/23",
+        "17.47.2.0/24",
+        "2403:300:9d0::/48",
+        "17.56.140.0/23",
+        "2620:149:9c9::/48",
+        "17.91.184.0/21",
+        "17.248.210.0/24",
+        "17.248.12.0/22",
+        "2a01:b740:602a::/48",
+        "17.69.106.0/24",
+        "17.36.0.0/15",
+        "17.8.136.0/24",
+        "17.132.79.0/24",
+        "17.44.120.0/22",
+        "2620:149:7d::/48",
+        "17.91.128.0/22",
+        "2a01:b740:600f::/48",
+        "17.91.136.0/21",
+        "2a01:b747:3004::/48",
+        "2620:149:535::/48",
+        "17.58.224.0/24",
+        "17.8.164.0/22",
+        "2620:149:1326::/48",
+        "17.29.38.0/24",
+        "17.157.208.0/23",
+        "2a01:b747:535::/48",
+        "17.230.0.0/15",
+        "2403:300:1300::/48",
+        "17.97.128.0/19",
+        "17.44.81.0/24",
+        "17.188.210.0/24",
+        "2620:149:604e::/48",
+        "2403:300:1f00::/40",
+        "17.132.80.0/24",
+        "144.178.11.0/24",
+        "2620:149:1201::/48",
+        "2620:149:6058::/48",
+        "57.103.9.0/24",
+        "17.37.220.0/22",
+        "17.15.61.0/24",
+        "2a01:b747:619::/48",
+        "17.165.0.0/21",
+        "17.67.224.0/20",
+        "17.139.21.0/24",
+        "17.40.240.0/23",
+        "2620:149:f8::/46",
+        "17.44.248.0/23",
+        "17.188.209.0/24",
+        "17.170.36.0/24",
+        "17.15.52.0/22",
+        "2620:149:7028::/48",
+        "144.178.0.0/18",
+        "17.188.197.0/24",
+        "17.160.22.0/24",
+        "2620:149:5b5::/48",
+        "17.216.16.0/23",
+        "2620:149:561::/48",
+        "17.0.99.0/24",
+        "17.69.240.0/21",
+        "17.69.232.0/22",
+        "57.102.0.0/16",
+        "2620:149:1409::/48",
+        "17.183.192.0/18",
+        "2403:300:1205::/48",
+        "17.157.50.0/23",
+        "2620:149:1a42::/48",
+        "2620:149::/36",
+        "17.157.28.0/22",
+        "17.33.138.0/23",
+        "2620:149:120c::/48",
+        "17.251.153.0/24",
+        "17.44.188.0/23",
+        "17.8.141.0/24",
+        "17.127.6.0/24",
+        "17.0.184.0/23",
+        "17.15.64.0/19",
+        "17.51.128.0/22",
+        "17.0.0.0/21",
+        "2620:149:24a3::/48",
+        "17.253.246.0/24",
+        "17.33.98.0/23",
+        "17.58.0.0/18",
+        "17.39.112.0/22",
+        "17.37.224.0/20",
+        "17.78.192.0/20",
+        "17.22.124.0/23",
+        "2403:300:1201::/48",
+        "2403:300:a54::/48",
+        "17.111.32.0/19",
+        "2620:149:1100::/44",
+        "17.131.0.0/21",
+        "17.40.16.0/21",
+        "2620:149:6044::/48",
+        "17.237.192.0/21",
+        "17.37.56.0/23",
+        "17.15.156.0/23",
+        "17.45.80.0/21",
+        "2620:149:5c2::/48",
+        "17.242.180.0/22",
+        "17.249.48.0/20",
+        "17.132.27.0/24",
+        "2a01:b740:302::/48",
+        "2a01:b740:304::/48",
+        "2620:149:234::/48",
+        "2620:149:950::/48",
+        "17.47.48.0/24",
+        "17.152.144.0/21",
+        "17.250.124.0/23",
+        "17.253.197.0/24",
+        "17.51.136.0/22",
+        "2620:149:120a::/48",
+        "17.243.236.0/22",
+        "17.134.192.0/20",
+        "2620:149:7400::/44",
+        "17.33.32.0/20",
+        "17.134.184.0/21",
+        "2620:149:927::/48",
+        "17.127.8.0/24",
+        "17.161.64.0/19",
+        "17.39.80.0/21",
+        "17.233.213.0/24",
+        "2620:149:1120::/44",
+        "17.182.128.0/19",
+        "57.103.2.0/24",
+        "17.252.0.0/16",
+        "17.248.243.0/24",
+        "2620:149:980::/44",
+        "17.188.214.0/24",
+        "2620:149:aa8::/48",
+        "17.189.128.0/17",
+        "2620:149:9c1::/48",
+        "2403:300:a50::/48",
+        "17.237.64.0/18",
+        "2620:149:521::/48",
+        "17.216.18.0/24",
+        "2a01:b747:61d::/48",
+        "17.216.41.0/24",
+        "17.152.158.0/24",
+        "2620:149:701b::/48",
+        "17.44.235.0/24",
+        "17.44.221.0/24",
+        "2620:149:240::/48",
+        "17.45.8.0/22",
+        "2a01:b740:985::/48",
+        "17.91.80.0/21",
+        "2620:149:1303::/48",
+        "17.62.96.0/20",
+        "144.178.37.0/24",
+        "17.42.0.0/16",
+        "17.44.186.0/23",
+        "2a01:b747:624::/48",
+        "17.58.200.0/23",
+        "17.140.45.0/24",
+        "17.33.208.0/22",
+        "17.123.207.0/24",
+        "2403:300:1203::/48",
+        "17.77.224.0/20",
+        "17.178.36.0/23",
+        "17.83.186.0/24",
+        "2403:300:1c29::/48",
+        "17.83.56.0/24",
+        "2620:149:9d8::/48",
+        "2620:149:1323::/48",
+        "17.56.0.0/22",
+        "17.250.48.0/20",
+        "17.132.86.0/24",
+        "17.249.16.0/20",
+        "2403:300:1302::/48",
+        "17.44.140.0/22",
+        "2403:300:6007::/48",
+        "17.43.58.0/24",
+        "2403:300:1365::/48",
+        "17.249.5.0/24",
+        "17.158.8.0/21",
+        "2a01:b740:1205::/48",
+        "2a01:b747:622::/48",
+        "17.44.144.0/23",
+        "17.30.16.0/24",
+        "17.44.152.0/22",
+        "2620:149:231::/48",
+        "17.123.240.0/20",
+        "17.188.232.0/22",
+        "17.44.79.0/24",
+        "2a01:b747:536::/48",
+        "17.249.224.0/21",
+        "17.144.32.0/19",
+        "2620:149:1207::/48",
+        "17.140.96.0/19",
+        "2620:149:a80::/42",
+        "17.240.64.0/20",
+        "2a01:b740:602c::/48",
+        "17.15.62.0/24",
+        "17.179.78.0/24",
+        "17.136.136.0/21",
+        "17.15.20.0/22",
+        "17.136.144.0/20",
+        "57.103.72.0/22",
+        "17.247.208.0/21",
+        "2a01:b740:a0c::/48",
+        "2a01:b747:614::/48",
+        "17.156.192.0/21",
+        "2620:149:a44::/48",
+        "17.253.200.0/24",
+        "17.22.0.0/18",
+        "17.188.192.0/22",
+        "2620:149:5fb::/48",
+        "17.80.61.0/24",
+        "17.45.188.0/22",
+        "17.29.35.0/24",
+        "17.44.90.0/24",
+        "2620:149:1140::/44",
+        "17.135.0.0/16",
+        "17.62.64.0/20",
+        "2620:149:fb::/48",
+        "17.45.84.0/22",
+        "17.228.22.0/24",
+        "17.252.16.0/20",
+        "17.200.208.0/22",
+        "2620:149:1082::/47",
+        "2620:149:5d2::/48",
+        "17.8.138.0/24",
+        "17.62.56.0/21",
+        "17.179.48.0/20",
+        "17.249.192.0/20",
+        "2620:149:140c::/48",
+        "17.132.66.0/23",
+        "17.194.0.0/16",
+        "17.39.144.0/22",
+        "17.132.28.0/22",
+        "17.156.216.0/21",
+        "2620:149:6000::/48",
+        "17.62.51.0/24",
+        "17.155.224.0/19",
+        "17.122.64.0/18",
+        "17.152.51.0/24",
+        "17.7.114.0/23",
+        "17.30.24.0/23",
+        "17.132.22.0/23",
+        "17.253.247.0/24",
+        "17.33.172.0/24",
+        "17.157.24.0/24",
+        "17.91.88.0/21",
+        "17.157.204.0/23",
+        "17.29.225.0/24",
+        "17.243.240.0/23",
+        "2a01:b740:1323::/48",
+        "17.44.78.0/24",
+        "17.156.112.0/23",
+        "2620:149:5c3::/48",
+        "17.179.128.0/17",
+        "17.45.180.0/23",
+        "17.37.58.0/23",
+        "17.250.120.0/21",
+        "17.243.0.0/20",
+        "17.140.128.0/17",
+        "2a01:b747:428::/48",
+        "17.76.96.0/21",
+        "17.4.13.0/24",
+        "17.155.64.0/21",
+        "17.248.64.0/22",
+        "17.237.32.0/19",
+        "2620:149:1369::/48",
+        "17.45.92.0/22",
+        "17.145.112.0/24",
+        "17.15.196.0/22",
+        "17.247.216.0/21",
+        "17.234.128.0/18",
+        "17.45.40.0/22",
+        "17.126.6.0/24",
+        "2620:149:1404::/48",
+        "17.232.144.0/21",
+        "17.8.66.0/23",
+        "2a01:b740:1340::/48",
+        "17.253.248.0/24",
+        "17.234.64.0/18",
+        "17.69.192.0/20",
+        "17.84.208.0/24",
+        "17.84.216.0/23",
+        "17.183.160.0/19",
+        "17.23.224.0/19",
+        "57.103.80.0/22",
+        "2620:149:1a43::/48",
+        "17.97.192.0/21",
+        "17.37.112.0/21",
+        "2620:149:701c::/48",
+        "17.142.0.0/15",
+        "2620:149:1206::/48",
+        "17.245.4.0/22",
+        "17.209.77.0/24",
+        "2403:300:1364::/48",
+        "17.29.234.0/24",
+        "2620:149:1040::/44",
+        "17.235.64.0/19",
+        "17.116.176.0/24",
+        "57.103.3.0/24",
+        "2620:149:1322::/48",
+        "17.44.66.0/23",
+        "17.253.253.0/24",
+        "17.216.40.0/24",
+        "17.39.96.0/20",
+        "17.76.122.0/24",
+        "2a01:b747:625::/48",
+        "17.247.236.0/22",
+        "2403:300:a51::/48",
+        "17.220.176.0/24",
+        "17.69.224.0/21",
+        "17.233.242.0/23",
+        "17.44.250.0/23",
+        "17.37.176.0/22",
+        "17.246.36.0/23",
+        "17.152.159.0/24",
+        "17.92.184.0/21",
+        "17.15.160.0/20",
+        "2620:149:230::/46",
+        "2620:149:aa9::/48",
+        "17.76.136.0/22",
+        "17.132.85.0/24",
+        "17.45.160.0/23",
+        "2620:149:920::/48",
+        "2620:149:1210::/48",
+        "17.157.52.0/24",
+        "2620:149:ae7::/48",
+        "17.111.16.0/20",
+        "17.183.0.0/21",
+        "17.248.150.0/24",
+        "17.76.0.0/23",
+        "17.44.254.0/23",
+        "2403:300:1301::/48",
+        "17.253.132.0/24",
+        "17.91.24.0/21",
+        "17.111.128.0/17",
+        "57.103.96.0/23",
+        "17.187.48.0/20",
+        "17.44.96.0/21",
+        "17.45.81.0/24",
+        "17.44.91.0/24",
+        "17.178.0.0/15",
+        "17.60.0.0/19",
+        "17.76.104.0/21",
+        "17.160.160.0/20",
+        "17.66.116.0/22",
+        "17.184.232.0/22",
+        "17.246.48.0/22",
+        "17.29.247.0/24",
+        "17.23.128.0/19",
+        "17.188.112.0/21",
+        "17.157.144.0/20",
+        "17.23.48.0/20",
+        "17.66.146.0/23",
+        "17.157.136.0/21",
+        "17.234.0.0/18",
+        "57.103.8.0/24",
+        "17.157.8.0/22",
+        "17.67.192.0/22",
+        "17.123.48.0/22",
+        "17.112.44.0/22",
+        "17.164.0.0/16",
+        "17.182.96.0/19",
+        "17.174.29.0/24",
+        "2620:149:6f00::/48",
+        "2a01:b740:30a::/48",
+        "2620:149:9d5::/48",
+        "17.116.244.0/23",
+        "17.116.232.0/23",
+        "17.44.125.0/24",
+        "17.123.0.0/20",
+        "2620:149:604d::/48",
+        "17.138.208.0/20",
+        "17.33.104.0/23",
+        "2620:149:7014::/48",
+        "17.91.40.0/21",
+        "17.181.64.0/19",
+        "17.145.48.0/20",
+        "2620:149:981::/48",
+        "17.157.128.0/19",
+        "17.155.208.0/20",
+        "17.69.96.0/22",
+        "17.250.103.0/24",
+        "17.45.162.0/24",
+        "17.156.102.0/23",
+        "2a01:b740:13d6::/48",
+        "17.248.190.0/24",
+        "2620:149:220::/46",
+        "17.23.208.0/21",
+        "2a01:b747:611::/48",
+        "2a01:b740:13d5::/48",
+        "17.173.232.0/21",
+        "17.57.161.0/24",
+        "17.188.178.0/23",
+        "17.250.88.0/22",
+        "2a01:b740:951::/48",
+        "2620:149:9ce::/48",
+        "17.23.4.0/22",
+        "17.78.224.0/19",
+        "17.157.96.0/20",
+        "17.45.218.0/23",
+        "2a01:b740:920::/48",
+        "2a01:b740:1365::/48",
+        "2a01:b740:1400::/48",
+        "17.41.0.0/16",
+        "17.44.156.0/22",
+        "17.154.64.0/20",
+        "17.174.0.0/19",
+        "17.248.176.0/23",
+        "17.111.96.0/19",
+        "17.23.216.0/21",
+        "17.112.48.0/22",
+        "17.156.128.0/20",
+        "17.181.0.0/21",
+        "2620:149:79::/48",
+        "144.178.0.0/19",
+        "17.23.192.0/21",
+        "17.58.56.0/24",
+        "17.136.160.0/21",
+        "17.44.172.0/22",
+        "17.160.82.0/23",
+        "17.7.74.0/23",
+        "17.62.9.0/24",
+        "17.45.220.0/23",
+        "17.235.240.0/20",
+        "17.8.68.0/22",
+        "17.43.112.0/21",
+        "17.112.72.0/22",
+        "2620:149:218::/46",
+        "17.200.220.0/24",
+        "17.132.144.0/21",
+        "17.91.16.0/21",
+        "17.84.128.0/23",
+        "17.248.168.0/24",
+        "17.76.4.0/23",
+        "17.116.186.0/24",
+        "17.33.94.0/24",
+        "17.253.150.0/24",
+        "2620:149:1090::/44",
+        "17.22.126.0/23",
+        "17.44.190.0/23",
+        "2620:149:923::/48",
+        "17.132.91.0/24",
+        "17.134.64.0/20",
+        "2620:149:9c8::/48",
+        "17.44.82.0/24",
+        "17.157.224.0/19",
+        "2620:149:a2c::/48",
+        "17.29.115.0/24",
+        "2a01:b747:3007::/48",
+        "17.252.192.0/20",
+        "2a01:b740:6000::/48",
+        "17.121.128.0/17",
+        "17.56.9.0/24",
+        "17.77.0.0/17",
+        "17.67.196.0/23",
+        "17.116.188.0/23",
+        "17.69.236.0/22",
+        "17.8.80.0/23",
+        "17.8.208.0/20",
+        "17.37.216.0/22",
+        "17.68.192.0/18",
+        "2403:300:980::/48",
+        "2620:149:1a40::/48",
+        "17.145.114.0/24",
+        "2a01:b747:3005::/48",
+        "2620:149:9a0::/48",
+        "57.103.104.0/22",
+        "17.23.22.0/23",
+        "17.136.168.0/23",
+        "57.103.84.0/22",
+        "17.44.80.0/24",
+        "17.44.84.0/24",
+        "17.132.76.0/23",
+        "17.123.201.0/24",
+        "17.122.160.0/19",
+        "17.0.120.0/24",
+        "17.156.248.0/21",
+        "17.45.217.0/24",
+        "17.134.0.0/22",
+        "2a01:b740:6027::/48",
+        "17.242.179.0/24",
+        "17.138.144.0/20",
+        "17.44.32.0/22",
+        "17.45.148.0/23",
+        "2a01:b747:700::/40",
+        "17.134.128.0/20",
+        "2403:300:600a::/48",
+        "17.112.68.0/22",
+        "17.45.151.0/24",
+        "17.188.194.0/24",
+        "17.139.17.0/24",
+        "17.131.24.0/21",
+        "17.132.40.0/23",
+        "17.207.49.0/24",
+        "17.1.184.0/24",
+        "17.123.16.0/20",
+        "17.23.20.0/23",
+        "2403:300:971::/48",
+        "17.233.240.0/24",
+        "17.157.49.0/24",
+        "17.181.16.0/20",
+        "17.57.128.0/21",
+        "2620:149:9cc::/48",
+        "2a01:b747:3003::/48",
+        "17.33.140.0/23",
+        "17.138.224.0/20",
+        "17.77.84.0/22",
+        "17.45.18.0/23",
+        "57.103.11.0/24",
+        "17.62.7.0/24",
+        "17.157.0.0/22",
+        "17.66.160.0/20",
+        "17.126.9.0/24",
+        "17.47.3.0/24",
+        "17.233.0.0/16",
+        "2620:149:7044::/48",
+        "17.249.128.0/20",
+        "17.7.120.0/21",
+        "17.123.204.0/23",
+        "17.37.96.0/20",
+        "17.58.207.0/24",
+        "17.1.108.0/24",
+        "17.248.72.0/23",
+        "17.153.4.0/24",
+        "17.127.13.0/24",
+        "2a01:b740:1201::/48",
+        "17.128.0.0/9",
+        "17.156.176.0/20",
+        "17.15.50.0/23",
+        "2620:149:77::/48",
+        "17.183.64.0/18",
+        "17.253.255.0/24",
+        "17.159.2.0/24",
+        "2620:149:1085::/48",
+        "2620:149:1a00::/44",
+        "2620:149:956::/48",
+        "2620:149:1401::/48",
+        "17.243.228.0/22",
+        "17.174.128.0/17",
+        "17.56.8.0/24",
+        "17.45.182.0/23",
+        "17.184.112.0/20",
+        "17.127.1.0/24",
+        "17.171.58.0/23",
+        "17.184.240.0/22",
+        "2a01:b740:a70::/44",
+        "2a01:b740:1362::/48",
+        "17.44.227.0/24",
+        "17.111.64.0/19",
+        "2620:149:1366::/48",
+        "17.138.192.0/21",
+        "2620:149:9d3::/48",
+        "17.44.20.0/22",
+        "2620:149:980::/48",
+        "17.132.73.0/24",
+        "17.57.164.0/23",
+        "17.45.76.0/22",
+        "17.108.0.0/15",
+        "17.178.120.0/22",
+        "17.248.171.0/24",
+        "17.248.176.0/21",
+        "17.29.224.0/24",
+        "17.116.240.0/23",
+        "17.132.64.0/23",
+        "17.29.242.0/24",
+        "17.156.96.0/23",
+        "17.29.226.0/23",
+        "17.112.52.0/22",
+        "17.249.112.0/20",
+        "17.40.112.0/23",
+        "17.37.52.0/22",
+        "2620:149:2481::/48",
+        "2403:300:1363::/48",
+        "17.23.28.0/22",
+        "17.116.3.0/24",
+        "17.35.43.0/24",
+        "17.33.171.0/24",
+        "17.62.80.0/20",
+        "17.139.20.0/24",
+        "17.57.180.0/24",
+        "17.157.5.0/24",
+        "17.55.232.0/22",
+        "17.76.152.0/21",
+        "17.76.160.0/20",
+        "17.44.116.0/22",
+        "17.58.63.0/24",
+        "17.29.192.0/19",
+        "17.121.64.0/23",
+        "57.103.64.0/22",
+        "2620:149:140::/44",
+        "2620:149:9d4::/48",
+        "2620:149:fc::/46",
+        "17.62.52.0/23",
+        "17.127.0.0/24",
+        "17.132.108.0/22",
+        "17.247.240.0/22",
+        "17.201.4.0/24",
+        "17.66.145.0/24",
+        "17.139.22.0/23",
+        "2620:149:957::/48",
+        "139.178.183.0/24",
+        "17.51.134.0/23",
+        "17.60.96.0/19",
+        "2a01:b740:987::/48",
+        "17.182.0.0/19",
+        "17.226.7.0/24",
+        "2620:149:702a::/48",
+        "17.132.32.0/22",
+        "2620:149:78::/48",
+        "17.92.192.0/21",
+        "2620:149:922::/48",
+        "17.132.87.0/24",
+        "17.38.0.0/15",
+        "17.77.58.0/23",
+        "17.138.200.0/21",
+        "57.103.10.0/24",
+        "17.23.204.0/22",
+        "17.155.80.0/20",
+        "17.102.0.0/15",
+        "17.249.32.0/20",
+        "17.33.14.0/24",
+        "17.139.64.0/20",
+        "17.138.160.0/20",
+        "17.44.252.0/23",
+        "17.58.242.0/23",
+        "17.30.14.0/24",
+        "17.33.173.0/24",
+        "17.188.176.0/24",
+        "17.188.184.0/23",
+        "139.178.172.0/23",
+        "2403:300:a55::/48",
+        "17.184.208.0/20",
+        "17.189.120.0/22",
+        "17.33.96.0/23",
+        "17.242.184.0/24",
+        "17.44.252.0/24",
+        "17.46.128.0/17",
+        "2620:149:601e::/48",
+        "17.84.209.0/24",
+        "17.132.18.0/23",
+        "17.248.229.0/24",
+        "17.33.88.0/24",
+        "2620:149:136f::/48",
+        "17.248.252.0/24",
+        "17.125.0.0/16",
+        "17.157.130.0/23",
+        "17.127.9.0/24",
+        "17.29.252.0/24",
+        "2a01:b747:621::/48",
+        "17.134.80.0/20",
+        "17.161.128.0/18",
+        "17.123.202.0/24",
+        "17.112.84.0/22",
+        "2620:149:24a1::/48",
+        "17.122.0.0/18",
+        "17.32.128.0/17",
+        "17.122.16.0/20",
+        "17.248.68.0/22",
+        "17.134.224.0/20",
+        "17.157.112.0/20",
+        "17.184.226.0/23",
+        "2620:149:af0::/48",
+        "17.138.240.0/20",
+        "17.157.160.0/19",
+        "17.248.215.0/24",
+        "17.249.144.0/20",
+        "17.182.64.0/19",
+        "17.77.254.0/23",
+        "17.139.88.0/21",
+        "17.200.198.0/24",
+        "17.243.80.0/21",
+        "17.188.199.0/24",
+        "17.43.132.0/22",
+        "17.234.192.0/18",
+        "17.116.120.0/22",
+        "17.188.198.0/24",
+        "17.200.192.0/22",
+        "17.136.0.0/18",
+        "17.248.145.0/24",
+        "17.155.16.0/20",
+        "17.77.0.0/16",
+        "2a01:b740:a12::/48",
+        "17.232.0.0/19",
+        "17.248.164.0/24",
+        "17.161.48.0/21",
+        "17.8.92.0/22",
+        "2620:149:1202::/48",
+        "17.43.148.0/22",
+        "17.29.248.0/24",
+        "17.0.0.0/8",
+        "17.67.80.0/20",
+        "17.182.224.0/19",
+        "2620:149:1407::/48",
+        "17.22.96.0/20",
+        "17.8.224.0/20",
+        "2403:300:2504::/48",
+        "17.132.84.0/24",
+        "17.45.36.0/22",
+        "17.76.94.0/23",
+        "2a01:b740:6004::/48",
+        "17.157.44.0/22",
+        "17.154.96.0/19",
+        "2620:149:120d::/48",
+        "17.155.192.0/20",
+        "17.137.0.0/16",
+        "17.44.184.0/23",
+        "2403:300:a41::/48",
+        "17.112.104.0/22",
+        "2620:149:140a::/48",
+        "2403:300:1368::/48",
+        "2620:149:1205::/48",
+        "2620:149:700f::/48",
+        "17.44.216.0/21",
+        "2620:149:af1::/48",
+        "2620:149:71::/48",
+        "17.104.0.0/15",
+        "2620:149:6056::/48",
+        "17.37.180.0/22",
+        "17.44.232.0/21",
+        "17.120.0.0/16",
+        "17.91.56.0/21",
+        "17.57.155.0/24",
+        "17.15.59.0/24",
+        "17.15.148.0/22",
+        "2620:149:6400::/44",
+        "17.122.192.0/19",
+        "17.58.62.0/24",
+        "17.58.246.0/23",
+        "17.66.0.0/16",
+        "17.47.128.0/17",
+        "2620:149:a14::/48",
+        "2403:300:1204::/48",
+        "17.112.96.0/22",
+        "17.245.8.0/23",
+        "2620:149:1084::/48",
+        "17.122.128.0/21",
+        "2403:300:2502::/48",
+        "2620:149:6055::/48",
+        "2403:300::/32",
+        "17.67.32.0/20",
+        "17.30.146.0/24",
+        "2620:149:1310::/48",
+        "17.45.224.0/20",
+        "17.188.18.0/23",
+        "17.157.25.0/24",
+        "17.243.224.0/22",
+        "17.157.4.0/24",
+        "17.248.219.0/24",
+        "17.47.126.0/23",
+        "17.39.64.0/21",
+        "17.187.192.0/18",
+        "17.157.202.0/23",
+        "2a01:b740:1600::/48",
+        "144.178.56.0/21",
+        "17.15.96.0/20",
+        "17.158.0.0/22",
+        "17.132.100.0/23",
+        "17.43.50.0/24",
+        "2403:300:2209::/48",
+        "17.243.16.0/20",
+        "17.30.128.0/21",
+        "17.113.128.0/17",
+        "17.58.227.0/24",
+        "2620:149:928::/48",
+        "17.23.72.0/21",
+        "17.58.250.0/24",
+        "2620:149:1321::/48",
+        "17.216.19.0/24",
+        "17.32.32.0/20",
+        "17.37.64.0/20",
+        "2620:149:1365::/48",
+        "17.136.196.0/23",
+        "17.44.80.0/20",
+        "2620:149:120b::/48",
+        "2a01:b747:8011::/48",
+        "17.58.55.0/24",
+        "17.138.176.0/20",
+        "17.112.88.0/22",
+        "17.211.64.0/19",
+        "17.76.112.0/21",
+        "2a01:b747:109::/48",
+        "17.40.184.0/24",
+        "17.91.64.0/21",
+        "17.33.13.0/24",
+        "17.145.0.0/20",
+        "17.4.10.0/23",
+        "17.8.85.0/24",
+        "17.188.106.0/23",
+        "17.44.72.0/21",
+        "2620:149:1400::/48",
+        "17.126.203.0/24",
+        "17.23.44.0/24",
+        "17.32.0.0/16",
+        "2403:300:2208::/48",
+        "17.116.154.0/24",
+        "2403:300:2505::/48",
+        "17.56.128.0/17",
+        "17.23.112.0/20",
+        "17.7.68.0/24",
+        "17.250.100.0/23",
+        "17.23.80.0/20",
+        "17.90.16.0/21",
+        "17.132.48.0/22",
+        "17.37.248.0/21",
+        "17.188.180.0/22",
+        "17.240.32.0/20",
+        "17.62.32.0/20",
+        "17.23.32.0/23",
+        "17.45.156.0/22",
+        "17.39.64.0/18",
+        "17.112.80.0/22",
+        "17.188.120.0/24",
+        "17.23.36.0/24",
+        "17.81.123.0/24",
+        "17.181.96.0/19",
+        "17.252.80.0/20",
+        "2620:149:a1b::/48",
+        "2a01:b740:1321::/48",
+        "17.8.133.0/24",
+        "2a01:b740:1367::/48",
+        "17.97.160.0/20",
+        "2a01:b747:530::/48",
+        "17.132.96.0/22",
+        "17.248.207.0/24",
+        "17.58.51.0/24",
+        "17.77.240.0/21",
+        "17.116.177.0/24",
+        "17.248.172.0/23",
+        "17.248.230.0/24",
+        "17.235.96.0/19",
+        "17.248.151.0/24",
+        "2a01:b747:612::/48",
+        "17.4.44.0/23",
+        "17.240.0.0/20",
+        "17.56.12.0/23",
+        "17.43.104.0/21",
+        "17.43.152.0/21",
+        "17.253.249.0/24",
+        "17.84.106.0/24",
+        "17.57.0.0/18",
+        "17.157.48.0/24",
+        "17.33.92.0/24",
+        "2620:149::/32",
+        "17.44.113.0/24",
+        "17.76.120.0/24",
+        "2620:149:73::/48",
+        "17.179.16.0/20",
+        "2620:149:952::/48",
+        "17.45.72.0/22",
+        "2620:149:9d6::/48",
+        "17.112.76.0/22",
+        "17.33.106.0/23",
+        "2620:149:701e::/48",
+        "17.145.113.0/24",
+        "2403:300:a38::/45",
+        "17.140.64.0/19",
+        "17.126.8.0/24",
+        "17.45.82.0/24",
+        "2620:149:140f::/48",
+        "2a01:b747:616::/48",
+        "17.57.152.0/23",
+        "17.46.0.0/16",
+        "2620:149:982::/48",
+        "2620:149:7023::/48",
+        "17.69.80.0/22",
+        "17.45.163.0/24",
+        "2620:149:7019::/48",
+        "17.7.64.0/24",
+        "17.97.224.0/19",
+        "17.44.217.0/24",
+        "17.91.232.0/21",
+        "17.188.66.0/24",
+        "17.133.0.0/16",
+        "17.139.0.0/20",
+        "2620:149:1000::/44",
+        "17.248.216.0/21",
+        "17.178.7.0/24",
+        "2a01:b740:921::/48",
+        "17.253.133.0/24",
+        "17.242.152.0/21",
+        "2620:149:986::/48",
+        "17.123.144.0/22",
+        "17.44.126.0/24",
+        "17.67.8.0/22",
+        "2a01:b740:1203::/48",
+        "2403:300:1000::/46",
+        "17.132.89.0/24",
+        "17.216.0.0/20",
+        "17.248.4.0/23",
+        "17.183.144.0/20",
+        "2620:149:953::/48",
+        "17.185.0.0/16",
+        "2a01:b740:1320::/48",
+        "17.201.0.0/22",
+        "17.139.112.0/20",
+        "17.139.104.0/21",
+        "2a01:b740:19::/48",
+        "17.33.95.0/24",
+        "17.37.0.0/20",
+        "17.243.208.0/23",
+        "17.166.192.0/21",
+        "17.157.64.0/20",
+        "17.66.120.0/21",
+        "2403:300:2204::/48",
+        "17.189.112.0/21",
+        "17.188.19.0/24",
+        "17.136.198.0/23",
+        "17.35.40.0/24",
+        "17.179.32.0/21",
+        "17.155.0.0/21",
+        "17.37.48.0/22",
+        "17.233.212.0/24",
+        "2620:149:5c1::/48",
+        "17.112.40.0/21",
+        "2620:149:238::/48",
+        "17.183.16.0/20",
+        "17.77.56.0/23",
+        "2620:149:6f08::/48",
+        "17.155.48.0/20",
+        "17.33.14.0/23",
+        "17.252.48.0/20",
+        "17.242.176.0/23",
+        "17.248.2.0/23",
+        "17.248.249.0/24",
+        "17.172.0.0/16",
+        "17.37.192.0/20",
+        "17.67.123.0/24",
+        "2620:149:1b00::/48",
+        "17.72.64.0/19",
+        "2620:149:120e::/48",
+        "17.253.245.0/24",
+        "2a01:b747:3002::/48",
+        "2620:149:954::/48",
+        "2620:149:1::/48",
+        "2620:149:9c5::/48",
+        "2a01:b740:308::/48",
+        "17.243.32.0/20",
+        "17.44.244.0/23",
+        "2620:149:a38::/45",
+        "2403:300:a0b::/48",
+        "2620:149:72::/48",
+        "17.249.176.0/20",
+        "2620:149:9c7::/48",
+        "2a01:b747:3000::/48",
+        "17.44.56.0/22",
+        "17.39.128.0/20",
+        "17.76.72.0/21",
+        "17.139.100.0/22",
+        "17.62.112.0/20",
+        "17.243.112.0/20",
+        "17.45.48.0/22",
+        "17.145.16.0/20",
+        "17.44.64.0/23",
+        "17.37.184.0/21",
+        "2620:149:9d0::/48",
+        "17.183.136.0/21",
+        "2620:149:a31::/48",
+        "17.240.176.0/20",
+        "2a01:b740:1301::/48",
+        "17.183.128.0/21",
+        "17.146.192.0/18",
+        "17.58.226.0/24",
+        "2403:300:987::/48",
+        "17.155.128.0/20",
+        "17.243.242.0/23",
+        "2620:149:1088::/48",
+        "2620:149:a2d::/48",
+        "17.40.0.0/15",
+        "17.121.132.0/24",
+        "17.97.0.0/17",
+        "17.1.185.0/24",
+        "17.243.204.0/22",
+        "17.44.188.0/22",
+        "17.253.144.0/21",
+        "17.62.10.0/23",
+        "17.15.144.0/22",
+        "17.43.176.0/21",
+        "17.91.72.0/21",
+        "17.152.152.0/24",
+        "17.112.24.0/22",
+        "2403:300:600e::/48",
+        "2620:149:7035::/48",
+        "2620:149:1209::/48",
+        "17.122.248.0/21",
+        "17.0.224.0/24",
+        "17.253.226.0/23",
+        "2403:300:407::/48",
+        "17.44.68.0/22",
+        "17.243.64.0/21",
+        "17.174.0.0/20",
+        "2620:149:2210::/44",
+        "2403:300:984::/48",
+        "17.161.192.0/18",
+        "17.132.8.0/22",
+        "17.45.32.0/23",
+        "17.183.32.0/19",
+        "17.233.168.0/21",
+        "17.56.0.0/19",
+        "17.32.80.0/21",
+        "17.134.160.0/20",
+        "17.132.70.0/23",
+        "2a01:b747:61b::/48",
+        "17.91.144.0/21",
+        "17.250.160.0/22",
+        "17.250.96.0/24",
+        "17.112.120.0/21",
+        "17.250.104.0/23",
+        "2620:149:1301::/48",
+        "17.99.192.0/18",
+        "2620:149:10b0::/44",
+        "17.0.109.0/24",
+        "17.15.63.0/24",
+        "2620:149:960::/44",
+        "17.44.220.0/24",
+        "17.22.112.0/21",
+        "17.144.0.0/19",
+        "2620:149:136d::/48",
+        "17.246.32.0/22",
+        "17.253.145.0/24",
+        "17.136.132.0/22",
+        "17.112.32.0/21",
+        "17.249.0.0/16",
+        "2620:149:140e::/48",
+        "17.132.88.0/24",
+        "17.61.128.0/17",
+        "17.67.252.0/22",
+        "17.23.96.0/20",
+        "17.67.104.0/21",
+        "2620:149:232::/48",
+        "17.23.68.0/23",
+        "17.132.26.0/24",
+        "17.130.128.0/22",
+        "17.123.64.0/18",
+        "17.243.192.0/22",
+        "17.58.208.0/24",
+        "17.246.40.0/21",
+        "2620:149:1a41::/48",
+        "17.79.43.0/24",
+        "144.178.36.0/24",
+        "17.198.180.0/24",
+        "17.184.0.0/18",
+        "17.76.118.0/23",
+        "17.39.72.0/21",
+        "17.145.96.0/20",
+        "17.30.145.0/24",
+        "17.1.197.0/24",
+        "17.62.0.0/18",
+        "17.112.92.0/22",
+        "17.253.244.0/24",
+        "2620:149:7033::/48",
+        "2620:149:7018::/48",
+        "139.178.141.0/24",
+        "139.178.140.0/24",
+        "139.178.142.0/24",
+        "2403:300:1391::/48",
+        "2620:149:1311::/48",
+        "2a01:b747:175::/48",
+        "17.39.0.0/16",
+        "17.36.0.0/16",
+        "2403:300:136d::/48",
+        "17.159.18.0/24",
+        "17.253.193.0/24",
+        "17.90.120.0/21",
+        "17.44.48.0/22",
+        "17.131.112.0/20",
+        "2a01:b740:6f00::/48",
+        "2a01:b747:9700::/44",
+        "17.184.248.0/21",
+        "2a01:b740:6100::/44",
+        "17.69.0.0/19",
+        "2a01:b740:7100::/44",
+        "17.79.48.0/24"
+      ]
+    },
+    "bgp6185.txt": {
+      "data": {
+        "query_starttime": "2026-09-10T00:00:00",
+        "query_endtime": "2026-09-24T00:00:00",
+        "resource": "6185",
+        "latest_time": "2026-09-24T00:00:00",
+        "earliest_time": "2000-08-01T00:00:00"
+      },
+      "version": "1.2",
+      "time": "2026-09-24T08:00:09.776624",
+      "prefixes": [
+        "17.253.76.0/23",
+        "2620:149:a08::/48",
+        "2a01:b740:a11::/48",
+        "2a01:b740:a10::/48",
+        "2a01:b740:a16::/48",
+        "2620:149:ae1::/48",
+        "17.253.116.0/23",
+        "2620:149:a0d::/48",
+        "2a01:b740:a18::/48",
+        "2620:149:a0f::/48",
+        "2403:300:a08::/48",
+        "17.253.28.0/23",
+        "2403:300:a16::/48",
+        "17.253.12.0/23",
+        "17.253.22.0/23",
+        "17.253.30.0/23",
+        "2403:300:a33::/48",
+        "17.253.8.0/23",
+        "17.253.2.0/23",
+        "17.253.96.0/23",
+        "2a01:b740:a08::/48",
+        "2620:149:a23::/48",
+        "17.253.122.0/24",
+        "2a01:b740:a22::/48",
+        "17.253.11.0/24",
+        "17.253.72.0/23",
+        "17.253.70.0/23",
+        "17.253.62.0/23",
+        "17.253.16.0/23",
+        "2620:149:a10::/48",
+        "2620:149:ae6::/48",
+        "17.253.66.0/23",
+        "17.253.54.0/24",
+        "2403:300:a32::/48",
+        "2a01:b740:a02::/48",
+        "17.253.124.0/23",
+        "2620:149:a06::/48",
+        "17.253.14.0/23",
+        "2620:149:a18::/48",
+        "17.253.36.0/23",
+        "2403:300:a0e::/48",
+        "2a01:b740:a20::/48",
+        "17.253.126.0/23",
+        "2620:149:a15::/48",
+        "17.253.121.0/24",
+        "17.253.52.0/23",
+        "2403:300:a30::/48",
+        "17.253.114.0/23",
+        "2620:149:a0e::/48",
+        "2620:149:a25::/48",
+        "17.253.34.0/24",
+        "17.253.84.0/23",
+        "17.253.18.0/24",
+        "17.253.26.0/23",
+        "2a01:b740:a0a::/48",
+        "17.253.20.0/23",
+        "17.253.106.0/23",
+        "2a01:b740:a24::/48",
+        "2403:300:a14::/48",
+        "17.253.119.0/24",
+        "2a01:b740:a14::/48",
+        "17.253.64.0/23",
+        "17.253.110.0/23",
+        "2403:300:a26::/48",
+        "17.253.104.0/23",
+        "17.253.24.0/24",
+        "17.253.4.0/23",
+        "17.253.74.0/23",
+        "2a01:b740:a06::/48",
+        "2a01:b740:a26::/48",
+        "2a01:b740:a30::/48",
+        "17.253.94.0/23",
+        "17.253.112.0/23",
+        "17.253.118.0/24",
+        "2620:149:a0c::/48",
+        "17.253.6.0/23",
+        "2403:300:a04::/48",
+        "2403:300:a05::/48",
+        "2a01:b740:a27::/48",
+        "2620:149:a1e::/48",
+        "17.253.60.0/23",
+        "2620:149:a33::/48",
+        "2620:149:a32::/48",
+        "17.253.108.0/23",
+        "2403:300:a0a::/48",
+        "17.253.86.0/23",
+        "17.253.10.0/24",
+        "2620:149:a09::/48",
+        "2a01:b740:a1e::/48",
+        "17.253.56.0/23",
+        "17.253.48.0/23",
+        "2620:149:a29::/48",
+        "2620:149:a28::/48",
+        "17.253.68.0/23",
+        "2620:149:a16::/48",
+        "2403:300:a0c::/48",
+        "2620:149:a00::/48",
+        "17.253.38.0/23",
+        "2a01:b740:a1c::/48"
+      ]
+    },
+    "bgp205.txt": {
+      "data": {
+        "is_less_specific": true,
+        "announced": true,
+        "asns": [
+          {
+            "asn": 3356,
+            "holder": "LEVEL3 - Level 3 Parent, LLC"
+          }
+        ],
+        "related_prefixes": [],
+        "resource": "205.180.0.0/14",
+        "type": "prefix",
+        "block": {
+          "resource": "205.0.0.0/8",
+          "desc": "ARIN (Status: ALLOCATED)",
+          "name": "IANA IPv4 Address Space Registry"
+        },
+        "actual_num_related": 0,
+        "query_time": "2026-09-24T00:00:00",
+        "num_filtered_out": 0
+      },
+      "version": "1.3",
+      "time": "2026-09-24T08:00:09.437714"
+    }
+  },
+  "claris_children": [
+    {
+      "start": "198.183.16.0",
+      "end": "198.183.16.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.16.0"
+    },
+    {
+      "start": "198.183.17.0",
+      "end": "198.183.17.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.17.0"
+    },
+    {
+      "start": "198.183.18.0",
+      "end": "198.183.18.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.18.0"
+    },
+    {
+      "start": "198.183.19.0",
+      "end": "198.183.19.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.19.0"
+    },
+    {
+      "start": "198.183.20.0",
+      "end": "198.183.20.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.20.0"
+    },
+    {
+      "start": "198.183.21.0",
+      "end": "198.183.21.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.21.0"
+    },
+    {
+      "start": "198.183.22.0",
+      "end": "198.183.22.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.22.0"
+    },
+    {
+      "start": "198.183.23.0",
+      "end": "198.183.23.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.23.0"
+    },
+    {
+      "start": "198.183.24.0",
+      "end": "198.183.24.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.24.0"
+    },
+    {
+      "start": "198.183.25.0",
+      "end": "198.183.25.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.25.0"
+    },
+    {
+      "start": "198.183.26.0",
+      "end": "198.183.26.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.26.0"
+    },
+    {
+      "start": "198.183.27.0",
+      "end": "198.183.27.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.27.0"
+    },
+    {
+      "start": "198.183.28.0",
+      "end": "198.183.28.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.28.0"
+    },
+    {
+      "start": "198.183.29.0",
+      "end": "198.183.29.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.29.0"
+    },
+    {
+      "start": "198.183.30.0",
+      "end": "198.183.30.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.30.0"
+    },
+    {
+      "start": "198.183.31.0",
+      "end": "198.183.31.255",
+      "registrants": [
+        "Claris Corporation"
+      ],
+      "url": "https://rdap.arin.net/registry/ip/198.183.31.0"
+    }
+  ],
+  "blackmatrix_sources": [
+    {
+      "key": "blackmatrix-apple",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/51d2e1dd8429a91be575157d6f8ed051c93559f8/rule/Shadowrocket/Apple/Apple.list",
+      "sha256": "523c65bd12018c152a7f7af38ebad7b6a72a345003964b0edb123d6999b73561",
+      "git_blob": "00bb3bf9af67b8de7166877668081c09a4252cd8"
+    },
+    {
+      "key": "apple-domains",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/51d2e1dd8429a91be575157d6f8ed051c93559f8/rule/Shadowrocket/Apple/Apple_Domain.list",
+      "sha256": "da43be83adf67a00dfa65d883a423251b9a1497d45611f41d07bbb495852c8a4",
+      "git_blob": "c6a9c20f351f2520a85c55b32491acc56b2cf739"
+    }
+  ]
+}
