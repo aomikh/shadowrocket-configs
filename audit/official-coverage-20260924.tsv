@@ -1,0 +1,149 @@
+host	category	first_rule
+albert.apple.com	Device setup	DOMAIN-SUFFIX,apple.com,DIRECT
+captive.apple.com	Device setup	DOMAIN-SUFFIX,apple.com,DIRECT
+gs.apple.com	Device setup	DOMAIN-SUFFIX,apple.com,DIRECT
+humb.apple.com	Device setup	DOMAIN-SUFFIX,apple.com,DIRECT
+static.ips.apple.com	Device setup	DOMAIN-SUFFIX,apple.com,DIRECT
+sq-device.apple.com	Device setup	DOMAIN-SUFFIX,apple.com,DIRECT
+tbsc.apple.com	Device setup	DOMAIN-SUFFIX,apple.com,DIRECT
+time-ios.apple.com	Device setup	DOMAIN-SUFFIX,apple.com,DIRECT
+time.apple.com	Device setup	DOMAIN-SUFFIX,apple.com,DIRECT
+time-macos.apple.com	Device setup	DOMAIN-SUFFIX,apple.com,DIRECT
+*.push.apple.com	Device management	DOMAIN-SUFFIX,apple.com,DIRECT
+deviceenrollment.apple.com	Device management	DOMAIN-SUFFIX,apple.com,DIRECT
+deviceservices-external.apple.com	Device management	DOMAIN-SUFFIX,apple.com,DIRECT
+gdmf.apple.com	Device management	DOMAIN-SUFFIX,apple.com,DIRECT
+identity.apple.com	Device management	DOMAIN-SUFFIX,apple.com,DIRECT
+iprofiles.apple.com	Device management	DOMAIN-SUFFIX,apple.com,DIRECT
+mdmenrollment.apple.com	Device management	DOMAIN-SUFFIX,apple.com,DIRECT
+setup.icloud.com	Device management	DOMAIN-SUFFIX,icloud.com,DIRECT
+vpp.itunes.apple.com	Device management	DOMAIN-SUFFIX,apple.com,DIRECT
+*.appattest.apple.com	Device management	DOMAIN-SUFFIX,apple.com,DIRECT
+axm-servicediscovery.apple.com	Device management	DOMAIN-SUFFIX,apple.com,DIRECT
+*.business.apple.com	Administrators and managers	DOMAIN-SUFFIX,apple.com,DIRECT
+*.school.apple.com	Administrators and managers	DOMAIN-SUFFIX,apple.com,DIRECT
+appleid.cdn-apple.com	Administrators and managers	DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+idmsa.apple.com	Administrators and managers	DOMAIN-SUFFIX,apple.com,DIRECT
+*.itunes.apple.com	Administrators and managers	DOMAIN-SUFFIX,apple.com,DIRECT
+*.mzstatic.com	Administrators and managers	DOMAIN-SUFFIX,mzstatic.com,DIRECT
+api.ent.apple.com	Administrators and managers	DOMAIN-SUFFIX,apple.com,DIRECT
+api.edu.apple.com	Administrators and managers	DOMAIN-SUFFIX,apple.com,DIRECT
+statici.icloud.com	Administrators and managers	DOMAIN-SUFFIX,icloud.com,DIRECT
+*.vertexsmb.com	Administrators and managers	DOMAIN-SUFFIX,vertexsmb.com,DIRECT
+www.apple.com	Administrators and managers	DOMAIN-SUFFIX,apple.com,DIRECT
+upload.appleschoolcontent.com	Administrators and managers	DOMAIN-SUFFIX,appleschoolcontent.com,DIRECT
+api-business.apple.com	Administrators and managers	DOMAIN-SUFFIX,apple.com,DIRECT
+api-school.apple.com	Administrators and managers	DOMAIN-SUFFIX,apple.com,DIRECT
+ws-ee-maidsvc.icloud.com	Employees and students	DOMAIN-SUFFIX,icloud.com,DIRECT
+axm-adm-enroll.apple.com	Apple Business device management	DOMAIN-SUFFIX,apple.com,DIRECT
+axm-adm-mdm.apple.com	Apple Business device management	DOMAIN-SUFFIX,apple.com,DIRECT
+axm-adm-scep.apple.com	Apple Business device management	DOMAIN-SUFFIX,apple.com,DIRECT
+axm-app.apple.com	Apple Business device management	DOMAIN-SUFFIX,apple.com,DIRECT
+*.apple-mapkit.com	Apple Business device management	DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
+icons.axm-usercontent-apple.com	Apple Business device management	DOMAIN-SUFFIX,axm-usercontent-apple.com,DIRECT
+s.mzstatic.com	Classroom and Schoolwork	DOMAIN-SUFFIX,mzstatic.com,DIRECT
+play.itunes.apple.com	Classroom and Schoolwork	DOMAIN-SUFFIX,apple.com,DIRECT
+ws-ee-maidsvc.icloud.com	Classroom and Schoolwork	DOMAIN-SUFFIX,icloud.com,DIRECT
+ws.school.apple.com	Classroom and Schoolwork	DOMAIN-SUFFIX,apple.com,DIRECT
+pg-bootstrap.itunes.apple.com	Classroom and Schoolwork	DOMAIN-SUFFIX,apple.com,DIRECT
+cls-iosclient.itunes.apple.com	Classroom and Schoolwork	DOMAIN-SUFFIX,apple.com,DIRECT
+cls-ingest.itunes.apple.com	Classroom and Schoolwork	DOMAIN-SUFFIX,apple.com,DIRECT
+appldnld.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+configuration.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+gdmf.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+gg.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+gs.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+ig.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+mesu.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+oscdn.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+osrecovery.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+skl.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+swcdn.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+swdist.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+swdownload.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+swscan.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+updates-http.cdn-apple.com	Software updates	DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+updates.cdn-apple.com	Software updates	DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+xp.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+gdmf-ados.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+gsra.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+wkms-public.apple.com	Software updates	DOMAIN-SUFFIX,apple.com,DIRECT
+fcs-keys-pub-prod.cdn-apple.com	Software updates	DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+*.itunes.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+*.apps.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+*.mzstatic.com	Apps and additional content	DOMAIN-SUFFIX,mzstatic.com,DIRECT
+itunes.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+ppq.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+api.apple-cloudkit.com	Apps and additional content	DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+*.appattest.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+*.apps-marketplace.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+token.safebrowsing.apple	Apps and additional content	DOMAIN-SUFFIX,apple,DIRECT
+audiocontentdownload.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+devimages-cdn.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+download.developer.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+playground-assets-cdn.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+playground-cdn.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+sylvan.apple.com	Apps and additional content	DOMAIN-SUFFIX,apple.com,DIRECT
+gateway.icloud.com	Apps and additional content	DOMAIN-SUFFIX,icloud.com,DIRECT
+appldnld.apple.com	Carrier updates	DOMAIN-SUFFIX,apple.com,DIRECT
+appldnld.apple.com.edgesuite.net	Carrier updates	DOMAIN,appldnld.apple.com.edgesuite.net,DIRECT
+itunes.com	Carrier updates	DOMAIN-SUFFIX,itunes.com,DIRECT
+itunes.apple.com	Carrier updates	DOMAIN-SUFFIX,apple.com,DIRECT
+updates-http.cdn-apple.com	Carrier updates	DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+updates.cdn-apple.com	Carrier updates	DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+lcdn-registration.apple.com	Content caching	DOMAIN-SUFFIX,apple.com,DIRECT
+suconfig.apple.com	Content caching	DOMAIN-SUFFIX,apple.com,DIRECT
+xp-cdn.apple.com	Content caching	DOMAIN-SUFFIX,apple.com,DIRECT
+lcdn-locator.apple.com	Content caching	DOMAIN-SUFFIX,apple.com,DIRECT
+serverstatus.apple.com	Content caching	DOMAIN-SUFFIX,apple.com,DIRECT
+bpapi.apple.com	Beta updates	DOMAIN-SUFFIX,apple.com,DIRECT
+cssubmissions.apple.com	Beta updates	DOMAIN-SUFFIX,apple.com,DIRECT
+fba.apple.com	Beta updates	DOMAIN-SUFFIX,apple.com,DIRECT
+diagassets.apple.com	Apple diagnostics	DOMAIN-SUFFIX,apple.com,DIRECT
+doh.dns.apple.com	Domain Name System resolution	DOMAIN-SUFFIX,apple.com,DIRECT
+certs.apple.com	Certificate validation	DOMAIN-SUFFIX,apple.com,DIRECT
+crl.apple.com	Certificate validation	DOMAIN-SUFFIX,apple.com,DIRECT
+crl3.digicert.com	Certificate validation	DOMAIN,crl3.digicert.com,DIRECT
+crl4.digicert.com	Certificate validation	DOMAIN,crl4.digicert.com,DIRECT
+ocsp.apple.com	Certificate validation	DOMAIN-SUFFIX,apple.com,DIRECT
+ocsp.digicert.cn	Certificate validation	DOMAIN,ocsp.digicert.cn,DIRECT
+ocsp.digicert.com	Certificate validation	DOMAIN,ocsp.digicert.com,DIRECT
+ocsp2.apple.com	Certificate validation	DOMAIN-SUFFIX,apple.com,DIRECT
+valid.apple.com	Certificate validation	DOMAIN-SUFFIX,apple.com,DIRECT
+account.apple.com	Apple Account	DOMAIN-SUFFIX,apple.com,DIRECT
+appleid.cdn-apple.com	Apple Account	DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+idmsa.apple.com	Apple Account	DOMAIN-SUFFIX,apple.com,DIRECT
+gsa.apple.com	Apple Account	DOMAIN-SUFFIX,apple.com,DIRECT
+*.apple-cloudkit.com	iCloud	DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+*.apple-livephotoskit.com	iCloud	DOMAIN-SUFFIX,apple-livephotoskit.com,DIRECT
+*.apzones.com	iCloud	DOMAIN-SUFFIX,apzones.com,DIRECT
+*.cdn-apple.com	iCloud	DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+*.gc.apple.com	iCloud	DOMAIN-SUFFIX,apple.com,DIRECT
+*.icloud.com	iCloud	DOMAIN-SUFFIX,icloud.com,DIRECT
+*.icloud.com.cn	iCloud	DOMAIN-SUFFIX,icloud.com.cn,DIRECT
+*.icloud.apple.com	iCloud	DOMAIN-SUFFIX,apple.com,DIRECT
+*.icloud-content.com	iCloud	DOMAIN-SUFFIX,icloud-content.com,DIRECT
+*.iwork.apple.com	iCloud	DOMAIN-SUFFIX,apple.com,DIRECT
+mask.icloud.com	iCloud	DOMAIN-SUFFIX,icloud.com,DIRECT
+mask-h2.icloud.com	iCloud	DOMAIN-SUFFIX,icloud.com,DIRECT
+mask-api.icloud.com	iCloud	DOMAIN-SUFFIX,icloud.com,DIRECT
+probe.icloud.com	iCloud	DOMAIN-SUFFIX,icloud.com,DIRECT
+pong.icloud.com	iCloud	DOMAIN-SUFFIX,icloud.com,DIRECT
+metrics.icloud.com	iCloud	DOMAIN-SUFFIX,icloud.com,DIRECT
+apple-native-relay.apple.com	iCloud	DOMAIN-SUFFIX,apple.com,DIRECT
+*.apple-dns.net	iCloud	DOMAIN-SUFFIX,apple-dns.net,DIRECT
+guzzoni.apple.com	Apple Intelligence, Siri, and Search	DOMAIN-SUFFIX,apple.com,DIRECT
+*.smoot.apple.com	Apple Intelligence, Siri, and Search	DOMAIN-SUFFIX,apple.com,DIRECT
+apple-relay.cloudflare.com	Apple Intelligence, Siri, and Search	DOMAIN,apple-relay.cloudflare.com,DIRECT
+apple-relay.fastly-edge.com	Apple Intelligence, Siri, and Search	DOMAIN,apple-relay.fastly-edge.com,DIRECT
+cp4.cloudflare.com	Apple Intelligence, Siri, and Search	DOMAIN,cp4.cloudflare.com,DIRECT
+apple-relay.apple.com	Apple Intelligence, Siri, and Search	DOMAIN-SUFFIX,apple.com,DIRECT
+app-site-association.cdn-apple.com	Associated Domains	DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+app-site-association.networking.apple	Associated Domains	DOMAIN-SUFFIX,apple,DIRECT
+pos-device.apple.com	Tap to Pay on iPhone	DOMAIN-SUFFIX,apple.com,DIRECT
+humb.apple.com	Tap to Pay on iPhone	DOMAIN-SUFFIX,apple.com,DIRECT
+iphonesubmissions.apple.com	Tap to Pay on iPhone	DOMAIN-SUFFIX,apple.com,DIRECT
+smp-device-content.apple.com	ID Verifier on iPhone	DOMAIN-SUFFIX,apple.com,DIRECT
+idv.cdn-apple.com	ID Verifier on iPhone	DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+idv-prod1.apple.com	ID Verifier on iPhone	DOMAIN-SUFFIX,apple.com,DIRECT
+humb.apple.com	ID Verifier on iPhone	DOMAIN-SUFFIX,apple.com,DIRECT
