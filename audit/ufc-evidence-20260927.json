@@ -1,0 +1,522 @@
+{
+  "date": "2026-09-27",
+  "base": "780a5d0f29326fc1242f66288ecbd3a75bf52fe1",
+  "config": "ru_direct_runetfreedom_improved_final_autoupdate.conf",
+  "baseline": {
+    "retrieved_utc": "2026-09-27T02:58:53.582404+00:00",
+    "url": "https://raw.githubusercontent.com/aomikh/shadowrocket-configs/main/ru_direct_runetfreedom_improved_final_autoupdate.conf",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 9902,
+    "sha256": "0fc24453eb6d2fb11537067c554f90aa55c0c9fb8b95511e6728006ad9ce106d",
+    "local_sha256": "0fc24453eb6d2fb11537067c554f90aa55c0c9fb8b95511e6728006ad9ce106d",
+    "equal": true,
+    "initial_branch": "codex/apple-kinopub-audit-20260924",
+    "initial_head": "a115a1e0f547e758443b5a8b48516ea591e85ace",
+    "main": "780a5d0f29326fc1242f66288ecbd3a75bf52fe1"
+  },
+  "working_branch": "codex/ufc-proxy-dedup-20260927",
+  "sources": [
+    {
+      "key": "ufc",
+      "url": "https://www.ufc.com/",
+      "final_url": "https://www.ufc.com/",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 349561,
+      "sha256": "4ca0ab38eea3bba5dd14fd35e17762c658d7b1f2d3c5bc89fa474565cc537ceb",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "fightpass",
+      "url": "https://ufcfightpass.com/",
+      "final_url": "https://ufcfightpass.com/",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 3300,
+      "sha256": "d06c2fc026ab0469c5a4c9004ba1f1ae11459dd9ddd63f7095ab09dabc3e31a3",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "ufc-tv",
+      "url": "https://ufc.tv/",
+      "final_url": "https://ufcfightpass.com/",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 3300,
+      "sha256": "d06c2fc026ab0469c5a4c9004ba1f1ae11459dd9ddd63f7095ab09dabc3e31a3",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "fightpass-js-3",
+      "url": "https://ufcfightpass.com/code/js/93627.74e4ef94ac859437144e.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "bytes": 1038996,
+      "sha256": "7440ec166baa60b58995b6a5b095e5ed1ada0d657491cb4ff7a1bb8b537e45ac",
+      "retrieved_utc": "2026-09-27T03:00:38.882612+00:00",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "fightpass-js-8",
+      "url": "https://ufcfightpass.com/code/js/app.2aca647041a2d49ab5e3.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "bytes": 358268,
+      "sha256": "5221315fb5e22ec7bdb270deb2449e7d50c87f229071e012464fa87cf8b15e16",
+      "retrieved_utc": "2026-09-27T03:00:44.571479+00:00",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "ufc-br",
+      "url": "https://www.ufc.com.br/",
+      "status": 200,
+      "final_url": "https://www.ufc.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 157817,
+      "sha256": "5d18af87f87735bb7fa35e75187a218df74fa0119751df77e07e42febac65ad4",
+      "retrieved_utc": "2026-09-27T03:01:22.839565+00:00",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "ufc-es",
+      "url": "https://www.ufcespanol.com/",
+      "status": 200,
+      "final_url": "https://www.ufcespanol.com/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 164765,
+      "sha256": "2d368fe3bb82a5bbc5908bbc536d50c0067591fee0b7478985b179db6b9424aa",
+      "retrieved_utc": "2026-09-27T03:01:22.840823+00:00",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "ufc-cn",
+      "url": "https://ufc.cn/",
+      "status": 200,
+      "final_url": "https://ufc.cn/",
+      "content_type": "text/html",
+      "bytes": 13707,
+      "sha256": "a7f9d09d2e8e02a5c66b2b6da1f587ea3705d95435cef06f98a6d655a074109e",
+      "retrieved_utc": "2026-09-27T03:01:23.721855+00:00",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "fightpass-com",
+      "url": "https://fightpass.com/",
+      "final_url": "https://ufcfightpass.com/",
+      "status": 200,
+      "bytes": 3300,
+      "sha256": "d06c2fc026ab0469c5a4c9004ba1f1ae11459dd9ddd63f7095ab09dabc3e31a3",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "ufcfightpass-ru",
+      "url": "https://ufcfightpass.ru/",
+      "error": "HTTP Error 502: Bad Gateway",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "ufcpromocodes-ru",
+      "url": "https://ufcpromocodes.ru/",
+      "error": "HTTP Error 502: Bad Gateway",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "ufc-api-realm",
+      "url": "https://ufc.api.onvesper.com/api/v2/realm-settings/domain/ufcfightpass.com",
+      "final_url": "https://ufc.api.onvesper.com/api/v2/realm-settings/domain/ufcfightpass.com",
+      "status": 200,
+      "bytes": 20151,
+      "sha256": "b817de179533138e55908c8c18697b99e294d78f864bc27b9a7156bf73937fa4",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "player-19439",
+      "url": "https://ufcfightpass.com/code/js/chunks/19439.8428acc54277b0bd870d.js",
+      "bytes": 53172,
+      "sha256": "fe0f4a1b4dd4b9a10567f72d87a7e8154cc68f6908870ec5e28f9aeaf1c3553d",
+      "retrieved_utc": "2026-09-27T03:04:57.698342+00:00",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "player-48334",
+      "url": "https://ufcfightpass.com/code/js/chunks/48334.3bfff376139cc0cd3399.js",
+      "bytes": 285805,
+      "sha256": "6ba81d348ebd17656309f4c9ae1d6173af4890965beda288e5026629fa7d1dad",
+      "retrieved_utc": "2026-09-27T03:05:05.390900+00:00",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "player-78955",
+      "url": "https://ufcfightpass.com/code/js/chunks/78955.3d2a5fe65cf3b6257d1c.js",
+      "bytes": 205236,
+      "sha256": "7a0c7a4c17f8557f39eccde973324becae603296e54a2989ce507862a087a6e2",
+      "retrieved_utc": "2026-09-27T03:05:12.696960+00:00",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "player-79092",
+      "url": "https://ufcfightpass.com/code/js/chunks/79092.64ad2a0033a51e82c7a9.js",
+      "bytes": 220474,
+      "sha256": "e5f352bfacb9f97155a729c978693aaf6f0cab399322936d3e3ae73f6a1abe89",
+      "retrieved_utc": "2026-09-27T03:05:12.703525+00:00",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "realm-settings",
+      "url": "https://dce-frontoffice.imggaming.com/api/v2/realm-settings/domain/ufcfightpass.com",
+      "status": 200,
+      "bytes": 20151,
+      "sha256": "b18ae3edb206369449752aecfdc0a66c905166d1380f63a9522a23f7807e7df7",
+      "retrieved_utc": "2026-09-27T03:02:49.954714+00:00",
+      "checked_date": "2026-09-27"
+    },
+    {
+      "key": "ufc-ru",
+      "url": "https://ufc.ru/",
+      "error": "HTTP Error 502: Bad Gateway",
+      "checked_date": "2026-09-27"
+    }
+  ],
+  "web_build": "6.60.0.21db1d8",
+  "rules": [
+    {
+      "type": "DOMAIN-SUFFIX",
+      "host": "ufc.com",
+      "sources": [
+        "ufc",
+        "realm-settings"
+      ],
+      "fact": "Официальный сайт / региональная ссылка в текущем меню UFC; UFC-пространство имён.",
+      "limit": "Поддомены покрыты суффиксом; фактическое приложение на устройстве не запускалось."
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "host": "ufcfightpass.com",
+      "sources": [
+        "ufc",
+        "realm-settings"
+      ],
+      "fact": "Официальный сайт / региональная ссылка в текущем меню UFC; UFC-пространство имён.",
+      "limit": "Поддомены покрыты суффиксом; фактическое приложение на устройстве не запускалось."
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "host": "ufc.ru",
+      "sources": [
+        "ufc",
+        "realm-settings"
+      ],
+      "fact": "Официальный сайт / региональная ссылка в текущем меню UFC; UFC-пространство имён.",
+      "limit": "ufc.ru связан официальным меню и текущим realm, HTTP 502 из среды аудита; это не проверка из домашней сети."
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "host": "ufc.com.br",
+      "sources": [
+        "ufc",
+        "ufc-br"
+      ],
+      "fact": "Официальный сайт / региональная ссылка в текущем меню UFC; UFC-пространство имён.",
+      "limit": "Поддомены покрыты суффиксом; фактическое приложение на устройстве не запускалось."
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "host": "ufcespanol.com",
+      "sources": [
+        "ufc",
+        "realm-settings"
+      ],
+      "fact": "Официальный сайт / региональная ссылка в текущем меню UFC; UFC-пространство имён.",
+      "limit": "Поддомены покрыты суффиксом; фактическое приложение на устройстве не запускалось."
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "host": "ufc.cn",
+      "sources": [
+        "ufc",
+        "realm-settings"
+      ],
+      "fact": "Официальный сайт / региональная ссылка в текущем меню UFC; UFC-пространство имён.",
+      "limit": "Поддомены покрыты суффиксом; фактическое приложение на устройстве не запускалось."
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "host": "ufc.tv",
+      "sources": [
+        "ufc-tv",
+        "realm-settings"
+      ],
+      "fact": "HTTP-запрос перенаправлен на https://ufcfightpass.com/, возвращена действующая оболочка.",
+      "limit": "Проверен публичный redirect из среды аудита."
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "host": "fightpass.com",
+      "sources": [
+        "fightpass-com",
+        "realm-settings"
+      ],
+      "fact": "HTTP-запрос перенаправлен на https://ufcfightpass.com/, возвращена действующая оболочка.",
+      "limit": "Проверен публичный redirect из среды аудита."
+    },
+    {
+      "type": "DOMAIN",
+      "host": "dce-frontoffice.imggaming.com",
+      "sources": [
+        "fightpass",
+        "fightpass-js-8",
+        "realm-settings"
+      ],
+      "fact": "Базовый HTTP API v2/v4: realm, login, session, catalogue и запрос playback details.",
+      "limit": "Точное правило действует для любого приложения, обращающегося к этому hostname. Использование конкретной версией tvOS-приложения не проверено."
+    },
+    {
+      "type": "DOMAIN",
+      "host": "ufc.api.onvesper.com",
+      "sources": [
+        "realm-settings",
+        "ufc-api-realm"
+      ],
+      "fact": "FRONTOFFICE_URL в iosSettings/androidSettings UFC; тот же realm отвечает на выделенном API.",
+      "limit": "Точное правило действует для любого приложения, обращающегося к этому hostname. Использование конкретной версией tvOS-приложения не проверено."
+    },
+    {
+      "type": "DOMAIN",
+      "host": "search.dce-prod.dicelaboratory.com",
+      "sources": [
+        "realm-settings",
+        "fightpass-js-8",
+        "player-78955"
+      ],
+      "fact": "Для dce.ufc выбран contentSearchEngine=VESPER; prod vespersearchapi и функция построения поиска указывают этот hostname.",
+      "limit": "Точное правило действует для любого приложения, обращающегося к этому hostname. Использование конкретной версией tvOS-приложения не проверено."
+    },
+    {
+      "type": "DOMAIN",
+      "host": "guide.imggaming.com",
+      "sources": [
+        "fightpass-js-8",
+        "player-79092"
+      ],
+      "fact": "beaconapi для сессии воспроизведения; проигрыватель запускает beacon и при определённых обрабатываемых ошибках вызывает clear()/сообщение об ошибке. Это не только необязательные изображения.",
+      "limit": "Точное правило действует для любого приложения, обращающегося к этому hostname. Использование конкретной версией tvOS-приложения не проверено."
+    },
+    {
+      "type": "DOMAIN",
+      "host": "static.diceplatform.com",
+      "sources": [
+        "fightpass",
+        "realm-settings"
+      ],
+      "fact": "Ресурсы UFC, включая APPLETV_* иллюстрации, web login background, логотипы и шрифты.",
+      "limit": "Точное правило действует для любого приложения, обращающегося к этому hostname. Использование конкретной версией tvOS-приложения не проверено."
+    },
+    {
+      "type": "DOMAIN",
+      "host": "content-images.onvesper.com",
+      "sources": [
+        "fightpass",
+        "fightpass-js-3"
+      ],
+      "fact": "Предзагрузка DNS и код преобразования static.diceplatform.com в адрес изображений.",
+      "limit": "Точное правило действует для любого приложения, обращающегося к этому hostname. Использование конкретной версией tvOS-приложения не проверено."
+    },
+    {
+      "type": "DOMAIN",
+      "host": "vod-images.onvesper.com",
+      "sources": [
+        "fightpass",
+        "fightpass-js-3"
+      ],
+      "fact": "Предзагрузка DNS и код преобразования видеопостеров в адрес изображений; это не доказательство доставки видео.",
+      "limit": "Точное правило действует для любого приложения, обращающегося к этому hostname. Использование конкретной версией tvOS-приложения не проверено."
+    }
+  ],
+  "external_lists": [
+    {
+      "key": "external-114",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Advertising/Advertising.list",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 26853,
+      "sha256": "65ec14895000d6e1b291f88611b5b09bbaa557c4896c215a257c48d8f3fb4b7e",
+      "retrieved_utc": "2026-09-27T03:00:42.916316+00:00",
+      "git_blob": "043734ca1421ca2cf463ef9616403c4a3c882e9d",
+      "immutable_blob_url": "https://api.github.com/repos/blackmatrix7/ios_rule_script/git/blobs/043734ca1421ca2cf463ef9616403c4a3c882e9d",
+      "active": 781,
+      "changed_since_20260924": true
+    },
+    {
+      "key": "external-198",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 28783115,
+      "sha256": "b07b76ae70e8aff7bb12c23584342e40a722941b501cf7fca6f245cf79bfd160",
+      "retrieved_utc": "2026-09-27T03:00:43.685866+00:00",
+      "git_blob": "5bdbbe3e8a368351e4fe4fe9031b174d8afaf36e",
+      "immutable_blob_url": "https://api.github.com/repos/runetfreedom/russia-blocked-geosite/git/blobs/5bdbbe3e8a368351e4fe4fe9031b174d8afaf36e",
+      "active": 1534624,
+      "changed_since_20260924": false
+    },
+    {
+      "key": "external-199",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5436,
+      "sha256": "f764cd91a779982225b3553ece8033c86a6545f4990f5fefd356805de962aee9",
+      "retrieved_utc": "2026-09-27T03:00:42.864860+00:00",
+      "git_blob": "6eba0595290b3f991d156a580e08508d0c544495",
+      "immutable_blob_url": "https://api.github.com/repos/blackmatrix7/ios_rule_script/git/blobs/6eba0595290b3f991d156a580e08508d0c544495",
+      "active": 190,
+      "changed_since_20260924": false
+    },
+    {
+      "key": "external-200",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Discord/Discord.list",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1076,
+      "sha256": "3d18c8fe716de06891ba3d6c34dba254cb65138a10f79e1a1a0628b5237ecb2c",
+      "retrieved_utc": "2026-09-27T03:00:42.879769+00:00",
+      "git_blob": "2dadab08cacb13029da275269ac13a2c423ca09a",
+      "immutable_blob_url": "https://api.github.com/repos/blackmatrix7/ios_rule_script/git/blobs/2dadab08cacb13029da275269ac13a2c423ca09a",
+      "active": 29,
+      "changed_since_20260924": false
+    },
+    {
+      "key": "external-201",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/surge/ru-blocked.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3187394,
+      "sha256": "68ce407bce24989fe52127b017c9ca125d5bb27b22191bc70e084f2cdf51369a",
+      "retrieved_utc": "2026-09-27T03:00:43.094878+00:00",
+      "git_blob": "7c6589363f4d26f5d8fa2af2d41cfc83016aabdb",
+      "immutable_blob_url": "https://api.github.com/repos/runetfreedom/russia-blocked-geoip/git/blobs/7c6589363f4d26f5d8fa2af2d41cfc83016aabdb",
+      "active": 88586,
+      "changed_since_20260924": false
+    }
+  ],
+  "external_blob_verification": [
+    {
+      "key": "external-114",
+      "api": "https://api.github.com/repos/blackmatrix7/ios_rule_script/contents/rule/Shadowrocket/Advertising/Advertising.list?ref=master",
+      "git_blob_verified": true,
+      "remote_blob": "043734ca1421ca2cf463ef9616403c4a3c882e9d"
+    },
+    {
+      "key": "external-198",
+      "api": "https://api.github.com/repos/runetfreedom/russia-blocked-geosite/contents/antifilter-download.txt?ref=release",
+      "git_blob_verified": true,
+      "remote_blob": "5bdbbe3e8a368351e4fe4fe9031b174d8afaf36e"
+    },
+    {
+      "key": "external-199",
+      "api": "https://api.github.com/repos/blackmatrix7/ios_rule_script/contents/rule/Shadowrocket/YouTube/YouTube.list?ref=master",
+      "git_blob_verified": true,
+      "remote_blob": "6eba0595290b3f991d156a580e08508d0c544495"
+    },
+    {
+      "key": "external-200",
+      "api": "https://api.github.com/repos/blackmatrix7/ios_rule_script/contents/rule/Shadowrocket/Discord/Discord.list?ref=master",
+      "git_blob_verified": true,
+      "remote_blob": "2dadab08cacb13029da275269ac13a2c423ca09a"
+    },
+    {
+      "key": "external-201",
+      "api": "https://api.github.com/repos/runetfreedom/russia-blocked-geoip/contents/surge/ru-blocked.txt?ref=release",
+      "git_blob_verified": true,
+      "remote_blob": "7c6589363f4d26f5d8fa2af2d41cfc83016aabdb"
+    }
+  ],
+  "external_format": {
+    "external-200": {
+      "count": 29,
+      "types": {
+        "DOMAIN-SUFFIX": 29
+      },
+      "embedded_policies": [],
+      "malformed": []
+    },
+    "external-199": {
+      "count": 190,
+      "types": {
+        "DOMAIN-SUFFIX": 179,
+        "DOMAIN-KEYWORD": 1,
+        "USER-AGENT": 7,
+        "IP-CIDR": 3
+      },
+      "embedded_policies": [],
+      "malformed": []
+    },
+    "external-114": {
+      "count": 781,
+      "types": {
+        "DOMAIN-KEYWORD": 278,
+        "URL-REGEX": 14,
+        "IP-CIDR": 489
+      },
+      "embedded_policies": [],
+      "malformed": []
+    },
+    "external-201": {
+      "count": 88586,
+      "types": {
+        "IP-CIDR": 88586
+      },
+      "embedded_policies": [],
+      "malformed": []
+    },
+    "external-198": {
+      "count": 1534624,
+      "types": {
+        "DOMAIN-SET": 1534624
+      },
+      "embedded_policies": [],
+      "malformed": [
+        [
+          269745,
+          "dokumentam24.ru,"
+        ]
+      ]
+    }
+  },
+  "shadowrocket_reference": {
+    "url": "https://github.com/LOWERTOP/Shadowrocket/blob/6336a2e010660b5ef70cb2a0d77e5f5988dc1501/README.md",
+    "origin": "Сторонняя справка именно Shadowrocket, ранее проверенный снимок; не документация Surge/Clash и не закрытый парсер клиента.",
+    "facts": [
+      "Верхние правила перед нижними; DOMAIN/SUFFIX различаются от KEYWORD.",
+      "RULE-SET содержит типы правил, DOMAIN-SET содержит доменные значения; при подключении выбирается политика.",
+      "В текущих пяти списках встроенных политик нет, поэтому конфликта внутренней/внешней политики нет.",
+      "IP-CIDR поддерживает IPv4/IPv6; no-resolve не заставляет доменное соединение выполнять DNS."
+    ]
+  },
+  "dynamic_video": {
+    "sources": [
+      "player-48334",
+      "player-19439",
+      "realm-settings"
+    ],
+    "facts": [
+      "realm videoEndpoint/liveEndpoint=V4; код запрашивает playback details и playerUrlCallback",
+      "Полученные данные содержат hls/hlsWidevine/dash/subtitles и drm.licenseServerUrl",
+      "Фиксированный универсальный UFC CDN/DRM-host из этих данных без просмотра ответа для конкретного материала не установлен"
+    ],
+    "not_added": [
+      "Произвольные Akamai/CloudFront/Fastly/Cloudflare сети и суффиксы",
+      "ufcfightpass.ru и ufcpromocodes.ru: есть в текущем realm, HTTP 502, фактическая необходимость не установлена",
+      "test/stage/UAT/development aliases из multi-tenant runtime",
+      "UEFA/Turkcell/Adobe и другие клиенты multi-tenant runtime не перенесены в UFC-блок. guide.imggaming.com отдельно подтверждён кодом UFC-плеера.",
+      "Маркетинговые трекеры, магазины/спортзалы и внешние партнёры не признаны необходимыми зависимостями запуска UFC/Fight Pass; их прежняя маршрутизация сохранена."
+    ]
+  },
+  "removed_rules": [
+    "DOMAIN-SUFFIX,market.yandex.ru,DIRECT",
+    "DOMAIN,api.market.yandex.ru,DIRECT",
+    "DOMAIN,helpcenter.redotpay.com,PROXY"
+  ],
+  "device_tested": false
+}
