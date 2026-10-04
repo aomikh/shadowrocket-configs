@@ -1,0 +1,248 @@
+{
+  "checked_date": "2026-10-04",
+  "base": "fac9dc3ad6e139ff073663400a18a64df272b82a",
+  "config": "ru_direct_runetfreedom_improved_final_autoupdate.conf",
+  "baseline": {
+    "key": "published",
+    "url": "https://raw.githubusercontent.com/aomikh/shadowrocket-configs/main/ru_direct_runetfreedom_improved_final_autoupdate.conf",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/aomikh/shadowrocket-configs/main/ru_direct_runetfreedom_improved_final_autoupdate.conf",
+    "bytes": 10609,
+    "sha256": "824e0e0bb769a415428046f99d926aed94db88fb9d40f76a3f61d92c6460da30",
+    "retrieved_at": "2026-10-04T09:40:31.841436+00:00",
+    "matches_local": true
+  },
+  "external_lists": [
+    {
+      "key": "Advertising.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Advertising/Advertising.list",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "final_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Advertising/Advertising.list",
+      "bytes": 26853,
+      "sha256": "d110506ad427be4922107fae781cad8eb7fd0d5749da911ecf98a37a039bdb9e",
+      "retrieved_at": "2026-10-04T09:40:31.752068+00:00",
+      "git_blob": "c94a9a4819e0a64e6246d684107e3a651eb2a1a0",
+      "immutable_blob_url": "https://api.github.com/repos/blackmatrix7/ios_rule_script/git/blobs/c94a9a4819e0a64e6246d684107e3a651eb2a1a0"
+    },
+    {
+      "key": "antifilter-download.txt",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "final_url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt",
+      "bytes": 28783115,
+      "sha256": "b07b76ae70e8aff7bb12c23584342e40a722941b501cf7fca6f245cf79bfd160",
+      "retrieved_at": "2026-10-04T09:40:32.588835+00:00",
+      "git_blob": "5bdbbe3e8a368351e4fe4fe9031b174d8afaf36e",
+      "immutable_blob_url": "https://api.github.com/repos/runetfreedom/russia-blocked-geosite/git/blobs/5bdbbe3e8a368351e4fe4fe9031b174d8afaf36e"
+    },
+    {
+      "key": "YouTube.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "final_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+      "bytes": 5436,
+      "sha256": "f764cd91a779982225b3553ece8033c86a6545f4990f5fefd356805de962aee9",
+      "retrieved_at": "2026-10-04T09:40:31.611317+00:00",
+      "git_blob": "6eba0595290b3f991d156a580e08508d0c544495",
+      "immutable_blob_url": "https://api.github.com/repos/blackmatrix7/ios_rule_script/git/blobs/6eba0595290b3f991d156a580e08508d0c544495"
+    },
+    {
+      "key": "Discord.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Discord/Discord.list",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "final_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Discord/Discord.list",
+      "bytes": 1076,
+      "sha256": "3d18c8fe716de06891ba3d6c34dba254cb65138a10f79e1a1a0628b5237ecb2c",
+      "retrieved_at": "2026-10-04T09:40:31.751430+00:00",
+      "git_blob": "2dadab08cacb13029da275269ac13a2c423ca09a",
+      "immutable_blob_url": "https://api.github.com/repos/blackmatrix7/ios_rule_script/git/blobs/2dadab08cacb13029da275269ac13a2c423ca09a"
+    },
+    {
+      "key": "ru-blocked.txt",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/surge/ru-blocked.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "final_url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/surge/ru-blocked.txt",
+      "bytes": 3187394,
+      "sha256": "68ce407bce24989fe52127b017c9ca125d5bb27b22191bc70e084f2cdf51369a",
+      "retrieved_at": "2026-10-04T09:40:31.913294+00:00",
+      "git_blob": "7c6589363f4d26f5d8fa2af2d41cfc83016aabdb",
+      "immutable_blob_url": "https://api.github.com/repos/runetfreedom/russia-blocked-geoip/git/blobs/7c6589363f4d26f5d8fa2af2d41cfc83016aabdb"
+    }
+  ],
+  "plugin_revision": "011fdf5b3a90078ed6d6981cc1240765e7f3186d",
+  "plugin_version": "1.0.73-mx.4",
+  "sources": [
+    {
+      "key": "plugin-HANDOFF_LAMPA_MX_KINOPUB.md",
+      "url": "https://raw.githubusercontent.com/aomikh/lampa_kinopub/011fdf5b3a90078ed6d6981cc1240765e7f3186d/HANDOFF_LAMPA_MX_KINOPUB.md",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 44120,
+      "sha256": "7fce7aa7d71b85188bc4018e3296a68a3c9e8879061b9a10061bac88a9f64592",
+      "retrieved_at": "2026-10-04T09:41:32.133272+00:00"
+    },
+    {
+      "key": "plugin-INSTALL_LAMPA_MX.md",
+      "url": "https://raw.githubusercontent.com/aomikh/lampa_kinopub/011fdf5b3a90078ed6d6981cc1240765e7f3186d/INSTALL_LAMPA_MX.md",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 6332,
+      "sha256": "0233f7d7ae5cc81e62baa70d460346a949b823d1626bff819b8f6df32adbf77e",
+      "retrieved_at": "2026-10-04T09:41:32.083196+00:00"
+    },
+    {
+      "key": "plugin-docs_README.md",
+      "url": "https://raw.githubusercontent.com/aomikh/lampa_kinopub/011fdf5b3a90078ed6d6981cc1240765e7f3186d/docs/README.md",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 4123,
+      "sha256": "d37c9a74efdaedbaadb6dc01a614a5ec412c94559d88e848e93349f62b1ac419",
+      "retrieved_at": "2026-10-04T09:41:31.990882+00:00"
+    },
+    {
+      "key": "plugin-docs_kp.js",
+      "url": "https://raw.githubusercontent.com/aomikh/lampa_kinopub/011fdf5b3a90078ed6d6981cc1240765e7f3186d/docs/kp.js",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 224473,
+      "sha256": "2cabdbf27cc1d4ea8ebf637ab5f18e236aed8a5f3d684c5e154774d5dbb5574c",
+      "retrieved_at": "2026-10-04T09:41:32.150924+00:00"
+    },
+    {
+      "key": "plugin-proxy-server_server.js",
+      "url": "https://raw.githubusercontent.com/aomikh/lampa_kinopub/011fdf5b3a90078ed6d6981cc1240765e7f3186d/proxy-server/server.js",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 21885,
+      "sha256": "86b13c3dbe6a600a2fa458ddd313c201aed55a77f9053bbdd7f94592e890a42d",
+      "retrieved_at": "2026-10-04T09:41:32.138536+00:00"
+    },
+    {
+      "key": "plugin-audit_media-probes.json",
+      "url": "https://raw.githubusercontent.com/aomikh/lampa_kinopub/011fdf5b3a90078ed6d6981cc1240765e7f3186d/audit/media-probes.json",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 4122,
+      "sha256": "6c813102aed5363fe19bc764245fca9cd7b29eb84dd6ace9dbefd3a1b5be1538",
+      "retrieved_at": "2026-10-04T09:41:32.027039+00:00"
+    },
+    {
+      "key": "plugin-audit_vosmidyesyatye-tmdb.json",
+      "url": "https://raw.githubusercontent.com/aomikh/lampa_kinopub/011fdf5b3a90078ed6d6981cc1240765e7f3186d/audit/vosmidyesyatye-tmdb.json",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3447,
+      "sha256": "08dc1d9907a1a28ff1388a201e1fbf22373a4325d236e3043aa8c3b15efa22f7",
+      "retrieved_at": "2026-10-04T09:41:38.191354+00:00"
+    },
+    {
+      "key": "plugin-audit_release-mx3.json",
+      "url": "https://raw.githubusercontent.com/aomikh/lampa_kinopub/011fdf5b3a90078ed6d6981cc1240765e7f3186d/audit/release-mx3.json",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 473,
+      "sha256": "f0ba9752cc9f64e22e8ff24d10753e4b7d5147f6c11e81e1cc1dfbf45e9f2e27",
+      "retrieved_at": "2026-10-04T09:41:38.253150+00:00"
+    },
+    {
+      "key": "plugin-audit_publication-mx3.json",
+      "url": "https://raw.githubusercontent.com/aomikh/lampa_kinopub/011fdf5b3a90078ed6d6981cc1240765e7f3186d/audit/publication-mx3.json",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1135,
+      "sha256": "3cf85859e5a1b6299d3e263647a4f253fb2df23feab22e375e48122c893dbf83",
+      "retrieved_at": "2026-10-04T09:41:38.184746+00:00"
+    },
+    {
+      "key": "plugin-live",
+      "url": "https://aomikh.github.io/lampa_kinopub/kp.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 224473,
+      "sha256": "2cabdbf27cc1d4ea8ebf637ab5f18e236aed8a5f3d684c5e154774d5dbb5574c",
+      "retrieved_at": "2026-10-04T09:41:36.663221+00:00"
+    },
+    {
+      "key": "sr-manual",
+      "url": "https://raw.githubusercontent.com/LOWERTOP/Shadowrocket/main/README.md",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 99523,
+      "sha256": "d5b258cf7f9f4c2fd5fbfaeb77a45905d1653947fa272298fac3ecc439b0d6ca",
+      "retrieved_at": "2026-10-04T09:41:38.230858+00:00"
+    },
+    {
+      "key": "sr-example",
+      "url": "https://raw.githubusercontent.com/LOWERTOP/Shadowrocket/main/lazy.conf",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 24584,
+      "sha256": "f45d3e33d1013852b3e2e83148a4de855cf8772bbd772f91edbfb5a7bf302f5e",
+      "retrieved_at": "2026-10-04T09:41:38.192155+00:00"
+    },
+    {
+      "key": "sr-commit",
+      "url": "https://api.github.com/repos/LOWERTOP/Shadowrocket/commits/main",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 5778,
+      "sha256": "1bec9406a93f835dc4eaa11f37d5f4ccb95ab2b127a4b147caa97a9b82e93416",
+      "retrieved_at": "2026-10-04T09:41:44.936485+00:00"
+    },
+    {
+      "key": "src/core/api/sources/tmdb.js",
+      "url": "https://raw.githubusercontent.com/yumata/lampa-source/b4a13b6af7fe2f3bbbcb91f4eb434ab3378f8d5d/src/core/api/sources/tmdb.js",
+      "sha256": "14302838be77c71baf43252ae4caa8d474244dac56350e6287ce2382ec776817",
+      "retrieved_at": "2026-10-04T09:43:49.683855+00:00"
+    },
+    {
+      "key": "src/core/tmdb/tmdb.js",
+      "url": "https://raw.githubusercontent.com/yumata/lampa-source/b4a13b6af7fe2f3bbbcb91f4eb434ab3378f8d5d/src/core/tmdb/tmdb.js",
+      "sha256": "59858bfad60321a982141724bf0b21892be7f135358723cc917bdf27d44432bc",
+      "retrieved_at": "2026-10-04T09:43:49.683311+00:00"
+    },
+    {
+      "key": "src/interaction/advert/preroll.js",
+      "url": "https://raw.githubusercontent.com/yumata/lampa-source/b4a13b6af7fe2f3bbbcb91f4eb434ab3378f8d5d/src/interaction/advert/preroll.js",
+      "sha256": "b6d5ae702e054c05a50c40adeedfe13335300c60ff8f19ad4aceaead12aed352",
+      "retrieved_at": "2026-10-04T09:43:49.710566+00:00"
+    },
+    {
+      "key": "src/templates/settings/tmdb.js",
+      "url": "https://raw.githubusercontent.com/yumata/lampa-source/b4a13b6af7fe2f3bbbcb91f4eb434ab3378f8d5d/src/templates/settings/tmdb.js",
+      "sha256": "21ee04657b58e4201e9daf359db8a4eb5c24c8f9f34021a4c898c594fe9d24a3",
+      "retrieved_at": "2026-10-04T09:43:49.708862+00:00"
+    }
+  ],
+  "documentation": [
+    {
+      "url": "https://developer.themoviedb.org/docs/image-basics",
+      "fact": "image.tmdb.org image URL construction; checked 2026-10-04"
+    },
+    {
+      "url": "https://developer.themoviedb.org/reference/tv-episode-images",
+      "fact": "api.themoviedb.org episode images; only existing supplied images, language filtering"
+    },
+    {
+      "url": "https://kinoapi.com/api_video.html",
+      "fact": "media-links and media-video-link on api.service-kp.com; file and subtitle URLs dynamic"
+    },
+    {
+      "url": "https://support.firecore.com/hc/en-us/articles/215090997-API-for-Third-Party-Apps-Services",
+      "version": "2026-06-12; Infuse 8.4.7+",
+      "fact": "url/sub URL parameters; launching does not certify successful playback"
+    }
+  ],
+  "sr_manual_revision": "3537f928451038ba74258eccbb6d9bd7865628dd",
+  "known_limits": [
+    "No real Apple TV connection log, native profile import or home direct-access measurement.",
+    "Historical Tizen log is not Apple TV evidence. No signed movie resource is available.",
+    "Apple inventory reused unchanged from existing audit, not re-audited."
+  ]
+}

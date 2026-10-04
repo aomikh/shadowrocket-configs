@@ -1,0 +1,3069 @@
+{
+  "base": "fac9dc3ad6e139ff073663400a18a64df272b82a",
+  "config_sha256": "c7d1df4f17977406a71debbfb411d7d3fbaaa365e46fc0587ce7fbcca2d9ad45",
+  "rules_before": 187,
+  "rules_after": 189,
+  "added": [
+    "DOMAIN,api.themoviedb.org,PROXY",
+    "DOMAIN,image.tmdb.org,PROXY"
+  ],
+  "removed": [],
+  "apple_rules_unchanged": 75,
+  "ufc_rules_unchanged": 15,
+  "external_lists": [
+    {
+      "key": "Advertising.list",
+      "active": 781,
+      "sha256": "d110506ad427be4922107fae781cad8eb7fd0d5749da911ecf98a37a039bdb9e"
+    },
+    {
+      "key": "antifilter-download.txt",
+      "active": 1534624,
+      "sha256": "b07b76ae70e8aff7bb12c23584342e40a722941b501cf7fca6f245cf79bfd160"
+    },
+    {
+      "key": "YouTube.list",
+      "active": 190,
+      "sha256": "f764cd91a779982225b3553ece8033c86a6545f4990f5fefd356805de962aee9"
+    },
+    {
+      "key": "Discord.list",
+      "active": 29,
+      "sha256": "3d18c8fe716de06891ba3d6c34dba254cb65138a10f79e1a1a0628b5237ecb2c"
+    },
+    {
+      "key": "ru-blocked.txt",
+      "active": 88586,
+      "sha256": "68ce407bce24989fe52127b017c9ca125d5bb27b22191bc70e084f2cdf51369a"
+    }
+  ],
+  "warnings": [
+    "DOMAIN-SET line 269745: unexpected comma 'dokumentam24.ru,'; native handling unknown"
+  ],
+  "traces": [
+    {
+      "host": "apple.com",
+      "group": "Apple",
+      "before": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "appleid.apple.com",
+      "group": "Apple",
+      "before": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "setup.icloud.com",
+      "group": "Apple",
+      "before": {
+        "line": 39,
+        "rule": "DOMAIN-SUFFIX,icloud.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 39,
+        "rule": "DOMAIN-SUFFIX,icloud.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "guzzoni.apple.com",
+      "group": "Apple",
+      "before": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "gateway.push.apple.com",
+      "group": "Apple",
+      "before": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "api.push.apple.com",
+      "group": "Apple",
+      "before": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "apps.apple.com",
+      "group": "Apple",
+      "before": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "music.apple.com",
+      "group": "Apple",
+      "before": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 37,
+        "rule": "DOMAIN-SUFFIX,apple.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "apple-relay.cloudflare.com",
+      "group": "Apple",
+      "before": {
+        "line": 81,
+        "rule": "DOMAIN,apple-relay.cloudflare.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 81,
+        "rule": "DOMAIN,apple-relay.cloudflare.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "apple-relay.fastly-edge.com",
+      "group": "Apple",
+      "before": {
+        "line": 82,
+        "rule": "DOMAIN,apple-relay.fastly-edge.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 82,
+        "rule": "DOMAIN,apple-relay.fastly-edge.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "cp4.cloudflare.com",
+      "group": "Apple",
+      "before": {
+        "line": 93,
+        "rule": "DOMAIN,cp4.cloudflare.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 93,
+        "rule": "DOMAIN,cp4.cloudflare.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "17.57.146.140",
+      "group": "Apple",
+      "before": {
+        "line": 101,
+        "rule": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "after": {
+        "line": 101,
+        "rule": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "changed": false
+    },
+    {
+      "host": "17.57.146.141",
+      "group": "Apple",
+      "before": {
+        "line": 101,
+        "rule": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "after": {
+        "line": 101,
+        "rule": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "changed": false
+    },
+    {
+      "host": "17.57.146.135",
+      "group": "Apple",
+      "before": {
+        "line": 101,
+        "rule": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "after": {
+        "line": 101,
+        "rule": "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "changed": false
+    },
+    {
+      "host": "ufc.com",
+      "group": "UFC",
+      "before": {
+        "line": 137,
+        "rule": "DOMAIN-SUFFIX,ufc.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 137,
+        "rule": "DOMAIN-SUFFIX,ufc.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "ufcfightpass.com",
+      "group": "UFC",
+      "before": {
+        "line": 138,
+        "rule": "DOMAIN-SUFFIX,ufcfightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 138,
+        "rule": "DOMAIN-SUFFIX,ufcfightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "ufc.ru",
+      "group": "UFC",
+      "before": {
+        "line": 141,
+        "rule": "DOMAIN-SUFFIX,ufc.ru,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 141,
+        "rule": "DOMAIN-SUFFIX,ufc.ru,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "ufc.com.br",
+      "group": "UFC",
+      "before": {
+        "line": 142,
+        "rule": "DOMAIN-SUFFIX,ufc.com.br,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 142,
+        "rule": "DOMAIN-SUFFIX,ufc.com.br,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "ufcespanol.com",
+      "group": "UFC",
+      "before": {
+        "line": 143,
+        "rule": "DOMAIN-SUFFIX,ufcespanol.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 143,
+        "rule": "DOMAIN-SUFFIX,ufcespanol.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "ufc.cn",
+      "group": "UFC",
+      "before": {
+        "line": 144,
+        "rule": "DOMAIN-SUFFIX,ufc.cn,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 144,
+        "rule": "DOMAIN-SUFFIX,ufc.cn,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "ufc.tv",
+      "group": "UFC",
+      "before": {
+        "line": 140,
+        "rule": "DOMAIN-SUFFIX,ufc.tv,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 140,
+        "rule": "DOMAIN-SUFFIX,ufc.tv,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "fightpass.com",
+      "group": "UFC",
+      "before": {
+        "line": 139,
+        "rule": "DOMAIN-SUFFIX,fightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 139,
+        "rule": "DOMAIN-SUFFIX,fightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "dce-frontoffice.imggaming.com",
+      "group": "UFC",
+      "before": {
+        "line": 148,
+        "rule": "DOMAIN,dce-frontoffice.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 148,
+        "rule": "DOMAIN,dce-frontoffice.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "ufc.api.onvesper.com",
+      "group": "UFC",
+      "before": {
+        "line": 149,
+        "rule": "DOMAIN,ufc.api.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 149,
+        "rule": "DOMAIN,ufc.api.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "search.dce-prod.dicelaboratory.com",
+      "group": "UFC",
+      "before": {
+        "line": 150,
+        "rule": "DOMAIN,search.dce-prod.dicelaboratory.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 150,
+        "rule": "DOMAIN,search.dce-prod.dicelaboratory.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "guide.imggaming.com",
+      "group": "UFC",
+      "before": {
+        "line": 151,
+        "rule": "DOMAIN,guide.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 151,
+        "rule": "DOMAIN,guide.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "static.diceplatform.com",
+      "group": "UFC",
+      "before": {
+        "line": 152,
+        "rule": "DOMAIN,static.diceplatform.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 152,
+        "rule": "DOMAIN,static.diceplatform.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "content-images.onvesper.com",
+      "group": "UFC",
+      "before": {
+        "line": 153,
+        "rule": "DOMAIN,content-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 153,
+        "rule": "DOMAIN,content-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "vod-images.onvesper.com",
+      "group": "UFC",
+      "before": {
+        "line": 154,
+        "rule": "DOMAIN,vod-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 154,
+        "rule": "DOMAIN,vod-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "api.themoviedb.org",
+      "group": "TMDB",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "line": 158,
+        "rule": "DOMAIN,api.themoviedb.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": true
+    },
+    {
+      "host": "image.tmdb.org",
+      "group": "TMDB",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "line": 159,
+        "rule": "DOMAIN,image.tmdb.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": true
+    },
+    {
+      "host": "kino.pub",
+      "group": "Other",
+      "before": {
+        "line": 238,
+        "rule": "DOMAIN-SET,https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt,PROXY",
+        "policy": "PROXY",
+        "detail": "entry 538679: kino.pub"
+      },
+      "after": {
+        "line": 243,
+        "rule": "DOMAIN-SET,https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt,PROXY",
+        "policy": "PROXY",
+        "detail": "entry 538679: kino.pub"
+      },
+      "changed": false
+    },
+    {
+      "host": "www.kino.pub",
+      "group": "Other",
+      "before": {
+        "line": 238,
+        "rule": "DOMAIN-SET,https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt,PROXY",
+        "policy": "PROXY",
+        "detail": "entry 1304082: www.kino.pub"
+      },
+      "after": {
+        "line": 243,
+        "rule": "DOMAIN-SET,https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/antifilter-download.txt,PROXY",
+        "policy": "PROXY",
+        "detail": "entry 1304082: www.kino.pub"
+      },
+      "changed": false
+    },
+    {
+      "host": "api.service-kp.com",
+      "group": "Other",
+      "before": {
+        "line": 276,
+        "rule": "DOMAIN,api.service-kp.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 281,
+        "rule": "DOMAIN,api.service-kp.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "kinopub.fastcdn.pics",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "cdn2cdn.com",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "cdn2site.com",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "digital-cdn.net",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "cdntogo.net",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "aomikh.github.io",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "raw.githubusercontent.com",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "cdn.jsdelivr.net",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "lampa.mx",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "s.fastcdn.pics",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "yandex.ru",
+      "group": "Other",
+      "before": {
+        "line": 172,
+        "rule": "DOMAIN-SUFFIX,yandex.ru,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 177,
+        "rule": "DOMAIN-SUFFIX,yandex.ru,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "mail.ru",
+      "group": "Other",
+      "before": {
+        "line": 165,
+        "rule": "DOMAIN-SUFFIX,mail.ru,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 170,
+        "rule": "DOMAIN-SUFFIX,mail.ru,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "vk.com",
+      "group": "Other",
+      "before": {
+        "line": 167,
+        "rule": "DOMAIN-SUFFIX,vk.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 172,
+        "rule": "DOMAIN-SUFFIX,vk.com,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "2gis.ru",
+      "group": "Other",
+      "before": {
+        "line": 183,
+        "rule": "DOMAIN-SUFFIX,2gis.ru,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 188,
+        "rule": "DOMAIN-SUFFIX,2gis.ru,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "aviasales.ru",
+      "group": "Other",
+      "before": {
+        "line": 188,
+        "rule": "DOMAIN-SUFFIX,aviasales.ru,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 193,
+        "rule": "DOMAIN-SUFFIX,aviasales.ru,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "telegram.org",
+      "group": "Other",
+      "before": {
+        "line": 207,
+        "rule": "DOMAIN-SUFFIX,telegram.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 212,
+        "rule": "DOMAIN-SUFFIX,telegram.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "whatsapp.com",
+      "group": "Other",
+      "before": {
+        "line": 220,
+        "rule": "DOMAIN-SUFFIX,whatsapp.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 225,
+        "rule": "DOMAIN-SUFFIX,whatsapp.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "chatgpt.com",
+      "group": "Other",
+      "before": {
+        "line": 244,
+        "rule": "DOMAIN-SUFFIX,chatgpt.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 249,
+        "rule": "DOMAIN-SUFFIX,chatgpt.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "openai.com",
+      "group": "Other",
+      "before": {
+        "line": 245,
+        "rule": "DOMAIN-SUFFIX,openai.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 250,
+        "rule": "DOMAIN-SUFFIX,openai.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "claude.ai",
+      "group": "Other",
+      "before": {
+        "line": 248,
+        "rule": "DOMAIN-SUFFIX,claude.ai,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 253,
+        "rule": "DOMAIN-SUFFIX,claude.ai,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "gemini.google.com",
+      "group": "Other",
+      "before": {
+        "line": 250,
+        "rule": "DOMAIN,gemini.google.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 255,
+        "rule": "DOMAIN,gemini.google.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "grok.com",
+      "group": "Other",
+      "before": {
+        "line": 253,
+        "rule": "DOMAIN-SUFFIX,grok.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 258,
+        "rule": "DOMAIN-SUFFIX,grok.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "perplexity.ai",
+      "group": "Other",
+      "before": {
+        "line": 258,
+        "rule": "DOMAIN-SUFFIX,perplexity.ai,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 263,
+        "rule": "DOMAIN-SUFFIX,perplexity.ai,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "youtube.com",
+      "group": "Other",
+      "before": {
+        "line": 239,
+        "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list,PROXY",
+        "policy": "PROXY",
+        "detail": "entry 57: DOMAIN-SUFFIX,youtube.com"
+      },
+      "after": {
+        "line": 244,
+        "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list,PROXY",
+        "policy": "PROXY",
+        "detail": "entry 57: DOMAIN-SUFFIX,youtube.com"
+      },
+      "changed": false
+    },
+    {
+      "host": "discord.com",
+      "group": "Other",
+      "before": {
+        "line": 240,
+        "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Discord/Discord.list,PROXY",
+        "policy": "PROXY",
+        "detail": "entry 14: DOMAIN-SUFFIX,discord.com"
+      },
+      "after": {
+        "line": 245,
+        "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Discord/Discord.list,PROXY",
+        "policy": "PROXY",
+        "detail": "entry 14: DOMAIN-SUFFIX,discord.com"
+      },
+      "changed": false
+    },
+    {
+      "host": "ebay.com",
+      "group": "Other",
+      "before": {
+        "line": 264,
+        "rule": "DOMAIN-SUFFIX,ebay.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 269,
+        "rule": "DOMAIN-SUFFIX,ebay.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "paypal.com",
+      "group": "Other",
+      "before": {
+        "line": 267,
+        "rule": "DOMAIN-SUFFIX,paypal.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 272,
+        "rule": "DOMAIN-SUFFIX,paypal.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "bybit.com",
+      "group": "Other",
+      "before": {
+        "line": 269,
+        "rule": "DOMAIN-SUFFIX,bybit.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 274,
+        "rule": "DOMAIN-SUFFIX,bybit.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "redotpay.com",
+      "group": "Other",
+      "before": {
+        "line": 195,
+        "rule": "DOMAIN-SUFFIX,redotpay.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 200,
+        "rule": "DOMAIN-SUFFIX,redotpay.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "changed": false
+    },
+    {
+      "host": "ads.doubleclick.net",
+      "group": "Other",
+      "before": {
+        "line": 159,
+        "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Advertising/Advertising.list,REJECT",
+        "policy": "REJECT",
+        "detail": "entry 54: DOMAIN-KEYWORD,doubleclick."
+      },
+      "after": {
+        "line": 164,
+        "rule": "RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Advertising/Advertising.list,REJECT",
+        "policy": "REJECT",
+        "detail": "entry 54: DOMAIN-KEYWORD,doubleclick."
+      },
+      "changed": false
+    },
+    {
+      "host": "cloudflare.com",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "other.fastcdn.pics",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "example.akamaized.net",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "example.cloudfront.net",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "example.fastly.net",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "api.themoviedb.org.example.org",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "other.api.themoviedb.org",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "other.image.tmdb.org",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "image.tmdb.org.example.org",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "ufc.com.example.org",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "unknown-lampa-audit.example",
+      "group": "Other",
+      "before": {
+        "conditional": {
+          "RU": {
+            "line": 285,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 293,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "after": {
+        "conditional": {
+          "RU": {
+            "line": 290,
+            "rule": "GEOIP,RU,DIRECT",
+            "policy": "DIRECT",
+            "detail": "GeoIP RU scenario, not measured"
+          },
+          "non-RU": {
+            "line": 298,
+            "rule": "FINAL,PROXY",
+            "policy": "PROXY",
+            "detail": "No earlier modeled match"
+          }
+        }
+      },
+      "changed": false
+    },
+    {
+      "host": "192.168.1.1",
+      "group": "Other",
+      "before": {
+        "line": 26,
+        "rule": "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "after": {
+        "line": 26,
+        "rule": "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "changed": false
+    },
+    {
+      "host": "10.1.30.1",
+      "group": "Other",
+      "before": {
+        "line": 27,
+        "rule": "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "after": {
+        "line": 27,
+        "rule": "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "changed": false
+    },
+    {
+      "host": "172.16.1.1",
+      "group": "Other",
+      "before": {
+        "line": 28,
+        "rule": "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "after": {
+        "line": 28,
+        "rule": "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve",
+        "policy": "DIRECT",
+        "detail": "Literal address"
+      },
+      "changed": false
+    },
+    {
+      "host": "audit.local",
+      "group": "Other",
+      "before": {
+        "line": 30,
+        "rule": "DOMAIN-SUFFIX,local,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 30,
+        "rule": "DOMAIN-SUFFIX,local,DIRECT",
+        "policy": "DIRECT",
+        "detail": "Domain"
+      },
+      "changed": false
+    }
+  ],
+  "known_ip_scenarios": [
+    {
+      "host": "api.themoviedb.org",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 285,
+        "rule": "GEOIP,RU,DIRECT",
+        "policy": "DIRECT",
+        "detail": "GeoIP RU scenario, not measured"
+      },
+      "after": {
+        "line": 158,
+        "rule": "DOMAIN,api.themoviedb.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "api.themoviedb.org",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 285,
+        "rule": "GEOIP,RU,DIRECT",
+        "policy": "DIRECT",
+        "detail": "GeoIP RU scenario, not measured"
+      },
+      "after": {
+        "line": 158,
+        "rule": "DOMAIN,api.themoviedb.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "api.themoviedb.org",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 293,
+        "rule": "FINAL,PROXY",
+        "policy": "PROXY",
+        "detail": "No earlier modeled match"
+      },
+      "after": {
+        "line": 158,
+        "rule": "DOMAIN,api.themoviedb.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "api.themoviedb.org",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 293,
+        "rule": "FINAL,PROXY",
+        "policy": "PROXY",
+        "detail": "No earlier modeled match"
+      },
+      "after": {
+        "line": 158,
+        "rule": "DOMAIN,api.themoviedb.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "image.tmdb.org",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 285,
+        "rule": "GEOIP,RU,DIRECT",
+        "policy": "DIRECT",
+        "detail": "GeoIP RU scenario, not measured"
+      },
+      "after": {
+        "line": 159,
+        "rule": "DOMAIN,image.tmdb.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "image.tmdb.org",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 285,
+        "rule": "GEOIP,RU,DIRECT",
+        "policy": "DIRECT",
+        "detail": "GeoIP RU scenario, not measured"
+      },
+      "after": {
+        "line": 159,
+        "rule": "DOMAIN,image.tmdb.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "image.tmdb.org",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 293,
+        "rule": "FINAL,PROXY",
+        "policy": "PROXY",
+        "detail": "No earlier modeled match"
+      },
+      "after": {
+        "line": 159,
+        "rule": "DOMAIN,image.tmdb.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "image.tmdb.org",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 293,
+        "rule": "FINAL,PROXY",
+        "policy": "PROXY",
+        "detail": "No earlier modeled match"
+      },
+      "after": {
+        "line": 159,
+        "rule": "DOMAIN,image.tmdb.org,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 137,
+        "rule": "DOMAIN-SUFFIX,ufc.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 137,
+        "rule": "DOMAIN-SUFFIX,ufc.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 137,
+        "rule": "DOMAIN-SUFFIX,ufc.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 137,
+        "rule": "DOMAIN-SUFFIX,ufc.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 137,
+        "rule": "DOMAIN-SUFFIX,ufc.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 137,
+        "rule": "DOMAIN-SUFFIX,ufc.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 137,
+        "rule": "DOMAIN-SUFFIX,ufc.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 137,
+        "rule": "DOMAIN-SUFFIX,ufc.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufcfightpass.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 138,
+        "rule": "DOMAIN-SUFFIX,ufcfightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 138,
+        "rule": "DOMAIN-SUFFIX,ufcfightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufcfightpass.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 138,
+        "rule": "DOMAIN-SUFFIX,ufcfightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 138,
+        "rule": "DOMAIN-SUFFIX,ufcfightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufcfightpass.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 138,
+        "rule": "DOMAIN-SUFFIX,ufcfightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 138,
+        "rule": "DOMAIN-SUFFIX,ufcfightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufcfightpass.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 138,
+        "rule": "DOMAIN-SUFFIX,ufcfightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 138,
+        "rule": "DOMAIN-SUFFIX,ufcfightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.ru",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 141,
+        "rule": "DOMAIN-SUFFIX,ufc.ru,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 141,
+        "rule": "DOMAIN-SUFFIX,ufc.ru,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.ru",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 141,
+        "rule": "DOMAIN-SUFFIX,ufc.ru,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 141,
+        "rule": "DOMAIN-SUFFIX,ufc.ru,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.ru",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 141,
+        "rule": "DOMAIN-SUFFIX,ufc.ru,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 141,
+        "rule": "DOMAIN-SUFFIX,ufc.ru,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.ru",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 141,
+        "rule": "DOMAIN-SUFFIX,ufc.ru,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 141,
+        "rule": "DOMAIN-SUFFIX,ufc.ru,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.com.br",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 142,
+        "rule": "DOMAIN-SUFFIX,ufc.com.br,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 142,
+        "rule": "DOMAIN-SUFFIX,ufc.com.br,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.com.br",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 142,
+        "rule": "DOMAIN-SUFFIX,ufc.com.br,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 142,
+        "rule": "DOMAIN-SUFFIX,ufc.com.br,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.com.br",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 142,
+        "rule": "DOMAIN-SUFFIX,ufc.com.br,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 142,
+        "rule": "DOMAIN-SUFFIX,ufc.com.br,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.com.br",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 142,
+        "rule": "DOMAIN-SUFFIX,ufc.com.br,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 142,
+        "rule": "DOMAIN-SUFFIX,ufc.com.br,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufcespanol.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 143,
+        "rule": "DOMAIN-SUFFIX,ufcespanol.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 143,
+        "rule": "DOMAIN-SUFFIX,ufcespanol.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufcespanol.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 143,
+        "rule": "DOMAIN-SUFFIX,ufcespanol.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 143,
+        "rule": "DOMAIN-SUFFIX,ufcespanol.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufcespanol.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 143,
+        "rule": "DOMAIN-SUFFIX,ufcespanol.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 143,
+        "rule": "DOMAIN-SUFFIX,ufcespanol.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufcespanol.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 143,
+        "rule": "DOMAIN-SUFFIX,ufcespanol.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 143,
+        "rule": "DOMAIN-SUFFIX,ufcespanol.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.cn",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 144,
+        "rule": "DOMAIN-SUFFIX,ufc.cn,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 144,
+        "rule": "DOMAIN-SUFFIX,ufc.cn,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.cn",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 144,
+        "rule": "DOMAIN-SUFFIX,ufc.cn,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 144,
+        "rule": "DOMAIN-SUFFIX,ufc.cn,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.cn",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 144,
+        "rule": "DOMAIN-SUFFIX,ufc.cn,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 144,
+        "rule": "DOMAIN-SUFFIX,ufc.cn,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.cn",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 144,
+        "rule": "DOMAIN-SUFFIX,ufc.cn,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 144,
+        "rule": "DOMAIN-SUFFIX,ufc.cn,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.tv",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 140,
+        "rule": "DOMAIN-SUFFIX,ufc.tv,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 140,
+        "rule": "DOMAIN-SUFFIX,ufc.tv,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.tv",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 140,
+        "rule": "DOMAIN-SUFFIX,ufc.tv,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 140,
+        "rule": "DOMAIN-SUFFIX,ufc.tv,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.tv",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 140,
+        "rule": "DOMAIN-SUFFIX,ufc.tv,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 140,
+        "rule": "DOMAIN-SUFFIX,ufc.tv,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.tv",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 140,
+        "rule": "DOMAIN-SUFFIX,ufc.tv,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 140,
+        "rule": "DOMAIN-SUFFIX,ufc.tv,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "fightpass.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 139,
+        "rule": "DOMAIN-SUFFIX,fightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 139,
+        "rule": "DOMAIN-SUFFIX,fightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "fightpass.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 139,
+        "rule": "DOMAIN-SUFFIX,fightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 139,
+        "rule": "DOMAIN-SUFFIX,fightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "fightpass.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 139,
+        "rule": "DOMAIN-SUFFIX,fightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 139,
+        "rule": "DOMAIN-SUFFIX,fightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "fightpass.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 139,
+        "rule": "DOMAIN-SUFFIX,fightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 139,
+        "rule": "DOMAIN-SUFFIX,fightpass.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "dce-frontoffice.imggaming.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 148,
+        "rule": "DOMAIN,dce-frontoffice.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 148,
+        "rule": "DOMAIN,dce-frontoffice.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "dce-frontoffice.imggaming.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 148,
+        "rule": "DOMAIN,dce-frontoffice.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 148,
+        "rule": "DOMAIN,dce-frontoffice.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "dce-frontoffice.imggaming.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 148,
+        "rule": "DOMAIN,dce-frontoffice.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 148,
+        "rule": "DOMAIN,dce-frontoffice.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "dce-frontoffice.imggaming.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 148,
+        "rule": "DOMAIN,dce-frontoffice.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 148,
+        "rule": "DOMAIN,dce-frontoffice.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.api.onvesper.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 149,
+        "rule": "DOMAIN,ufc.api.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 149,
+        "rule": "DOMAIN,ufc.api.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.api.onvesper.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 149,
+        "rule": "DOMAIN,ufc.api.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 149,
+        "rule": "DOMAIN,ufc.api.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.api.onvesper.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 149,
+        "rule": "DOMAIN,ufc.api.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 149,
+        "rule": "DOMAIN,ufc.api.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "ufc.api.onvesper.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 149,
+        "rule": "DOMAIN,ufc.api.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 149,
+        "rule": "DOMAIN,ufc.api.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "search.dce-prod.dicelaboratory.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 150,
+        "rule": "DOMAIN,search.dce-prod.dicelaboratory.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 150,
+        "rule": "DOMAIN,search.dce-prod.dicelaboratory.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "search.dce-prod.dicelaboratory.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 150,
+        "rule": "DOMAIN,search.dce-prod.dicelaboratory.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 150,
+        "rule": "DOMAIN,search.dce-prod.dicelaboratory.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "search.dce-prod.dicelaboratory.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 150,
+        "rule": "DOMAIN,search.dce-prod.dicelaboratory.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 150,
+        "rule": "DOMAIN,search.dce-prod.dicelaboratory.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "search.dce-prod.dicelaboratory.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 150,
+        "rule": "DOMAIN,search.dce-prod.dicelaboratory.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 150,
+        "rule": "DOMAIN,search.dce-prod.dicelaboratory.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "guide.imggaming.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 151,
+        "rule": "DOMAIN,guide.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 151,
+        "rule": "DOMAIN,guide.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "guide.imggaming.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 151,
+        "rule": "DOMAIN,guide.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 151,
+        "rule": "DOMAIN,guide.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "guide.imggaming.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 151,
+        "rule": "DOMAIN,guide.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 151,
+        "rule": "DOMAIN,guide.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "guide.imggaming.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 151,
+        "rule": "DOMAIN,guide.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 151,
+        "rule": "DOMAIN,guide.imggaming.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "static.diceplatform.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 152,
+        "rule": "DOMAIN,static.diceplatform.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 152,
+        "rule": "DOMAIN,static.diceplatform.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "static.diceplatform.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 152,
+        "rule": "DOMAIN,static.diceplatform.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 152,
+        "rule": "DOMAIN,static.diceplatform.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "static.diceplatform.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 152,
+        "rule": "DOMAIN,static.diceplatform.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 152,
+        "rule": "DOMAIN,static.diceplatform.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "static.diceplatform.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 152,
+        "rule": "DOMAIN,static.diceplatform.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 152,
+        "rule": "DOMAIN,static.diceplatform.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "content-images.onvesper.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 153,
+        "rule": "DOMAIN,content-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 153,
+        "rule": "DOMAIN,content-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "content-images.onvesper.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 153,
+        "rule": "DOMAIN,content-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 153,
+        "rule": "DOMAIN,content-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "content-images.onvesper.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 153,
+        "rule": "DOMAIN,content-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 153,
+        "rule": "DOMAIN,content-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "content-images.onvesper.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 153,
+        "rule": "DOMAIN,content-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 153,
+        "rule": "DOMAIN,content-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "vod-images.onvesper.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 154,
+        "rule": "DOMAIN,vod-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 154,
+        "rule": "DOMAIN,vod-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "vod-images.onvesper.com",
+      "assumed_ip": "95.173.136.70",
+      "assumed_RU": true,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 154,
+        "rule": "DOMAIN,vod-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 154,
+        "rule": "DOMAIN,vod-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "vod-images.onvesper.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": false,
+      "before": {
+        "line": 154,
+        "rule": "DOMAIN,vod-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 154,
+        "rule": "DOMAIN,vod-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    },
+    {
+      "host": "vod-images.onvesper.com",
+      "assumed_ip": "93.184.216.34",
+      "assumed_RU": false,
+      "cached_sensitivity": true,
+      "before": {
+        "line": 154,
+        "rule": "DOMAIN,vod-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      },
+      "after": {
+        "line": 154,
+        "rule": "DOMAIN,vod-images.onvesper.com,PROXY",
+        "policy": "PROXY",
+        "detail": "Domain"
+      }
+    }
+  ],
+  "multicast": {
+    "line": 7,
+    "rule": "tun-excluded-routes: 224.0.0.0/4",
+    "policy": "Excluded from tunnel",
+    "unchanged": true
+  },
+  "limits": [
+    "Static subset, not native Shadowrocket parser/import or tvOS test.",
+    "Domain traces have no device IP/cache/GeoIP database; conditional branches are not measurements.",
+    "no-resolve skips domain requests by default; cached-IP variant is only sensitivity analysis.",
+    "URL-REGEX and USER-AGENT cannot be decided without actual observable URLs/headers.",
+    "DOMAIN-SET bare names modeled exact; leading dot suffix. Native malformed-line handling untested.",
+    "Internationalized-domain conversion and trailing-dot normalization are not emulated.",
+    "No home direct video tests, signed resource responses, DNS packet capture or router inspection."
+  ]
+}
