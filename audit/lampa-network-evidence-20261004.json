@@ -244,5 +244,15 @@
     "No real Apple TV connection log, native profile import or home direct-access measurement.",
     "Historical Tizen log is not Apple TV evidence. No signed movie resource is available.",
     "Apple inventory reused unchanged from existing audit, not re-audited."
-  ]
+  ],
+  "publication": {
+    "url": "https://raw.githubusercontent.com/aomikh/shadowrocket-configs/main/ru_direct_runetfreedom_improved_final_autoupdate.conf",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 10810,
+    "sha256": "c7d1df4f17977406a71debbfb411d7d3fbaaa365e46fc0587ce7fbcca2d9ad45",
+    "checked_at": "2026-10-04T10:15:10.585266+00:00",
+    "commit": "5304644a9617888514dfea4e201ed45cdf200d92",
+    "matches_local": true
+  }
 }
