@@ -102,18 +102,12 @@ skip-proxy содержит частные сети, localhost и *.local. Ег�
 ## Полная разница конфигурации текущего запуска
 
 ```diff
-@@ -153,6 +153,11 @@ DOMAIN,static.diceplatform.com,PROXY
- DOMAIN,content-images.onvesper.com,PROXY
- DOMAIN,vod-images.onvesper.com,PROXY
- 
+@@ -155,0 +156,5 @@ DOMAIN,vod-images.onvesper.com,PROXY
 +# TMDB metadata and images: keep routing independent of GEOIP fallback.
 +# Exact hosts used by Lampa without its optional in-app TMDB proxy.
 +DOMAIN,api.themoviedb.org,PROXY
 +DOMAIN,image.tmdb.org,PROXY
 +
- # -------------------------------
- # REJECT block
- # -------------------------------
 ```
 
 Итоговый SHA256 конфигурации: `c7d1df4f17977406a71debbfb411d7d3fbaaa365e46fc0587ce7fbcca2d9ad45`. Кроме конфигурации изменён только HANDOFF, добавлены этот отчёт, относящийся к задаче статический скрипт и два JSON с результатами/источниками.
